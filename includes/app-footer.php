@@ -1,0 +1,1 @@
+<div class="app-footer">Copyright DigitaleBox © 2018</div>

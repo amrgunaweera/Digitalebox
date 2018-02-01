@@ -1,0 +1,50 @@
+.dashboard{
+  .highlights{
+
+    .boxes{
+      color: #fff;
+      padding: 20px;
+      float: left;
+      width: 100%;
+      margin-bottom: 20px;
+      @include drop-shadow(0px 2px 5px 0px rgba(0, 0, 0, 0.1));
+
+      .icon{
+        float: left;
+
+        i{
+          font-size: 48px;
+        }
+      }
+      .text{
+        float: left;
+
+        .title{
+          float: left;
+          font-size: 12px;
+          line-height: 14px;
+          font-family: 'open_sansbold';
+        }
+        .value{
+          float: left;
+          font-size: 30px;
+          line-height: 36px;
+        }
+      }
+    }
+
+    #box1{
+      background-color: #3f80be;
+    }
+    #box2{
+      background-color: #57bdb9;
+    }
+    #box3{
+      background-color: #fdd695;
+    }
+    #box4{
+      background-color: #ed7e7d;
+    }
+
+  }
+}
