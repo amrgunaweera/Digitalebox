@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="main-breadcrumb">
+                    <div class="main-breadcrumb pt-3 text-left text-md-right">
                         <a href="">Home</a> / <a href="">People</a> / <span>Add People</span>
                     </div>
                 </div>
@@ -47,11 +47,23 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6 col-xl-5">
                                     <label for="email">Email Address</label>
-                                    <input type="email" class="form-control" id="email" placeholder="abc@company.com">
+                                    <input type="email" class="form-control is-invalid" id="email" placeholder="abc@company.com">
+                                    <div class="invalid-feedback">Error Message</div>
                                 </div>
                                 <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
                                     <label for="mobile">Mobile Number</label>
-                                    <input type="tel" class="form-control" id="mobile" placeholder="+33 000 000 0000">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/lang-eng.png"></button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#"><img src="img/lang-fra.png"> France</a>
+                                                <a class="dropdown-item" href="#"><img src="img/lang-ita.png"> Italy</a>
+                                                <a class="dropdown-item" href="#"><img src="img/lang-por.png"> Portugal</a>
+                                                <a class="dropdown-item" href="#"><img src="img/lang-rus.png"> Russia</a>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="+33 000 000 0000">
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -144,32 +156,45 @@
                                     <textarea class="form-control" placeholder="Notes"></textarea>
                                 </div>
                                 <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
-                                    <label for="zipcode">Custom Field 1</label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label" for="gridCheck">
-                                            Check me out
-                                        </label>
+                                    <label for="zipcode">Custom Field 1</label><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">1</label>
                                     </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                                        <label class="form-check-label" for="gridCheck">
-                                            Check me out
-                                        </label>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                                        <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
                                     </div>
                                 </div>
                             </div>
 
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-xl-5">
+                                    <label for="zipcode">Custom Field 2</label><br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                        <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
 
-                            <div class="form-group">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        Check me out
-                                    </label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Sign in</button>
+
+                            <button type="submit" class="btn btn-primary">Create</button>
+                            <button type="submit" class="btn btn-secondary">Cancel</button>
                         </form>
 
                     </div>
