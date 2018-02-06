@@ -6,6 +6,9 @@ $light-font: open_sanslight, sans-serif;
 $semibold-font: open_sanssemibold, sans-serif;
 $bold-font: open_sansbold, sans-serif;
 
+$fb-color: #4867aa;
+$tw-color: #2daae2;
+$in-color: #3b5998;
 
 /*
  * Theme definitions
@@ -64,6 +67,43 @@ html, body {
   height: 100%;
 }
 
+a{
+  @include themify($themes) {
+    color: themed('secondry-color');
+  }
+
+  &:hover, &:focus{
+    @include themify($themes) {
+      color: themed('primary-color');
+    }
+  }
+}
+
+input{
+  &::placeholder{
+    color: #aeaeae !important;
+  }
+}
+
+.form-control{
+  font-size: 14px;
+  min-height: 40px;
+  @include border-radius(0);
+}
+.btn{
+  font-size: 14px;
+  height: 45px;
+  line-height: 30px;
+  @include border-radius(2px);
+
+  &:hover{
+    @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.2));
+  }
+}
+.text-error{
+  color: #f44336;
+}
+
 #app-main{
   height: 100%;
 }
@@ -76,13 +116,23 @@ html, body {
 }
 
 .btn-primary{
+  color: #ffffff !important;
   @include themify($themes) {
     background-color: themed('secondry-color');
+    border-color: themed('secondry-color');
   }
 }
 .btn-secondary{
   @include themify($themes) {
     background-color: themed('third-color');
+    border-color: themed('third-color');
+  }
+}
+
+.form-check{
+  padding-left: 0;
+  label{
+    margin-left: 10px !important;
   }
 }
 
@@ -789,6 +839,10 @@ html, body {
       margin-left: 0;
     }
 
+    @media (max-width: 767.98px) {
+      padding: 15px;
+    }
+
     .content-panel{
       background-color: #fff;
       margin-bottom: 20px;
@@ -833,6 +887,7 @@ html, body {
   }
   // app content ends
 
+
   @import "dashboard";
 
 
@@ -841,3 +896,7 @@ html, body {
 
   }
 }
+
+@import "login";
+
+@import "register";

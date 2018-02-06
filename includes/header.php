@@ -20,6 +20,10 @@
         <link rel="stylesheet" href="css/metis-menu.min.css">
         <link rel="stylesheet" href="css/mm-vertical.css">
 
+        <link rel="stylesheet" href="css/minimal.css">
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
