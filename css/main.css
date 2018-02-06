@@ -114,6 +114,23 @@ input::placeholder {
   .form-check label {
     margin-left: 10px !important; }
 
+.chosen-container-multi .chosen-choices {
+  height: 40px;
+  background-image: none; }
+  .chosen-container-multi .chosen-choices .search-choice {
+    background-image: none !important; }
+    .chosen-container-multi .chosen-choices .search-choice span {
+      height: 22px;
+      line-height: 22px !important; }
+    .chosen-container-multi .chosen-choices .search-choice a {
+      top: 8px !important; }
+.chosen-container-multi .chosen-drop .chosen-results .highlighted {
+  background-image: none; }
+  .theme-blue .chosen-container-multi .chosen-drop .chosen-results .highlighted {
+    background-color: #3f80be; }
+  .theme-green .chosen-container-multi .chosen-drop .chosen-results .highlighted {
+    background-color: #39a655; }
+
 /*
  * App Header
  */
@@ -603,6 +620,10 @@ input::placeholder {
     @media (max-width: 767.98px) {
       .app-body .app-content {
         padding: 15px; } }
+    .app-body .app-content .page-header {
+      width: 100%;
+      height: 96px;
+      background-color: #fcfcfc; }
     .app-body .app-content .content-panel {
       background-color: #fff;
       margin-bottom: 20px;

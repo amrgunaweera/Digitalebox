@@ -3,7 +3,7 @@
         <ul class="metismenu" id="menu1">
 
             <li>
-                <a class="active" href="forms.php">
+                <a class="active" href="dashboard.php">
                     <span class="fa fa-fw fa-th-large"></span>
                     Dashboard
                 </a>
@@ -12,7 +12,7 @@
             <li>
                 <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> People</a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Add People</a></li>
+                    <li><a href="add-people.php">Add People</a></li>
                     <li><a href="#">Advanced Search</a></li>
                     <li><a href="#">Saved Search</a></li>
                     <li><a href="#">Keywords</a></li>

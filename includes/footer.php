@@ -11,6 +11,7 @@
         <!--<script src="js/vendor/bootstrap.min.js"></script>-->
         <script src="js/vendor/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="js/bootstrap-show-password.min.js"></script>
+        <script type="text/javascript" src="js/moment.min.js"></script>
 
         <script type="text/javascript" src="js/icheck.min.js"></script>
 
@@ -18,6 +19,10 @@
         <script src="js/metisMenu.min.js"></script>
 
         <script src="js/owl.carousel.min.js"></script>
+
+        <script src="js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <script src="js/chosen.jquery.min.js"></script>
 
         <script src="js/main.js"></script>
 
