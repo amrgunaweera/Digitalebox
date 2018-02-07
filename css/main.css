@@ -101,6 +101,37 @@ input::placeholder {
   color: #f44336;
   font-size: 12px; }
 
+.fb-icon {
+  color: #4867aa; }
+
+.tw-icon {
+  color: #2daae2; }
+
+.in-icon {
+  color: #3b5998; }
+
+.tooltip .arrow::before {
+  border-top-color: #fff;
+  border-bottom-color: #fff; }
+.tooltip .tooltip-inner {
+  color: #373737;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3); }
+  .tooltip .tooltip-inner i {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    line-height: 24px; }
+
+.modal .modal-header {
+  border: none;
+  padding-bottom: 0.25rem; }
+.modal .modal-footer {
+  border: none;
+  padding-top: 0.25rem; }
+
 #app-main {
   height: 100%; }
 
@@ -130,7 +161,7 @@ input::placeholder {
     margin-left: 10px !important; }
 
 .chosen-container-multi {
-  width: 100%; }
+  width: 100% !important; }
   .chosen-container-multi .chosen-choices {
     min-height: 40px;
     background-image: none; }
@@ -795,6 +826,77 @@ input::placeholder {
         color: #293846; }
       .theme-green .app-body .dashboard #activity .line:hover .desc {
         color: #191f1c; }
+  .app-body .table-wrap {
+    overflow: auto; }
+    .app-body .table-wrap .fa-twitter {
+      color: #2daae2; }
+    .app-body .table-wrap .fa-facebook {
+      color: #4867aa; }
+    .app-body .table-wrap .fa-linkedin {
+      color: #3b5998; }
+    .app-body .table-wrap .table th, .app-body .table-wrap .table td {
+      border: none;
+      font-size: 12px;
+      padding: .75rem .25rem; }
+    .app-body .table-wrap .table td {
+      border-left: 1px solid #fafafa;
+      border-right: 1px solid #fafafa; }
+    .app-body .table-wrap .table th {
+      color: #fff; }
+      .theme-blue .app-body .table-wrap .table th {
+        background-color: #3f80be; }
+      .theme-green .app-body .table-wrap .table th {
+        background-color: #39a655; }
+    .app-body .table-wrap .table.table-striped tbody tr:nth-of-type(2n+1) {
+      background-color: #f9f9f9; }
+    .app-body .table-wrap .table.table-hover tbody tr:hover {
+      background-color: #f0f0f0; }
+    .app-body .table-wrap .advanced-search .profile-pic img {
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      border-radius: 50px; }
+    .app-body .table-wrap .advanced-search .gender {
+      margin-left: 5px;
+      margin-right: 5px; }
+      .app-body .table-wrap .advanced-search .gender img {
+        width: 22px;
+        height: 22px; }
+    .theme-blue .app-body .table-wrap .advanced-search .social .fa-angle-right {
+      color: #3f80be; }
+    .theme-green .app-body .table-wrap .advanced-search .social .fa-angle-right {
+      color: #39a655; }
+    .app-body .table-wrap .advanced-search th:nth-child(1) {
+      width: 30px; }
+    .app-body .table-wrap .advanced-search th:nth-child(2) {
+      min-width: 85px; }
+    .app-body .table-wrap .advanced-search th:nth-child(3) {
+      min-width: 90px; }
+    .app-body .table-wrap .advanced-search th:nth-child(4) {
+      min-width: 90px; }
+    .app-body .table-wrap .advanced-search th:nth-child(5) {
+      min-width: 100px; }
+    .app-body .table-wrap .advanced-search th:nth-child(6) {
+      min-width: 100px; }
+    .app-body .table-wrap .advanced-search th:nth-child(8) {
+      min-width: 80px; }
+    .app-body .table-wrap .advanced-search th:nth-child(12) {
+      min-width: 80px; }
+    .app-body .table-wrap .advanced-search td {
+      overflow: hidden; }
+      .app-body .table-wrap .advanced-search td a {
+        margin-left: 3px;
+        margin-right: 3px;
+        display: inline-block; }
+  .app-body .edit-keyword .chosen-container-multi .chosen-choices {
+    height: 115px; }
+  .app-body .results-count {
+    font-size: 12px;
+    margin-bottom: 10px; }
+    .theme-blue .app-body .results-count {
+      color: #a7b1c2; }
 
 .login-page .login-content {
   position: relative;

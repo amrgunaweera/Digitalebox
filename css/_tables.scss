@@ -1,0 +1,147 @@
+.table-wrap{
+  overflow: auto;
+  .fa-twitter{
+    color: $tw-color;
+  }
+  .fa-facebook{
+    color: $fb-color;
+  }
+  .fa-linkedin{
+    color: $in-color;
+  }
+
+  .table{
+    th, td{
+      border: none;
+      font-size: 12px;
+      padding: .75rem .25rem;
+    }
+
+    td{
+      border-left: 1px solid #fafafa;
+      border-right: 1px solid #fafafa;
+    }
+
+    th{
+      color: #fff;
+      @include themify($themes) {
+        background-color: themed('secondry-color');
+      }
+    }
+
+    &.table-striped {
+      tbody {
+        tr{
+          &:nth-of-type(2n+1){
+            background-color: #f9f9f9;
+          }
+        }
+      }
+    }
+    &.table-hover{
+      tbody{
+        tr{
+          &:hover{
+            background-color: #f0f0f0;
+          }
+        }
+      }
+    }
+  }
+
+  .advanced-search{
+    .profile-pic{
+      img{
+        width: 20px;
+        height: 20px;
+        @include border-radius(50px);
+      }
+    }
+    .gender{
+      margin-left: 5px;
+      margin-right: 5px;
+      img{
+        width: 22px;
+        height: 22px;
+      }
+    }
+    .social{
+      .fa-angle-right{
+        @include themify($themes) {
+          color: themed('secondry-color');
+        }
+      }
+    }
+
+    th{
+      &:nth-child(1){
+        width: 30px;
+      }
+      &:nth-child(2){
+        min-width: 85px;
+      }
+      &:nth-child(3){
+        min-width: 90px;
+      }
+      &:nth-child(4){
+        min-width: 90px;
+      }
+      &:nth-child(5){
+        min-width: 100px;
+      }
+      &:nth-child(6){
+        min-width: 100px;
+      }
+      &:nth-child(7){
+
+      }
+      &:nth-child(8){
+        min-width: 80px;
+      }
+      &:nth-child(9){
+
+      }
+      &:nth-child(10){
+
+      }
+      &:nth-child(11){
+
+      }
+      &:nth-child(12){
+        min-width: 80px;
+      }
+
+    }
+
+    td{
+      overflow: hidden;
+
+      a{
+        margin-left: 3px;
+        margin-right: 3px;
+        display: inline-block;
+        @include themify($themes) {
+          color: themed('secondry-light');
+        }
+      }
+    }
+
+  }
+
+}
+
+.edit-keyword{
+  .chosen-container-multi{
+    .chosen-choices{
+      height: 115px;
+    }
+  }
+}
+
+.results-count{
+  font-size: 12px;
+  margin-bottom: 10px;
+  @include themify($themes) {
+    color: themed('primary-light');
+  }
+}

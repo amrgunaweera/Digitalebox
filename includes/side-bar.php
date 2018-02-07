@@ -28,7 +28,7 @@
             </li>
 
             <li>
-                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> Communication</a>
+                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
                 <ul aria-expanded="false">
                     <li><a href="#">Message Templates</a></li>
                     <li><a href="#">New Campaign</a></li>
@@ -40,7 +40,7 @@
             </li>
 
             <li>
-                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> System</a>
+                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-cogs"></span> System</a>
                 <ul aria-expanded="false">
                     <li><a href="#">Manage Permissions</a></li>
                     <li><a href="#">Manage Roles</a></li>
@@ -58,12 +58,12 @@
 
             <li>
                 <a href="list-view.php">
-                    <span class="fa fa-fw fa-list"></span>
+                    <span class="fa fa-fw fa-compass"></span>
                     Guide
                 </a>
             </li>
 
-            <li id="removable">
+            <!--<li id="removable">
                 <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-list"></span> Other</a>
                 <ul aria-expanded="false">
                     <li><a href="#">item 1.1</a></li>
@@ -88,7 +88,7 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li>-->
 
         </ul>
     </nav>

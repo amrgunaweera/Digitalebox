@@ -122,9 +122,53 @@ input{
     }
   }
 }
+
 .text-error{
   color: #f44336;
   font-size: 12px;
+}
+
+.fb-icon{
+  color: $fb-color;
+}
+.tw-icon{
+  color: $tw-color;
+}
+.in-icon{
+  color: $in-color;
+}
+
+.tooltip{
+  .arrow{
+    &::before{
+      border-top-color: #fff;
+      border-bottom-color: #fff;
+    }
+
+  }
+  .tooltip-inner{
+    color: #373737;
+    background-color: #fff;
+    @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.3));
+
+    i{
+      margin-left: 5px;
+      margin-right: 5px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+.modal{
+  .modal-header{
+    border: none;
+    padding-bottom: 0.25rem;
+  }
+  .modal-footer{
+    border: none;
+    padding-top: 0.25rem;
+  }
 }
 
 #app-main{
@@ -160,7 +204,7 @@ input{
 }
 
 .chosen-container-multi {
-  width: 100%;
+  width: 100% !important;
 
   .chosen-choices {
     min-height: 40px;
@@ -1001,6 +1045,8 @@ input{
   @import "dashboard";
 
   @import "forms";
+
+  @import "tables";
 
 
   .main-content{
