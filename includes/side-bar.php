@@ -13,7 +13,8 @@
                 <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> People</a>
                 <ul aria-expanded="false">
                     <li><a href="add-people.php">Add People</a></li>
-                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="advanced-search.php">Advanced Search</a></li>
+                    <li><a href="user-match.php">Account Merge</a></li>
                     <li><a href="#">Saved Search</a></li>
                     <li><a href="#">Keywords</a></li>
                     <li><a href="#">Advance Bulk Insert</a></li>
@@ -172,7 +173,7 @@
             </div>
 
             <div class="title">
-                Connection
+                Connections
             </div>
             <div class="social-btns">
 

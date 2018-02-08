@@ -83,6 +83,12 @@ input::placeholder {
     -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2); }
 
+.btn-sm {
+  padding: 5px 20px !important;
+  font-size: 14px;
+  line-height: 18px;
+  height: 30px; }
+
 .input-group-prepend button {
   height: 40px;
   line-height: 20px; }
@@ -124,13 +130,6 @@ input::placeholder {
     margin-right: 5px;
     font-size: 16px;
     line-height: 24px; }
-
-.modal .modal-header {
-  border: none;
-  padding-bottom: 0.25rem; }
-.modal .modal-footer {
-  border: none;
-  padding-top: 0.25rem; }
 
 #app-main {
   height: 100%; }
@@ -847,11 +846,17 @@ input::placeholder {
         background-color: #3f80be; }
       .theme-green .app-body .table-wrap .table th {
         background-color: #39a655; }
+      .app-body .table-wrap .table th.actions {
+        min-width: 80px; }
     .app-body .table-wrap .table.table-striped tbody tr:nth-of-type(2n+1) {
       background-color: #f9f9f9; }
     .app-body .table-wrap .table.table-hover tbody tr:hover {
       background-color: #f0f0f0; }
-    .app-body .table-wrap .advanced-search .profile-pic img {
+    .app-body .table-wrap .table a {
+      margin-left: 3px;
+      margin-right: 3px;
+      display: inline-block; }
+    .app-body .table-wrap .profile-pic img {
       width: 20px;
       height: 20px;
       -webkit-border-radius: 50px;
@@ -882,14 +887,8 @@ input::placeholder {
       min-width: 100px; }
     .app-body .table-wrap .advanced-search th:nth-child(8) {
       min-width: 80px; }
-    .app-body .table-wrap .advanced-search th:nth-child(12) {
-      min-width: 80px; }
     .app-body .table-wrap .advanced-search td {
       overflow: hidden; }
-      .app-body .table-wrap .advanced-search td a {
-        margin-left: 3px;
-        margin-right: 3px;
-        display: inline-block; }
   .app-body .edit-keyword .chosen-container-multi .chosen-choices {
     height: 115px; }
   .app-body .results-count {
@@ -897,6 +896,16 @@ input::placeholder {
     margin-bottom: 10px; }
     .theme-blue .app-body .results-count {
       color: #a7b1c2; }
+  .app-body .modal .modal-header {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+  .app-body .modal .modal-footer {
+    border: none;
+    padding-top: 0.25rem; }
+  .app-body .modal .tite-desc {
+    font-size: 12px; }
+  .app-body .modal .notes {
+    font-size: 12px; }
 
 .login-page .login-content {
   position: relative;

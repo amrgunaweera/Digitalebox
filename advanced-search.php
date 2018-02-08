@@ -278,7 +278,7 @@
                                 <th class="text-center" scope="col">Joined on</th>
                                 <th class="text-center" scope="col">Age</th>
                                 <th class="text-center" scope="col"><i class="fa fa-link fa-lg" data-toggle="tooltip" title="Connections"></i></th>
-                                <th class="text-center" scope="col">Actions</th>
+                                <th class="text-center actions" scope="col">Actions</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -694,8 +694,6 @@
     $(document).ready(function () {
 
         $(".chosen-select").chosen();
-
-        $('[data-toggle="tooltip"]').tooltip();
 
     });
 </script>

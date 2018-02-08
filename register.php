@@ -21,7 +21,7 @@
                                             <input type="text" class="form-control" id="" placeholder="First Name">
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <label>Password</label>
+                                            <label>Last Name</label>
                                             <input type="text" class="form-control" id="" placeholder="Last Name">
                                         </div>
                                     </div>

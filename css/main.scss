@@ -100,6 +100,12 @@ input{
     @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.2));
   }
 }
+.btn-sm{
+  padding: 5px 20px !important;
+  font-size: 14px;
+  line-height: 18px;
+  height: 30px;
+}
 .input-group-prepend{
   button{
     height: 40px;
@@ -157,17 +163,6 @@ input{
       font-size: 16px;
       line-height: 24px;
     }
-  }
-}
-
-.modal{
-  .modal-header{
-    border: none;
-    padding-bottom: 0.25rem;
-  }
-  .modal-footer{
-    border: none;
-    padding-top: 0.25rem;
   }
 }
 
@@ -1047,6 +1042,8 @@ input{
   @import "forms";
 
   @import "tables";
+
+  @import "modals";
 
 
   .main-content{
