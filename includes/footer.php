@@ -24,7 +24,7 @@
 
         <script src="js/chosen.jquery.min.js"></script>
 
-        <script src="js/bootstrap-editable.min.js"></script>
+        <!--<script src="js/bootstrap-editable.min.js"></script>-->
 
         <script src="js/main.js"></script>
 

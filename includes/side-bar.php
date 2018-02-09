@@ -14,8 +14,8 @@
                 <ul aria-expanded="false">
                     <li><a href="add-people.php">Add People</a></li>
                     <li><a href="advanced-search.php">Advanced Search</a></li>
-                    <li><a href="user-match.php">Account Merge</a></li>
-                    <li><a href="#">Saved Search</a></li>
+                    <li><a href="potential-matches.php">Account Merge</a></li>
+                    <li><a href="saved-search.php">Saved Search</a></li>
                     <li><a href="#">Keywords</a></li>
                     <li><a href="#">Advance Bulk Insert</a></li>
                     <li><a href="#">Statistics</a></li>

@@ -217,6 +217,6 @@
             format: 'L'
         });
 
-        $(".chosen-select").chosen()
+        $(".chosen-select").chosen();
     });
 </script>

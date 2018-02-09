@@ -1036,7 +1036,6 @@ input{
   }
   // app content ends
 
-
   @import "dashboard";
 
   @import "forms";
@@ -1045,6 +1044,9 @@ input{
 
   @import "modals";
 
+  @import "components";
+
+  @import "advancedSearch";
 
   .main-content{
 

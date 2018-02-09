@@ -889,6 +889,8 @@ input::placeholder {
       min-width: 80px; }
     .app-body .table-wrap .advanced-search td {
       overflow: hidden; }
+    .app-body .table-wrap .saved-search.actions {
+      width: 170px; }
   .app-body .edit-keyword .chosen-container-multi .chosen-choices {
     height: 115px; }
   .app-body .results-count {
@@ -906,6 +908,18 @@ input::placeholder {
     font-size: 12px; }
   .app-body .modal .notes {
     font-size: 12px; }
+  .app-body .card .card-body .profile-pic {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px; }
+  .app-body .card .card-body .profiles {
+    font-size: 20px;
+    margin-right: 10px; }
+  .app-body .advanced-search .modal #edit-keywords .chosen-choices {
+    height: 40px; }
 
 .login-page .login-content {
   position: relative;
