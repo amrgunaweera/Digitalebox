@@ -260,7 +260,7 @@
 
                     <div class="table-wrap">
 
-                        <table class="table table-hover table-striped advanced-search">
+                        <table class="table table-hover table-striped advanced-search table-custom">
                             <thead>
                             <tr>
                                 <th class="text-center" scope="col">
@@ -337,8 +337,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -367,8 +367,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center">2</td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -397,8 +397,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -427,8 +427,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center">3</td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -457,8 +457,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -487,8 +487,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -517,8 +517,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center">2</td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -547,8 +547,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -577,8 +577,8 @@
                                     <td class="text-center">24</td>
                                     <td class="text-center">3</td>
                                     <td class="text-center">
-                                        <a href="" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                        <a href="" data-toggle="modal" data-target="#editDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
@@ -655,7 +655,7 @@
                                                         <div class="mx-auto"><img class="profile-pic" src="img/promo-profile.png"></div>
                                                         <h5 class="card-title"><h5>DigitaleBox Profile</h5></h5>
                                                         <div class="table-wrap">
-                                                            <table class="table table-striped">
+                                                            <table class="table table-striped table-custom">
                                                                 <tr>
                                                                     <td><strong>Name</strong></td>
                                                                     <td class="text-right">René ALLIER ADAMUS</td>
@@ -687,7 +687,7 @@
                                                         <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
                                                         <h5 class="card-title"><h5><i class="fa fa-twitter fa-lg profiles"></i> Twitter Profile</h5></h5>
                                                         <div class="table-wrap">
-                                                            <table class="table table-striped">
+                                                            <table class="table table-striped table-custom">
                                                                 <tr>
                                                                     <td><strong>Name</strong></td>
                                                                     <td class="text-right">René ALLIER ADAMUS</td>
@@ -719,7 +719,7 @@
                                                         <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
                                                         <h5 class="card-title"><h5><i class="fa fa-facebook fa-lg profiles"></i> Facebook Profile</h5></h5>
                                                         <div class="table-wrap">
-                                                            <table class="table table-striped">
+                                                            <table class="table table-striped table-custom">
                                                                 <tr>
                                                                     <td><strong>Name</strong></td>
                                                                     <td class="text-right">René ALLIER ADAMUS</td>
@@ -751,7 +751,7 @@
                                                         <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
                                                         <h5 class="card-title"><h5><i class="fa fa-linkedin fa-lg profiles"></i> LinkedIn Profile</h5></h5>
                                                         <div class="table-wrap">
-                                                            <table class="table table-striped">
+                                                            <table class="table table-striped table-custom">
                                                                 <tr>
                                                                     <td><strong>Name</strong></td>
                                                                     <td class="text-right">René ALLIER ADAMUS</td>
@@ -783,7 +783,7 @@
                                                         <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
                                                         <h5 class="card-title"><h5><i class="fa fa-google fa-lg profiles"></i> Google Profile</h5></h5>
                                                         <div class="table-wrap">
-                                                            <table class="table table-striped">
+                                                            <table class="table table-striped table-custom">
                                                                 <tr>
                                                                     <td><strong>Name</strong></td>
                                                                     <td class="text-right">René ALLIER ADAMUS</td>
@@ -914,7 +914,7 @@
                                                 </div>
                                             </div>
                                             <div class="form-row">
-                                                <div class="form-group col-md-6">
+                                                <div class="form-group col-md-12">
 
                                                     <label for="address">Date of Birth</label>
                                                     <div class="input-group date" id="dob1" data-target-input="nearest">
@@ -925,7 +925,10 @@
                                                     </div>
 
                                                 </div>
-                                                <div class="form-group col-md-6" id="edit-keywords">
+                                            </div>
+
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12" id="edit-keywords">
                                                     <label for="keywords">Keywords</label>
                                                     <select data-placeholder="Choose Keywords..." class="form-control chosen-select" multiple tabindex="4">
                                                         <option value=""></option>
@@ -1064,9 +1067,10 @@
     $(document).ready(function () {
 
         $('#dob1').datetimepicker({
-            format: 'L'
+            format: 'L',
+            autoclose: false
         });
-
+        /*$('#dob1').datetimepicker('show');*/
         $(".chosen-select").chosen();
 
     });

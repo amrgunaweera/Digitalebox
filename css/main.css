@@ -833,26 +833,28 @@ input::placeholder {
       color: #4867aa; }
     .app-body .table-wrap .fa-linkedin {
       color: #3b5998; }
-    .app-body .table-wrap .table th, .app-body .table-wrap .table td {
+    .app-body .table-wrap .table-custom th {
       border: none;
       font-size: 12px;
-      padding: .75rem .25rem; }
-    .app-body .table-wrap .table td {
+      padding: .75rem .25rem;
+      color: #fff; }
+      .theme-blue .app-body .table-wrap .table-custom th {
+        background-color: #3f80be; }
+      .theme-green .app-body .table-wrap .table-custom th {
+        background-color: #39a655; }
+      .app-body .table-wrap .table-custom th.actions {
+        min-width: 80px; }
+    .app-body .table-wrap .table-custom td {
+      border: none;
+      font-size: 12px;
+      padding: .75rem .25rem;
       border-left: 1px solid #fafafa;
       border-right: 1px solid #fafafa; }
-    .app-body .table-wrap .table th {
-      color: #fff; }
-      .theme-blue .app-body .table-wrap .table th {
-        background-color: #3f80be; }
-      .theme-green .app-body .table-wrap .table th {
-        background-color: #39a655; }
-      .app-body .table-wrap .table th.actions {
-        min-width: 80px; }
-    .app-body .table-wrap .table.table-striped tbody tr:nth-of-type(2n+1) {
+    .app-body .table-wrap .table-custom.table-striped tbody tr:nth-of-type(2n+1) {
       background-color: #f9f9f9; }
-    .app-body .table-wrap .table.table-hover tbody tr:hover {
+    .app-body .table-wrap .table-custom.table-hover tbody tr:hover {
       background-color: #f0f0f0; }
-    .app-body .table-wrap .table a {
+    .app-body .table-wrap .table-custom a {
       margin-left: 3px;
       margin-right: 3px;
       display: inline-block; }
@@ -890,7 +892,8 @@ input::placeholder {
     .app-body .table-wrap .advanced-search td {
       overflow: hidden; }
     .app-body .table-wrap .saved-search.actions {
-      width: 170px; }
+      width: 170px !important;
+      min-width: 170px !important; }
   .app-body .edit-keyword .chosen-container-multi .chosen-choices {
     height: 115px; }
   .app-body .results-count {
@@ -918,8 +921,6 @@ input::placeholder {
   .app-body .card .card-body .profiles {
     font-size: 20px;
     margin-right: 10px; }
-  .app-body .advanced-search .modal #edit-keywords .chosen-choices {
-    height: 40px; }
 
 .login-page .login-content {
   position: relative;

@@ -66,7 +66,7 @@
                         </div>
                         <div class="table-wrap">
 
-                            <table class="table table-hover table-striped">
+                            <table class="table table-hover table-striped table-custom">
                                 <thead>
                                     <tr>
                                         <th class="text-center" scope="col">Profile</th>
@@ -143,7 +143,7 @@
                                         <div class="modal-body edit-keyword">
                                             <h6>Master Account</h6>
                                             <div class="table-wrap">
-                                                <table class="table table-hover table-striped">
+                                                <table class="table table-hover table-striped table-custom">
                                                     <!--<thead>
                                                     <tr>
                                                         <th class="text-center" scope="col">Profile</th>
@@ -172,7 +172,7 @@
                                                 <div class="col-md-12">Merge Similar Accounts with master</div>
                                             </div>
                                             <div class="table-wrap mt-3">
-                                                <table class="table table-hover table-striped">
+                                                <table class="table table-hover table-striped table-custom">
                                                     <thead>
                                                         <tr>
                                                             <th class="text-center" scope="col">
@@ -204,9 +204,9 @@
                                                         <td>Otto</td>
 
                                                         <td class="text-center">
-                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
                                                             <a href="" data-toggle="modal" class="hide-merge" data-target="#conflicts" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
                                                         </td>
                                                     </tr>
 
@@ -224,9 +224,9 @@
                                                         <td>Otto</td>
 
                                                         <td class="text-center">
-                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
                                                             <a href="" data-toggle="modal" class="hide-merge" data-target="#conflicts" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
                                                         </td>
                                                     </tr>
 
@@ -244,9 +244,9 @@
                                                         <td></td>
 
                                                         <td class="text-center">
-                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
                                                             <a href="" data-toggle="modal" class="hide-merge" data-target="#conflicts" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
                                                         </td>
                                                     </tr>
 
@@ -284,7 +284,7 @@
                                             </div>
 
                                             <div class="table-wrap">
-                                                <table class="table table-striped">
+                                                <table class="table table-striped table-custom">
                                                     <tr>
                                                         <td width="40%">Street Address</td>
                                                         <td>

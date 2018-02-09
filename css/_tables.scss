@@ -10,19 +10,12 @@
     color: $in-color;
   }
 
-  .table{
-    th, td{
+  .table-custom{
+    th{
       border: none;
       font-size: 12px;
       padding: .75rem .25rem;
-    }
 
-    td{
-      border-left: 1px solid #fafafa;
-      border-right: 1px solid #fafafa;
-    }
-
-    th{
       color: #fff;
       @include themify($themes) {
         background-color: themed('secondry-color');
@@ -30,6 +23,14 @@
       &.actions{
         min-width: 80px;
       }
+    }
+    td{
+      border: none;
+      font-size: 12px;
+      padding: .75rem .25rem;
+
+      border-left: 1px solid #fafafa;
+      border-right: 1px solid #fafafa;
     }
 
     &.table-striped {
@@ -134,7 +135,8 @@
 
   .saved-search{
     &.actions{
-      width: 170px;
+      width: 170px !important;
+      min-width: 170px !important;
     }
   }
 

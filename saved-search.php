@@ -70,7 +70,7 @@
 
                     <div class="table-wrap">
 
-                        <table class="table table-hover table-striped">
+                        <table class="table table-hover table-striped table-custom">
                             <thead>
                             <tr>
                                 <th scope="col">Criteria Name</th>
@@ -86,13 +86,13 @@
                                 <td>29/01/2018 07:38:08</td>
                                 <td>Digitalbox Testing</td>
                                 <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-star fa-lg"></i></a>
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-mobile-phone fa-lg"></i></a>
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-envelope fa-lg"></i></a>
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="SMS Campaign"><i class="fa fa-mobile-phone fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="Email Campaign"><i class="fa fa-envelope fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="Twitter Campaign"><i class="fa fa-twitter fa-lg"></i></a>
 
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                    <a href="" data-target="#viewDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
+                                    <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                     <a href="" title="Delete"><i class="fa fa-close fa-lg"></i></a>
                                 </td>
                             </tr>
@@ -102,7 +102,14 @@
                                 <td>13/11/2017 09:46:07</td>
                                 <td>Digitalbox Testing</td>
                                 <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-edit fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="SMS Campaign"><i class="fa fa-mobile-phone fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="Email Campaign"><i class="fa fa-envelope fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="Twitter Campaign"><i class="fa fa-twitter fa-lg"></i></a>
+
+                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
+                                    <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                    <a href="" title="Delete"><i class="fa fa-close fa-lg"></i></a>
                                 </td>
                             </tr>
 
@@ -111,122 +118,137 @@
                                 <td>04/07/2017 08:14:40</td>
                                 <td>Elania Zito</td>
                                 <td class="text-center">
-                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-edit fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="SMS Campaign"><i class="fa fa-mobile-phone fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="Email Campaign"><i class="fa fa-envelope fa-lg"></i></a>
+                                    <a href="" data-toggle="modal" data-target="#sendCampaign" title="Twitter Campaign"><i class="fa fa-twitter fa-lg"></i></a>
+
+                                    <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
+                                    <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                    <a href="" title="Delete"><i class="fa fa-close fa-lg"></i></a>
                                 </td>
                             </tr>
 
                             </tbody>
                         </table>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <!-- Campaign Modal -->
+                        <div class="modal fade" id="sendCampaign" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Merge Accounts</h5>
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Start Campaign</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
 
-
-                                    <div class="modal-body edit-keyword">
-                                        <h6>Master Account</h6>
-                                        <div class="table-wrap">
-                                            <table class="table table-hover table-striped">
-                                                <!--<thead>
-                                                <tr>
-                                                    <th class="text-center" scope="col">Profile</th>
-                                                    <th scope="col">First Name</th>
-                                                    <th scope="col">Last Name</th>
-                                                    <th scope="col">Email</th>
-                                                </tr>
-                                                </thead>-->
-                                                <tbody>
-
-                                                <tr>
-                                                    <td class="text-center">
-                                                        <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                    </td>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>mark@gmail.com</td>
-
-                                                </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-
-                                        <p>Merge Similar Accounts with master</p>
-                                        <div class="table-wrap">
-                                            <table class="table table-hover table-striped">
-                                                <thead>
-                                                <tr>
-                                                    <th class="text-center" scope="col">Profile</th>
-                                                    <th scope="col">Network</th>
-                                                    <th scope="col">First Name</th>
-                                                    <th scope="col">Last Name</th>
-
-                                                    <th class="text-center actions" scope="col">Actions</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-
-                                                <tr>
-                                                    <td class="text-center">
-                                                        <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                    </td>
-                                                    <td class="text-center"><i class="fa fa-facebook fa-lg"></i></td>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-
-                                                    <td class="text-center">
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td class="text-center">
-                                                        <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                    </td>
-                                                    <td class="text-center"><i class="fa fa-twitter fa-lg"></i></td>
-                                                    <td></td>
-                                                    <td>Otto</td>
-
-                                                    <td class="text-center">
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td class="text-center">
-                                                        <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                    </td>
-                                                    <td class="text-center"><i class="fa fa-facebook fa-lg"></i></td>
-                                                    <td>Mark</td>
-                                                    <td></td>
-
-                                                    <td class="text-center">
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                        <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
-                                                    </td>
-                                                </tr>
-
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label>
+                                                <select class="form-control" id="">
+                                                    <option>- Select Template -</option>
+                                                    <option>All Channels</option>
+                                                    <option>Digitalebox</option>
+                                                    <option>Friends</option>
+                                                    <option>Office</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="end-date">End Date</label>
+                                                <div class="input-group date" id="end-date" data-target-input="nearest">
+                                                    <input type="text" class="form-control datetimepicker-input" data-target="#end-date" placeholder="00/00/1990"/>
+                                                    <div class="input-group-append" data-target="#end-date" data-toggle="datetimepicker">
+                                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary">Send</button>
+                                                <button type="submit" class="btn btn-secondary">New Template</button>
+                                            </div>
+                                        </form>
                                     </div>
-                                    <!--
-                                                                            <div class="modal-footer">
-                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                                                            </div>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- View Modal -->
+                        <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Criteria Details</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="table-wrap">
+                                                    <table class="table table-striped table-custom">
+                                                        <tr>
+                                                            <td><strong>Criteria Name</strong></td>
+                                                            <td class="text-right">15130 search</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>First Name</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Last Name</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Email</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Keywords</strong></td>
+                                                            <td class="text-right">google, tt</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Team</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Gender</strong></td>
+                                                            <td class="text-right">Male</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Zip</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>City</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>User Category</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Age</strong></td>
+                                                            <td class="text-right"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Created by</strong></td>
+                                                            <td class="text-right">Elania Zito</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><strong>Created at</strong></td>
+                                                            <td class="text-right">2017-07-04 08:14:40</td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -279,6 +301,10 @@
             format: 'L'
         });
         $('#to-date').datetimepicker({
+            format: 'L'
+        });
+
+        $('#end-date').datetimepicker({
             format: 'L'
         });
     });

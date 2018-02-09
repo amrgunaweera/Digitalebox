@@ -35,22 +35,22 @@
 
                         <form>
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="fname">First Name</label>
                                     <input type="text" class="form-control" id="fname" placeholder="First Name">
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="lname">Last Name</label>
                                     <input type="text" class="form-control" id="lname" placeholder="Last Name">
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="email">Email Address</label>
                                     <input type="email" class="form-control is-invalid" id="email" placeholder="abc@company.com">
                                     <div class="invalid-feedback">Error Message</div>
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="mobile">Mobile Number</label>
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -67,17 +67,17 @@
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="zipcode">Zip Code</label>
                                     <input type="text" class="form-control" id="zipcode" placeholder="ex: 14390">
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="address">Street Address</label>
                                     <input type="text" class="form-control" id="address" placeholder="ex: 27 Avenue Pasteur">
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="gender">Gender</label>
                                     <select id="gender" class="form-control">
                                         <option selected>- Select -</option>
@@ -85,7 +85,7 @@
                                         <option>Female</option>
                                     </select>
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="category">Category</label>
                                     <select id="category" class="form-control">
                                         <option selected>- Select -</option>
@@ -97,11 +97,11 @@
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="city">City</label>
                                     <input type="text" class="form-control" id="city" placeholder="ex: Cabourg">
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="category">Country</label>
                                     <select id="category" class="form-control">
                                         <option selected>- Select -</option>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
 
                                     <label for="address">Date of Birth</label>
                                     <div class="input-group date" id="dob1" data-target-input="nearest">
@@ -124,7 +124,7 @@
                                     </div>
 
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="keywords">Keywords</label>
                                     <select data-placeholder="Choose Keywords..." class="form-control chosen-select" multiple tabindex="4">
                                         <option value=""></option>
@@ -151,11 +151,11 @@
                             </div>
 
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="zipcode">Notes</label>
                                     <textarea class="form-control" placeholder="Notes"></textarea>
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
                                     <label for="zipcode">Custom Field 1</label><br>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -173,7 +173,7 @@
                             </div>
 
                             <div class="form-row">
-                                <div class="form-group col-md-6 col-xl-5">
+                                <div class="form-group col-md-6">
                                     <label for="zipcode">Custom Field 2</label><br>
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
@@ -188,13 +188,15 @@
                                         <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
                                     </div>
                                 </div>
-                                <div class="form-group col-md-6 col-xl-5 offset-xl-1 offset-0">
+                                <div class="form-group col-md-6">
 
                                 </div>
                             </div>
 
-                            <button type="submit" class="btn btn-primary">Create</button>
-                            <button type="submit" class="btn btn-secondary">Cancel</button>
+                            <div class="text-left text-md-right">
+                                <button type="submit" class="btn btn-primary">Create</button>
+                                <button type="submit" class="btn btn-secondary">Cancel</button>
+                            </div>
                         </form>
 
                     </div>

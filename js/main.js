@@ -70,6 +70,7 @@ $( document ).ready(function() {
                 height: "180"
             }, 500, function() {
                 // Animation complete.
+                $('.account-status .title  > i').addClass('fa-angle-down').removeClass('fa-angle-up');
             });
 
         } else {
@@ -85,6 +86,7 @@ $( document ).ready(function() {
                 height: '40'
             }, 500, function() {
                 // Animation complete.
+                $('.account-status .title  > i').addClass('fa-angle-up').removeClass('fa-angle-down');
             });
 
         }
