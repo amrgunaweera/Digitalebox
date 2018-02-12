@@ -16,7 +16,7 @@
                         Account Merge
                     </div>
                     <div class="desc">
-                        Merge duplicate records to same user into one profile
+                        Merge duplicate profiles
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -52,7 +52,7 @@
                                     <input type="text" class="form-control" id="lname" placeholder="Last Name">
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="email">email</label>
+                                    <label for="email">Email</label>
                                     <input type="email" class="form-control" id="email" placeholder="Email Address">
                                 </div>
                             </div>
