@@ -234,7 +234,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck" name="iCheck">
+                                    <input class="form-check-input custom-icheck" type="checkbox" id="gridCheck" name="iCheck">
                                     <label class="form-check-label" for="gridCheck">
                                         I Agree to the <a href="">Terms & Conditions</a>
                                     </label>

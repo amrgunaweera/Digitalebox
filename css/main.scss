@@ -88,7 +88,7 @@ input{
 .form-control{
   font-size: 14px;
   min-height: 40px;
-  @include border-radius(0);
+  @include border-radius(0 !important);
 }
 .btn{
   font-size: 14px;
@@ -127,6 +127,10 @@ input{
       margin-right: 10px;
     }
   }
+}
+
+.custom-file-label{
+  @include border-radius(0 !important);
 }
 
 .text-error{
@@ -177,14 +181,14 @@ input{
   }
 }
 
-.btn-primary{
+.btn-primary, .badge-primary{
   color: #ffffff !important;
   @include themify($themes) {
     background-color: themed('secondry-color');
     border-color: themed('secondry-color');
   }
 }
-.btn-secondary{
+.btn-secondary, .badge-secondary{
   @include themify($themes) {
     background-color: themed('third-color');
     border-color: themed('third-color');
@@ -992,15 +996,54 @@ input{
     }
 
     .content-panel{
+      margin-bottom: 30px;
+
+      &>.nav-tabs{
+        &>.nav-item{
+          &>.nav-link{
+            &.active{
+              border-color: #fff;
+              clip-path: inset(-50px -50px 0px -50px);
+              @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.1));
+            }
+          }
+        }
+      }
+
+      &>.content-inner{
+        @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.1));
+
+        &>.panel-head{
+          font-size: 16px;
+          padding-left: 20px;
+          padding-right: 20px;
+          line-height: 40px;
+          border-bottom: 1px solid #e9e9e9;
+          font-weight: 500;
+          background-color: #fff;
+
+          @include themify($themes) {
+            color: themed('primary-color');
+          }
+        }
+
+        &>.content-area{
+          padding: 20px;
+          background-color: #fff;
+        }
+      }
+
+    }
+
+    .content-panel-sub{
       background-color: #fff;
       margin-bottom: 30px;
 
-      @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.1));
 
       &>.panel-head{
-        font-size: 14px;
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 16px;
+        /*padding-left: 20px;
+        padding-right: 20px;*/
         line-height: 40px;
         border-bottom: 1px solid #e9e9e9;
         font-weight: 500;
@@ -1011,7 +1054,7 @@ input{
       }
 
       &>.content-area{
-        padding: 20px;
+        padding: 20px 0;
       }
 
     }

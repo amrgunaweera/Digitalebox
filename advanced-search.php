@@ -30,263 +30,268 @@
         <div class="row no-gutters advanced-search">
 
             <div class="content-panel col-md-12">
-                <div class="panel-head">Saved Search</div>
-                <div class="content-area">
+                <div class="content-inner">
+                    <div class="panel-head">Saved Search</div>
+                    <div class="content-area">
 
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6 col-xl-5">
-                                <select id="category" class="form-control">
-                                    <option selected>- Select -</option>
-                                    <option>Supporter</option>
-                                    <option>Prospect</option>
-                                    <option>Non Supporter</option>
-                                    <option>Unknown</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-md-6 col-xl-5">
-                                <button type="submit" class="btn btn-primary">Send Emails</button>
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-
-            <div class="content-panel col-md-12">
-                <div class="panel-head">Search by criteria</div>
-                <div class="content-area">
-
-                    <form>
-
-                        <div class="form-row">
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="text" class="form-control" id="fname" placeholder="First Name">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="text" class="form-control" id="lname" placeholder="Last Name">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="text" class="form-control" id="city" placeholder="City">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <select id="category" class="form-control">
-                                    <option selected>- Country -</option>
-                                    <option>France</option>
-                                    <option>United States</option>
-                                    <option>Italy</option>
-                                    <option>United Kingdom</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <select id="gender" class="form-control">
-                                    <option selected>- Gender -</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <select id="category" class="form-control">
-                                    <option selected>- Category -</option>
-                                    <option>Supporter</option>
-                                    <option>Prospect</option>
-                                    <option>Non Supporter</option>
-                                    <option>Unknown</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="text" class="form-control" id="zipcode" placeholder="Zip Code">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="email" class="form-control" id="email" placeholder="Email Address">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="tel" class="form-control" id="mobile" placeholder="Mobile Phone">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <input type="number" class="form-control" id="age" placeholder="Age (N or N-N)">
-                            </div>
-                            <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                <select id="category" class="form-control">
-                                    <option selected>- Zone -</option>
-                                    <option>Z - 1</option>
-                                    <option>Z - 2</option>
-                                    <option>Z - 3</option>
-                                    <option>Z - 4</option>
-                                </select>
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <input type="text" class="form-control" id="address" placeholder="Address(27 Avenue Pasteur)">
-                            </div>
-
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <div class="form-check form-check-inline align-top">
-                                    <div for="networks" class="networks">Networks</div>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-xl-5">
+                                    <select id="category" class="form-control">
+                                        <option selected>- Select -</option>
+                                        <option>Supporter</option>
+                                        <option>Prospect</option>
+                                        <option>Non Supporter</option>
+                                        <option>Unknown</option>
+                                    </select>
                                 </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    <label class="form-check-label" for="inlineCheckbox1">Twitter</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">Facebook</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                                    <label class="form-check-label" for="inlineCheckbox3">Linkedin</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                                    <label class="form-check-label" for="inlineCheckbox4">Mobile</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-                                    <label class="form-check-label" for="inlineCheckbox5">Email</label>
+                                <div class="form-group col-md-6 col-xl-5">
+                                    <button type="submit" class="btn btn-primary">Send Emails</button>
                                 </div>
                             </div>
-                        </div>
+                        </form>
 
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <select data-placeholder="Team Names" class="form-control chosen-select" multiple tabindex="4">
-                                    <option value=""></option>
-                                    <option value="United States">United States</option>
-                                    <option value="United Kingdom">United Kingdom</option>
-                                    <option value="Afghanistan">Afghanistan</option>
-                                    <option value="Aland Islands">Aland Islands</option>
-                                    <option value="Albania">Albania</option>
-                                    <option value="Algeria">Algeria</option>
-                                    <option value="American Samoa">American Samoa</option>
-                                    <option value="Andorra">Andorra</option>
-                                    <option value="Angola">Angola</option>
-                                    <option value="Anguilla">Anguilla</option>
-                                    <option value="Antarctica">Antarctica</option>
-                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                    <option value="Argentina">Argentina</option>
-                                    <option value="Armenia">Armenia</option>
-                                    <option value="Aruba">Aruba</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="Austria">Austria</option>
-                                    <option value="Azerbaijan">Azerbaijan</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="form-row">
-
-                            <div class="form-group col-md-2 d-none d-xs-block d-sm-block d-md-none">
-                                Keywords
-                            </div>
-                            <div class="form-group col-md-2">
-
-                                <div class="dropdown">
-                                    <button class="btn btn-primary dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Normal
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-group col-md-10">
-                                <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                    <option value=""></option>
-                                    <option value="United States">United States</option>
-                                    <option value="United Kingdom">United Kingdom</option>
-                                    <option value="Afghanistan">Afghanistan</option>
-                                    <option value="Aland Islands">Aland Islands</option>
-                                    <option value="Albania">Albania</option>
-                                    <option value="Algeria">Algeria</option>
-                                    <option value="American Samoa">American Samoa</option>
-                                    <option value="Andorra">Andorra</option>
-                                    <option value="Angola">Angola</option>
-                                    <option value="Anguilla">Anguilla</option>
-                                    <option value="Antarctica">Antarctica</option>
-                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                    <option value="Argentina">Argentina</option>
-                                    <option value="Armenia">Armenia</option>
-                                    <option value="Aruba">Aruba</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="Austria">Austria</option>
-                                    <option value="Azerbaijan">Azerbaijan</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="form-row mt-3">
-                            <div class="form-group col-md-8">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                    <label class="form-check-label" for="inlineCheckbox1">Enable Keywords 2</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                    <label class="form-check-label" for="inlineCheckbox2">Exclude Personal Facebook Contacts</label>
-                                </div>
-                            </div>
-                            <div class="form-group col-md-4 text-left text-md-right">
-                                <button type="submit" class="btn btn-primary">Search</button>
-                                <button type="submit" class="btn btn-secondary">Save Search</button>
-                            </div>
-                        </div>
-
-
-                    </form>
-
-                </div>
-            </div>
-
-            <div class="content-panel col-md-12">
-                <div class="content-area">
-
-
-                    <div class="text-right results-count">
-                        Displaying 1-10 of 24420 results
                     </div>
+                </div>
+            </div>
 
-                    <div class="table-wrap">
+            <div class="content-panel col-md-12">
+                <div class="content-inner">
+                    <div class="panel-head">Search by criteria</div>
+                    <div class="content-area">
 
-                        <table class="table table-hover table-striped advanced-search table-custom">
-                            <thead>
-                            <tr>
-                                <th class="text-center" scope="col">
+                        <form>
+
+                            <div class="form-row">
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="text" class="form-control" id="fname" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="text" class="form-control" id="city" placeholder="City">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <select id="category" class="form-control">
+                                        <option selected>- Country -</option>
+                                        <option>France</option>
+                                        <option>United States</option>
+                                        <option>Italy</option>
+                                        <option>United Kingdom</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <select id="gender" class="form-control">
+                                        <option selected>- Gender -</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <select id="category" class="form-control">
+                                        <option selected>- Category -</option>
+                                        <option>Supporter</option>
+                                        <option>Prospect</option>
+                                        <option>Non Supporter</option>
+                                        <option>Unknown</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="text" class="form-control" id="zipcode" placeholder="Zip Code">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="tel" class="form-control" id="mobile" placeholder="Mobile Phone">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <input type="number" class="form-control" id="age" placeholder="Age (N or N-N)">
+                                </div>
+                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
+                                    <select id="category" class="form-control">
+                                        <option selected>- Zone -</option>
+                                        <option>Z - 1</option>
+                                        <option>Z - 2</option>
+                                        <option>Z - 3</option>
+                                        <option>Z - 4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <input type="text" class="form-control" id="address" placeholder="Address(27 Avenue Pasteur)">
+                                </div>
+
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <div class="form-check form-check-inline align-top">
+                                        <div for="networks" class="networks">Networks</div>
+                                    </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Twitter</label>
                                     </div>
-                                </th>
-                                <th class="text-center" scope="col">Profile</th>
-                                <th class="text-center" scope="col">First Name</th>
-                                <th class="text-center" scope="col">Last Name</th>
-                                <th class="text-center" scope="col">Email</th>
-                                <th class="text-center" scope="col">Phone</th>
-                                <th class="text-center" scope="col">Keywords</th>
-                                <th class="text-center" scope="col">City</th>
-                                <th class="text-center" scope="col">Joined on</th>
-                                <th class="text-center" scope="col">Age</th>
-                                <th class="text-center" scope="col"><i class="fa fa-link fa-lg" data-toggle="tooltip" title="Connections"></i></th>
-                                <th class="text-center actions" scope="col">Actions</th>
-                            </tr>
-                            </thead>
-                            <tbody>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Facebook</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox3" value="option3">
+                                        <label class="form-check-label" for="inlineCheckbox3">Linkedin</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox4" value="option4">
+                                        <label class="form-check-label" for="inlineCheckbox4">Mobile</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox5" value="option5">
+                                        <label class="form-check-label" for="inlineCheckbox5">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <select data-placeholder="Team Names" class="form-control chosen-select" multiple tabindex="4">
+                                        <option value=""></option>
+                                        <option value="United States">United States</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="Afghanistan">Afghanistan</option>
+                                        <option value="Aland Islands">Aland Islands</option>
+                                        <option value="Albania">Albania</option>
+                                        <option value="Algeria">Algeria</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                        <option value="Andorra">Andorra</option>
+                                        <option value="Angola">Angola</option>
+                                        <option value="Anguilla">Anguilla</option>
+                                        <option value="Antarctica">Antarctica</option>
+                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                        <option value="Argentina">Argentina</option>
+                                        <option value="Armenia">Armenia</option>
+                                        <option value="Aruba">Aruba</option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="Austria">Austria</option>
+                                        <option value="Azerbaijan">Azerbaijan</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-row">
+
+                                <div class="form-group col-md-2 d-none d-xs-block d-sm-block d-md-none">
+                                    Keywords
+                                </div>
+                                <div class="form-group col-md-2">
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-primary dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Normal
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-10">
+                                    <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
+                                        <option value=""></option>
+                                        <option value="United States">United States</option>
+                                        <option value="United Kingdom">United Kingdom</option>
+                                        <option value="Afghanistan">Afghanistan</option>
+                                        <option value="Aland Islands">Aland Islands</option>
+                                        <option value="Albania">Albania</option>
+                                        <option value="Algeria">Algeria</option>
+                                        <option value="American Samoa">American Samoa</option>
+                                        <option value="Andorra">Andorra</option>
+                                        <option value="Angola">Angola</option>
+                                        <option value="Anguilla">Anguilla</option>
+                                        <option value="Antarctica">Antarctica</option>
+                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                        <option value="Argentina">Argentina</option>
+                                        <option value="Armenia">Armenia</option>
+                                        <option value="Aruba">Aruba</option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="Austria">Austria</option>
+                                        <option value="Azerbaijan">Azerbaijan</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-row mt-3">
+                                <div class="form-group col-md-8">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox1" value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Enable Keywords 2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Exclude Personal Facebook Contacts</label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-4 text-left text-md-right">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                    <button type="submit" class="btn btn-secondary">Save Search</button>
+                                </div>
+                            </div>
+
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-panel col-md-12">
+                <div class="content-inner">
+                    <div class="content-area">
+
+
+                        <div class="text-right results-count">
+                            Displaying 1-10 of 24420 results
+                        </div>
+
+                        <div class="table-wrap">
+
+                            <table class="table table-hover table-striped advanced-search table-custom">
+                                <thead>
+                                <tr>
+                                    <th class="text-center" scope="col">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
+                                        </div>
+                                    </th>
+                                    <th class="text-center" scope="col">Profile</th>
+                                    <th class="text-center" scope="col">First Name</th>
+                                    <th class="text-center" scope="col">Last Name</th>
+                                    <th class="text-center" scope="col">Email</th>
+                                    <th class="text-center" scope="col">Phone</th>
+                                    <th class="text-center" scope="col">Keywords</th>
+                                    <th class="text-center" scope="col">City</th>
+                                    <th class="text-center" scope="col">Joined on</th>
+                                    <th class="text-center" scope="col">Age</th>
+                                    <th class="text-center" scope="col"><i class="fa fa-link fa-lg" data-toggle="tooltip" title="Connections"></i></th>
+                                    <th class="text-center actions" scope="col">Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
 
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -316,7 +321,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -346,7 +351,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -376,7 +381,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -406,7 +411,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -436,7 +441,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -466,7 +471,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -496,7 +501,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -526,7 +531,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -556,7 +561,7 @@
                                 <tr>
                                     <td class="text-center">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
                                         </div>
                                     </td>
                                     <td class="text-center">
@@ -583,473 +588,475 @@
                                     </td>
                                 </tr>
 
-                            </tbody>
-                        </table>
+                                </tbody>
+                            </table>
 
-                        <!-- Edit Keywords Modal -->
-                        <div class="modal fade" id="editKeywords" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <!-- Edit Keywords Modal -->
+                            <div class="modal fade" id="editKeywords" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
 
 
-                                <div class="modal-content">
+                                    <div class="modal-content">
 
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Edit Keywords</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-
-                                    <div class="modal-body edit-keyword">
-                                        <div class="form-group">
-                                            <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                <option value=""></option>
-                                                <option value="United States">United States</option>
-                                                <option value="United Kingdom">United Kingdom</option>
-                                                <option value="Afghanistan">Afghanistan</option>
-                                                <option value="Aland Islands">Aland Islands</option>
-                                                <option value="Albania">Albania</option>
-                                                <option value="Algeria">Algeria</option>
-                                                <option value="American Samoa">American Samoa</option>
-                                                <option value="Andorra">Andorra</option>
-                                                <option value="Angola">Angola</option>
-                                                <option value="Anguilla">Anguilla</option>
-                                                <option value="Antarctica">Antarctica</option>
-                                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                <option value="Argentina">Argentina</option>
-                                                <option value="Armenia">Armenia</option>
-                                                <option value="Aruba">Aruba</option>
-                                                <option value="Australia">Australia</option>
-                                                <option value="Austria">Austria</option>
-                                                <option value="Azerbaijan">Azerbaijan</option>
-                                            </select>
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Edit Keywords</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
                                         </div>
-                                    </div>
 
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- View Modal -->
-                        <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-
-                                <div class="modal-content">
-
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="">View Details</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-
-                                    <div class="modal-body edit-keyword">
-                                        <div class="row">
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="mx-auto"><img class="profile-pic" src="img/promo-profile.png"></div>
-                                                        <h5 class="card-title"><h5>DigitaleBox Profile</h5></h5>
-                                                        <div class="table-wrap">
-                                                            <table class="table table-striped table-custom">
-                                                                <tr>
-                                                                    <td><strong>Name</strong></td>
-                                                                    <td class="text-right">René ALLIER ADAMUS</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Email</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Mobile</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Gender</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Zip</strong></td>
-                                                                    <td class="text-right">97306</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
-                                                        <h5 class="card-title"><h5><i class="fa fa-twitter fa-lg profiles"></i> Twitter Profile</h5></h5>
-                                                        <div class="table-wrap">
-                                                            <table class="table table-striped table-custom">
-                                                                <tr>
-                                                                    <td><strong>Name</strong></td>
-                                                                    <td class="text-right">René ALLIER ADAMUS</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Email</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Mobile</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Gender</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Zip</strong></td>
-                                                                    <td class="text-right">97306</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
-                                                        <h5 class="card-title"><h5><i class="fa fa-facebook fa-lg profiles"></i> Facebook Profile</h5></h5>
-                                                        <div class="table-wrap">
-                                                            <table class="table table-striped table-custom">
-                                                                <tr>
-                                                                    <td><strong>Name</strong></td>
-                                                                    <td class="text-right">René ALLIER ADAMUS</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Email</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Mobile</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Gender</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Zip</strong></td>
-                                                                    <td class="text-right">97306</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
-                                                        <h5 class="card-title"><h5><i class="fa fa-linkedin fa-lg profiles"></i> LinkedIn Profile</h5></h5>
-                                                        <div class="table-wrap">
-                                                            <table class="table table-striped table-custom">
-                                                                <tr>
-                                                                    <td><strong>Name</strong></td>
-                                                                    <td class="text-right">René ALLIER ADAMUS</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Email</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Mobile</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Gender</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Zip</strong></td>
-                                                                    <td class="text-right">97306</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 mb-4">
-                                                <div class="card">
-                                                    <div class="card-body">
-                                                        <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
-                                                        <h5 class="card-title"><h5><i class="fa fa-google fa-lg profiles"></i> Google Profile</h5></h5>
-                                                        <div class="table-wrap">
-                                                            <table class="table table-striped table-custom">
-                                                                <tr>
-                                                                    <td><strong>Name</strong></td>
-                                                                    <td class="text-right">René ALLIER ADAMUS</td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Email</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Mobile</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Gender</strong></td>
-                                                                    <td class="text-right"></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><strong>Zip</strong></td>
-                                                                    <td class="text-right">97306</td>
-                                                                </tr>
-                                                            </table>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <div class="modal-body edit-keyword">
+                                            <div class="form-group">
+                                                <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
+                                                    <option value=""></option>
+                                                    <option value="United States">United States</option>
+                                                    <option value="United Kingdom">United Kingdom</option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Aland Islands">Aland Islands</option>
+                                                    <option value="Albania">Albania</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="American Samoa">American Samoa</option>
+                                                    <option value="Andorra">Andorra</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Anguilla">Anguilla</option>
+                                                    <option value="Antarctica">Antarctica</option>
+                                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                    <option value="Argentina">Argentina</option>
+                                                    <option value="Armenia">Armenia</option>
+                                                    <option value="Aruba">Aruba</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Austria">Austria</option>
+                                                    <option value="Azerbaijan">Azerbaijan</option>
+                                                </select>
                                             </div>
                                         </div>
 
-                                        <div class="col-md-6"></div>
-                                        <div class="col-md-6"></div>
-                                        <div class="col-md-6"></div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- Edit Details Modal -->
-                        <div class="modal fade" id="editDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <!-- View Modal -->
+                            <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 
-                                <div class="modal-content">
+                                    <div class="modal-content">
 
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Edit Keywords</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">View Details</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
 
-                                    <div class="modal-body edit-keyword">
-
-                                        <form>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="fname">First Name</label>
-                                                    <input type="text" class="form-control" id="fname" placeholder="First Name">
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="lname">Last Name</label>
-                                                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="email">Email Address</label>
-                                                    <input type="email" class="form-control is-invalid" id="email" placeholder="abc@company.com">
-                                                    <div class="invalid-feedback">Error Message</div>
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="mobile">Mobile Number</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/lang-eng.png"></button>
-                                                            <div class="dropdown-menu">
-                                                                <a class="dropdown-item" href="#"><img src="img/lang-fra.png"> France</a>
-                                                                <a class="dropdown-item" href="#"><img src="img/lang-ita.png"> Italy</a>
-                                                                <a class="dropdown-item" href="#"><img src="img/lang-por.png"> Portugal</a>
-                                                                <a class="dropdown-item" href="#"><img src="img/lang-rus.png"> Russia</a>
+                                        <div class="modal-body edit-keyword">
+                                            <div class="row">
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="mx-auto"><img class="profile-pic" src="img/promo-profile.png"></div>
+                                                            <h5 class="card-title"><h5>DigitaleBox Profile</h5></h5>
+                                                            <div class="table-wrap">
+                                                                <table class="table table-striped table-custom">
+                                                                    <tr>
+                                                                        <td><strong>Name</strong></td>
+                                                                        <td class="text-right">René ALLIER ADAMUS</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Email</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Mobile</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Gender</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Zip</strong></td>
+                                                                        <td class="text-right">97306</td>
+                                                                    </tr>
+                                                                </table>
                                                             </div>
                                                         </div>
-                                                        <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="+33 000 000 0000">
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="zipcode">Zip Code</label>
-                                                    <input type="text" class="form-control" id="zipcode" placeholder="ex: 14390">
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="address">Street Address</label>
-                                                    <input type="text" class="form-control" id="address" placeholder="ex: 27 Avenue Pasteur">
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="gender">Gender</label>
-                                                    <select id="gender" class="form-control">
-                                                        <option selected>- Select -</option>
-                                                        <option>Male</option>
-                                                        <option>Female</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="category">Category</label>
-                                                    <select id="category" class="form-control">
-                                                        <option selected>- Select -</option>
-                                                        <option>Supporter</option>
-                                                        <option>Prospect</option>
-                                                        <option>Non Supporter</option>
-                                                        <option>Unknown</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="city">City</label>
-                                                    <input type="text" class="form-control" id="city" placeholder="ex: Cabourg">
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="category">Country</label>
-                                                    <select id="category" class="form-control">
-                                                        <option selected>- Select -</option>
-                                                        <option>France</option>
-                                                        <option>United States</option>
-                                                        <option>Italy</option>
-                                                        <option>United Kingdom</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-12">
-
-                                                    <label for="address">Date of Birth</label>
-                                                    <div class="input-group date" id="dob1" data-target-input="nearest">
-                                                        <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="00/00/1990"/>
-                                                        <div class="input-group-append" data-target="#dob1" data-toggle="datetimepicker">
-                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
+                                                            <h5 class="card-title"><h5><i class="fa fa-twitter fa-lg profiles"></i> Twitter Profile</h5></h5>
+                                                            <div class="table-wrap">
+                                                                <table class="table table-striped table-custom">
+                                                                    <tr>
+                                                                        <td><strong>Name</strong></td>
+                                                                        <td class="text-right">René ALLIER ADAMUS</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Email</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Mobile</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Gender</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Zip</strong></td>
+                                                                        <td class="text-right">97306</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
                                                         </div>
                                                     </div>
-
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
+                                                            <h5 class="card-title"><h5><i class="fa fa-facebook fa-lg profiles"></i> Facebook Profile</h5></h5>
+                                                            <div class="table-wrap">
+                                                                <table class="table table-striped table-custom">
+                                                                    <tr>
+                                                                        <td><strong>Name</strong></td>
+                                                                        <td class="text-right">René ALLIER ADAMUS</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Email</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Mobile</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Gender</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Zip</strong></td>
+                                                                        <td class="text-right">97306</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
+                                                            <h5 class="card-title"><h5><i class="fa fa-linkedin fa-lg profiles"></i> LinkedIn Profile</h5></h5>
+                                                            <div class="table-wrap">
+                                                                <table class="table table-striped table-custom">
+                                                                    <tr>
+                                                                        <td><strong>Name</strong></td>
+                                                                        <td class="text-right">René ALLIER ADAMUS</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Email</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Mobile</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Gender</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Zip</strong></td>
+                                                                        <td class="text-right">97306</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 mb-4">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="mx-auto"><img class="profile-pic" src="img/user-profile.png"></div>
+                                                            <h5 class="card-title"><h5><i class="fa fa-google fa-lg profiles"></i> Google Profile</h5></h5>
+                                                            <div class="table-wrap">
+                                                                <table class="table table-striped table-custom">
+                                                                    <tr>
+                                                                        <td><strong>Name</strong></td>
+                                                                        <td class="text-right">René ALLIER ADAMUS</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Email</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Mobile</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Gender</strong></td>
+                                                                        <td class="text-right"></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><strong>Zip</strong></td>
+                                                                        <td class="text-right">97306</td>
+                                                                    </tr>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
-                                            <div class="form-row">
-                                                <div class="form-group col-md-12" id="edit-keywords">
-                                                    <label for="keywords">Keywords</label>
-                                                    <select data-placeholder="Choose Keywords..." class="form-control chosen-select" multiple tabindex="4">
-                                                        <option value=""></option>
-                                                        <option value="United States">United States</option>
-                                                        <option value="United Kingdom">United Kingdom</option>
-                                                        <option value="Afghanistan">Afghanistan</option>
-                                                        <option value="Aland Islands">Aland Islands</option>
-                                                        <option value="Albania">Albania</option>
-                                                        <option value="Algeria">Algeria</option>
-                                                        <option value="American Samoa">American Samoa</option>
-                                                        <option value="Andorra">Andorra</option>
-                                                        <option value="Angola">Angola</option>
-                                                        <option value="Anguilla">Anguilla</option>
-                                                        <option value="Antarctica">Antarctica</option>
-                                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                        <option value="Argentina">Argentina</option>
-                                                        <option value="Armenia">Armenia</option>
-                                                        <option value="Aruba">Aruba</option>
-                                                        <option value="Australia">Australia</option>
-                                                        <option value="Austria">Austria</option>
-                                                        <option value="Azerbaijan">Azerbaijan</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="zipcode">Notes</label>
-                                                    <textarea class="form-control" placeholder="Notes"></textarea>
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label for="zipcode">Custom Field 1</label><br>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                                        <label class="form-check-label" for="inlineCheckbox1">1</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                                        <label class="form-check-label" for="inlineCheckbox2">2</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
-                                                        <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="zipcode">Custom Field 2</label><br>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                                        <label class="form-check-label" for="inlineRadio1">1</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                                        <label class="form-check-label" for="inlineRadio2">2</label>
-                                                    </div>
-                                                    <div class="form-check form-check-inline">
-                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
-                                                        <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group col-md-6">
-
-                                                </div>
-                                            </div>
-                                        </form>
-
-                                    </div>
-
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                            <div class="col-md-6"></div>
+                                            <div class="col-md-6"></div>
+                                            <div class="col-md-6"></div>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <!-- Edit Details Modal -->
+                            <div class="modal fade" id="editDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+
+                                    <div class="modal-content">
+
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Edit Keywords</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+                                        <div class="modal-body edit-keyword">
+
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="fname">First Name</label>
+                                                        <input type="text" class="form-control" id="fname" placeholder="First Name">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="lname">Last Name</label>
+                                                        <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="email">Email Address</label>
+                                                        <input type="email" class="form-control is-invalid" id="email" placeholder="abc@company.com">
+                                                        <div class="invalid-feedback">Error Message</div>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="mobile">Mobile Number</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/lang-eng.png"></button>
+                                                                <div class="dropdown-menu">
+                                                                    <a class="dropdown-item" href="#"><img src="img/lang-fra.png"> France</a>
+                                                                    <a class="dropdown-item" href="#"><img src="img/lang-ita.png"> Italy</a>
+                                                                    <a class="dropdown-item" href="#"><img src="img/lang-por.png"> Portugal</a>
+                                                                    <a class="dropdown-item" href="#"><img src="img/lang-rus.png"> Russia</a>
+                                                                </div>
+                                                            </div>
+                                                            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="+33 000 000 0000">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="zipcode">Zip Code</label>
+                                                        <input type="text" class="form-control" id="zipcode" placeholder="ex: 14390">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="address">Street Address</label>
+                                                        <input type="text" class="form-control" id="address" placeholder="ex: 27 Avenue Pasteur">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="gender">Gender</label>
+                                                        <select id="gender" class="form-control">
+                                                            <option selected>- Select -</option>
+                                                            <option>Male</option>
+                                                            <option>Female</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="category">Category</label>
+                                                        <select id="category" class="form-control">
+                                                            <option selected>- Select -</option>
+                                                            <option>Supporter</option>
+                                                            <option>Prospect</option>
+                                                            <option>Non Supporter</option>
+                                                            <option>Unknown</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="city">City</label>
+                                                        <input type="text" class="form-control" id="city" placeholder="ex: Cabourg">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="category">Country</label>
+                                                        <select id="category" class="form-control">
+                                                            <option selected>- Select -</option>
+                                                            <option>France</option>
+                                                            <option>United States</option>
+                                                            <option>Italy</option>
+                                                            <option>United Kingdom</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-12">
+
+                                                        <label for="address">Date of Birth</label>
+                                                        <div class="input-group date" id="dob1" data-target-input="nearest">
+                                                            <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="00/00/1990"/>
+                                                            <div class="input-group-append" data-target="#dob1" data-toggle="datetimepicker">
+                                                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-12" id="edit-keywords">
+                                                        <label for="keywords">Keywords</label>
+                                                        <select data-placeholder="Choose Keywords..." class="form-control chosen-select" multiple tabindex="4">
+                                                            <option value=""></option>
+                                                            <option value="United States">United States</option>
+                                                            <option value="United Kingdom">United Kingdom</option>
+                                                            <option value="Afghanistan">Afghanistan</option>
+                                                            <option value="Aland Islands">Aland Islands</option>
+                                                            <option value="Albania">Albania</option>
+                                                            <option value="Algeria">Algeria</option>
+                                                            <option value="American Samoa">American Samoa</option>
+                                                            <option value="Andorra">Andorra</option>
+                                                            <option value="Angola">Angola</option>
+                                                            <option value="Anguilla">Anguilla</option>
+                                                            <option value="Antarctica">Antarctica</option>
+                                                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                            <option value="Argentina">Argentina</option>
+                                                            <option value="Armenia">Armenia</option>
+                                                            <option value="Aruba">Aruba</option>
+                                                            <option value="Australia">Australia</option>
+                                                            <option value="Austria">Austria</option>
+                                                            <option value="Azerbaijan">Azerbaijan</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="zipcode">Notes</label>
+                                                        <textarea class="form-control" placeholder="Notes"></textarea>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="zipcode">Custom Field 1</label><br>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label" for="inlineCheckbox1">1</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                            <label class="form-check-label" for="inlineCheckbox2">2</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                                                            <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                        <label for="zipcode">Custom Field 2</label><br>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input custom-icheck" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                            <label class="form-check-label" for="inlineRadio1">1</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input custom-icheck" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                            <label class="form-check-label" for="inlineRadio2">2</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input custom-icheck" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                                            <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+
+                                                    </div>
+                                                </div>
+                                            </form>
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row no-gutters d-flex flex-sm-row-reverse flex-sm-column-reverse flex-md-row">
+                            <div class="col-md-6">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-8 col-sm-4">
+                                            <select id="inputState" class="form-control">
+                                                <option selected>Bulk Edit</option>
+                                                <option>Bulk Delete</option>
+                                                <option>Bulk Export</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-4 col-sm-3">
+                                            <button type="submit" class="btn btn-primary">Run</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-md-end">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
 
                     </div>
-
-                    <div class="row no-gutters d-flex flex-sm-row-reverse flex-sm-column-reverse flex-md-row">
-                        <div class="col-md-6">
-                            <form>
-                                <div class="form-row">
-                                    <div class="form-group col-8 col-sm-4">
-                                        <select id="inputState" class="form-control">
-                                            <option selected>Bulk Edit</option>
-                                            <option>Bulk Delete</option>
-                                            <option>Bulk Export</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col-4 col-sm-3">
-                                        <button type="submit" class="btn btn-primary">Run</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-md-6">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination justify-content-md-end">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
                 </div>
+
             </div>
 
         </div>

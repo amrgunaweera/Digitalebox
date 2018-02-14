@@ -95,18 +95,22 @@
 
                     <div class="col-lg-12 col-xl-8">
                         <div class="content-panel">
-                            <div class="panel-head">Community Growth</div>
-                            <div class="content-area">
-                                <div id="line-chart"></div>
+                            <div class="content-inner">
+                                <div class="panel-head">Community Growth</div>
+                                <div class="content-area">
+                                    <div id="line-chart"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-12 col-xl-4">
                         <div class="content-panel">
-                            <div class="panel-head">Campaign Media</div>
-                            <div class="content-area">
-                                <div id="donut-chart"></div>
+                            <div class="content-inner">
+                                <div class="panel-head">Campaign Media</div>
+                                <div class="content-area">
+                                    <div id="donut-chart"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -117,23 +121,42 @@
 
                     <div class="col-lg-12 col-xl-6">
                         <div class="content-panel">
-                            <div class="panel-head">Social Activities</div>
+                            <div class="content-inner">
+                                <div class="panel-head">Social Activities</div>
 
-                            <div class="content-area">
-                                <div id="activity">
+                                <div class="content-area">
+                                    <div id="activity">
 
-                                    <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12">
 
-                                            <a class="line" href="">
+                                                <a class="line" href="">
 
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/sample-profile-1.jpg" alt="Profile picture">
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/sample-profile-1.jpg" alt="Profile picture">
+                                                        </div>
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                            </div>
+                                                            <div class="account">
+                                                            <span class="icons">
+                                                                <i class="fa fb fa-facebook-square"></i>
+                                                                <i class="fa tw fa-twitter-square"></i>
+                                                                <i class="fa in fa-linkedin-square"></i>
+                                                            </span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="media-body text">
+
+                                                    <!--<div class="profile-pic col-md-2">
+                                                        <img src="img/sample-profile-1.jpg">
+                                                    </div>
+                                                    <div class="text col-md-10">
                                                         <div class="desc">
-                                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                                         </div>
                                                         <div class="account">
                                                             <span class="icons">
@@ -143,180 +166,164 @@
                                                             </span>
                                                             <span class="account-name">@userName</span>
                                                         </div>
-                                                    </div>
-                                                </div>
+                                                    </div>-->
+                                                </a>
 
-                                                <!--<div class="profile-pic col-md-2">
-                                                    <img src="img/sample-profile-1.jpg">
-                                                </div>
-                                                <div class="text col-md-10">
-                                                    <div class="desc">
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                                    </div>
-                                                    <div class="account">
-                                                        <span class="icons">
-                                                            <i class="fa fb fa-facebook-square"></i>
-                                                            <i class="fa tw fa-twitter-square"></i>
-                                                            <i class="fa in fa-linkedin-square"></i>
-                                                        </span>
-                                                        <span class="account-name">@userName</span>
-                                                    </div>
-                                                </div>-->
-                                            </a>
+                                                <a class="line" href="">
 
-                                            <a class="line" href="">
-
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/sample-profile-2.jpg" alt="Profile picture">
-                                                    </div>
-                                                    <div class="media-body text">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/sample-profile-2.jpg" alt="Profile picture">
                                                         </div>
-                                                        <div class="account">
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                            </div>
+                                                            <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                            <span class="account-name">@userName</span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                            </a>
+                                                </a>
 
-                                            <a class="line" href="">
+                                                <a class="line" href="">
 
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/user-profile.png" alt="Profile picture">
-                                                    </div>
-                                                    <div class="media-body text">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/user-profile.png" alt="Profile picture">
                                                         </div>
-                                                        <div class="account">
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                            </div>
+                                                            <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                            <span class="account-name">@userName</span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                            </a>
+                                                </a>
 
-                                            <a class="line" href="">
+                                                <a class="line" href="">
 
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/sample-profile-2.jpg" alt="Profile picture">
-                                                    </div>
-                                                    <div class="media-body text">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/sample-profile-2.jpg" alt="Profile picture">
                                                         </div>
-                                                        <div class="account">
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                            </div>
+                                                            <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                            <span class="account-name">@userName</span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                            </a>
+                                                </a>
 
-                                            <a class="line" href="">
+                                                <a class="line" href="">
 
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/user-profile.png" alt="Profile picture">
-                                                    </div>
-                                                    <div class="media-body text">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/user-profile.png" alt="Profile picture">
                                                         </div>
-                                                        <div class="account">
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                            </div>
+                                                            <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                            <span class="account-name">@userName</span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                            </a>
+                                                </a>
 
-                                            <a class="line" href="">
+                                                <a class="line" href="">
 
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/user-profile.png" alt="Profile picture">
-                                                    </div>
-                                                    <div class="media-body text">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/user-profile.png" alt="Profile picture">
                                                         </div>
-                                                        <div class="account">
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                            </div>
+                                                            <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                            <span class="account-name">@userName</span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                            </a>
+                                                </a>
 
-                                            <a class="line" href="">
+                                                <a class="line" href="">
 
-                                                <div class="media">
-                                                    <div class="profile-pic">
-                                                        <img src="img/sample-profile-1.jpg" alt="Profile picture">
-                                                    </div>
-                                                    <div class="media-body text">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                    <div class="media">
+                                                        <div class="profile-pic">
+                                                            <img src="img/sample-profile-1.jpg" alt="Profile picture">
                                                         </div>
-                                                        <div class="account">
+                                                        <div class="media-body text">
+                                                            <div class="desc">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                            </div>
+                                                            <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                            <span class="account-name">@userName</span>
+                                                                <span class="account-name">@userName</span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
 
-                                            </a>
+                                                </a>
 
+                                            </div>
                                         </div>
-                                    </div>
 
+                                    </div>
                                 </div>
                             </div>
-
 
                         </div>
                     </div>
 
                     <div class="col-lg-12 col-xl-6">
                         <div class="content-panel">
-                            <div class="panel-head">Campaign Media</div>
-                            <div class="content-area">
-                                <div id="line-chart-2"></div>
+                            <div class="content-inner">
+                                <div class="panel-head">Campaign Media</div>
+                                <div class="content-area">
+                                    <div id="line-chart-2"></div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -16,9 +16,9 @@
                     <li><a href="advanced-search.php">Advanced Search</a></li>
                     <li><a href="potential-matches.php">Account Merge</a></li>
                     <li><a href="saved-search.php">Saved Search</a></li>
-                    <li><a href="#">Keywords</a></li>
-                    <li><a href="#">Advance Bulk Insert</a></li>
-                    <li><a href="#">Statistics</a></li>
+                    <li><a href="manage-keywords.php">Manage Keywords</a></li>
+                    <li><a href="advanced-bulk-insert.php">Advanced Bulk Insert</a></li>
+                    <li><a href="statistics.php">Statistics</a></li>
                     <li><a href="#">Social Activities & Follow Ups</a></li>
                     <li><a href="#">Volunteers</a></li>
                     <li><a href="#">Resource</a></li>

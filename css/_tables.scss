@@ -1,5 +1,9 @@
 .table-wrap{
   overflow: auto;
+  &>.table{
+    max-width: 99.9999%;
+  }
+
   .fa-twitter{
     color: $tw-color;
   }

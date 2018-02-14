@@ -26,7 +26,7 @@ $( document ).ready(function() {
     /////////////////////////////////////////////////////////////////////////////////
 
 
-    //initial sizes
+    //side bar initial sizes
     set_sidebar_heights();
 
     // change heights when window resized
@@ -147,7 +147,7 @@ $( document ).ready(function() {
 
     // Check box recolor initiate
 
-    $('input').iCheck({
+    $('input.custom-icheck').iCheck({
         checkboxClass: 'icheckbox_minimal',
         radioClass: 'iradio_minimal',
         increaseArea: '20%' // optional

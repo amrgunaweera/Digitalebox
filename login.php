@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <input type="checkbox" class="form-check-input custom-icheck" id="exampleCheck1">
                                         <label class="form-check-label" for="exampleCheck1">Remember me</label>
                                     </div>
                                 </div>

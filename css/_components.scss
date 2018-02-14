@@ -11,3 +11,36 @@
     }
   }
 }
+
+.btn-group-toggle{
+  label{
+    &.active{
+      @include themify($themes) {
+        border-top: solid 3px themed('secondry-color');
+      }
+
+    }
+  }
+}
+
+label{
+  &.input-group-text{
+    font-size: 14px;
+  }
+}
+
+.nav-pills{
+  &>.nav-item{
+    &>.nav-link{
+      &.active{
+        background-color: transparent;
+        border-radius: 0;
+        @include themify($themes) {
+          background-color: #f5f5f5;
+          color: themed('primary-color');
+          border-bottom: 1px solid themed('primary-color');
+        }
+      }
+    }
+  }
+}
