@@ -275,7 +275,40 @@
         }, {
             name: 'Prospects',
             data: [16005, 11744, 17722, 19771, 20185, 32147, 39387, 24377]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
 
     });
 </script>

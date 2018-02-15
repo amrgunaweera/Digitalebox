@@ -97,7 +97,7 @@
                         <div class="content-panel">
                             <div class="content-inner">
                                 <div class="panel-head">Community Growth</div>
-                                <div class="content-area">
+                                <div class="content-area chart-side-padding">
                                     <div id="line-chart"></div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                         <div class="content-panel">
                             <div class="content-inner">
                                 <div class="panel-head">Campaign Media</div>
-                                <div class="content-area">
+                                <div class="content-area chart-side-padding">
                                     <div id="donut-chart"></div>
                                 </div>
                             </div>
@@ -321,7 +321,7 @@
                         <div class="content-panel">
                             <div class="content-inner">
                                 <div class="panel-head">Campaign Media</div>
-                                <div class="content-area">
+                                <div class="content-area chart-side-padding">
                                     <div id="line-chart-2"></div>
                                 </div>
                             </div>
@@ -372,7 +372,40 @@
                     }, {
                         name: 'Prospects',
                         data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-                    }]
+                    }],
+                    responsive: {
+                        rules: [{
+                            condition: {
+                                maxWidth: 700
+                            },
+                            chartOptions: {
+                                legend: {
+                                    x: 0,
+                                    y: 10,
+                                    floating: false,
+                                    align: 'center',
+                                    verticalAlign: 'bottom',
+                                    layout: 'horizontal'
+                                },
+                                yAxis: {
+                                    labels: {
+                                        align: 'left',
+                                        x: 0,
+                                        y: -5
+                                    },
+                                    title: {
+                                        text: null
+                                    }
+                                },
+                                subtitle: {
+                                    text: null
+                                },
+                                credits: {
+                                    enabled: false
+                                }
+                            }
+                        }]
+                    }
 
                 });
 
@@ -396,12 +429,12 @@
                     plotOptions: {
                         pie: {
                             dataLabels: {
+                                useHTML: true,
                                 enabled: true,
-                                distance: -50,
+                                distance: -40,
                                 style: {
                                     fontWeight: 'bold',
-                                    color: 'white',
-                                    textOutline: false
+                                    color: 'white'
                                 }
                             },
                             startAngle: 0,
@@ -471,7 +504,40 @@
                     }, {
                         name: 'Prospects',
                         data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-                    }]
+                    }],
+                    responsive: {
+                        rules: [{
+                            condition: {
+                                maxWidth: 700
+                            },
+                            chartOptions: {
+                                legend: {
+                                    x: 0,
+                                    y: 10,
+                                    floating: false,
+                                    align: 'center',
+                                    verticalAlign: 'bottom',
+                                    layout: 'horizontal'
+                                },
+                                yAxis: {
+                                    labels: {
+                                        align: 'left',
+                                        x: 0,
+                                        y: -5
+                                    },
+                                    title: {
+                                        text: null
+                                    }
+                                },
+                                subtitle: {
+                                    text: null
+                                },
+                                credits: {
+                                    enabled: false
+                                }
+                            }
+                        }]
+                    }
 
                 });
 

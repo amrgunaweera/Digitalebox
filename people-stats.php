@@ -53,46 +53,52 @@
                                         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#v-pills-keywords" role="tab" aria-controls="pills-home" aria-selected="true">Keywords</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#v-pills-age" role="tab" aria-controls="pills-profile" aria-selected="false">Age</a>
+                                        <a class="nav-link" id="" data-toggle="pill" href="#v-pills-age" role="tab" aria-controls="pills-profile" aria-selected="false">Age</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#v-pills-city" role="tab" aria-controls="pills-contact" aria-selected="false">City</a>
+                                        <a class="nav-link" id="ch-city" data-toggle="pill" href="#v-pills-city" role="tab" aria-controls="pills-contact" aria-selected="false">City</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#v-pills-zip" role="tab" aria-controls="pills-contact" aria-selected="false">Zip</a>
+                                        <a class="nav-link" id="" data-toggle="pill" href="#v-pills-zip" role="tab" aria-controls="pills-contact" aria-selected="false">Zip</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#v-pills-gender" role="tab" aria-controls="pills-contact" aria-selected="false">Gender</a>
+                                        <a class="nav-link" id="" data-toggle="pill" href="#v-pills-gender" role="tab" aria-controls="pills-contact" aria-selected="false">Gender</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#v-pills-type" role="tab" aria-controls="pills-contact" aria-selected="false">Category</a>
+                                        <a class="nav-link" id="" data-toggle="pill" href="#v-pills-type" role="tab" aria-controls="pills-contact" aria-selected="false">Category</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#v-pills-media" role="tab" aria-controls="pills-contact" aria-selected="false">Media</a>
+                                        <a class="nav-link" id="" data-toggle="pill" href="#v-pills-media" role="tab" aria-controls="pills-contact" aria-selected="false">Media</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#v-pills-email" role="tab" aria-controls="pills-contact" aria-selected="false">Email</a>
+                                        <a class="nav-link" id="" data-toggle="pill" href="#v-pills-email" role="tab" aria-controls="pills-contact" aria-selected="false">Email</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-md-12">
                                 <div class="tab-content" id="v-pills-tabContent">
                                     <div class="tab-pane active" id="v-pills-keywords" role="tabpanel">
-                                        <div class="form-group">
-                                            <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                <option value=""></option>
-                                                <option value="" selected>Test</option>
-                                                <option value="" selected>iPhone</option>
-                                                <option value="" selected>Google</option>
-                                                <option value="" selected>Galaxy8</option>
-                                                <option value="" selected>Android Headlines</option>
-                                                <option value="">HTC</option>
-                                                <option value="">One Plus</option>
-                                                <option value="">Huawei</option>
-                                                <option value="">Xiomi</option>
-                                                <option value="">LG</option>
-                                            </select>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-10">
+                                                <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
+                                                    <option value=""></option>
+                                                    <option value="" selected>Test</option>
+                                                    <option value="" selected>iPhone</option>
+                                                    <option value="" selected>Google</option>
+                                                    <option value="" selected>Galaxy8</option>
+                                                    <option value="" selected>Android Headlines</option>
+                                                    <option value="">HTC</option>
+                                                    <option value="">One Plus</option>
+                                                    <option value="">Huawei</option>
+                                                    <option value="">Xiomi</option>
+                                                    <option value="">LG</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <button type="submit" class="btn btn-primary">Search</button>
+                                            </div>
                                         </div>
+
                                         <div id="chart-keywords"></div>
                                     </div>
                                     <div class="tab-pane" id="v-pills-age" role="tabpanel">
@@ -136,6 +142,8 @@
 <script>
     $(document).ready(function () {
         $(".chosen-select").chosen();
+
+
     });
 
 
@@ -182,6 +190,7 @@
             column: {
                 stacking: 'normal',
                 dataLabels: {
+                    useHTML: true,
                     enabled: true,
                     color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
                 }
@@ -203,7 +212,40 @@
         }, {
             name: 'Others',
             data: [4, 3, 2, 1, 5]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
     });
 
     ////////////////////////////////  Age  ////////////////////////////////
@@ -296,6 +338,7 @@
                 formatter: function () {
                     return this.y > 5 ? this.point.name : null;
                 },
+                useHTML: true,
                 color: '#ffffff',
                 distance: -30
             }
@@ -316,12 +359,13 @@
         responsive: {
             rules: [{
                 condition: {
-                    maxWidth: 400
+                    maxWidth: 500
                 },
                 chartOptions: {
                     series: [{
                         id: 'versions',
                         dataLabels: {
+                            useHTML: false,
                             enabled: false
                         }
                     }]
@@ -329,6 +373,7 @@
             }]
         }
     });
+
 
     ////////////////////////////////  City  ////////////////////////////////
     Highcharts.chart('chart-city', {
@@ -373,6 +418,7 @@
             column: {
                 stacking: 'normal',
                 dataLabels: {
+                    useHTML: true,
                     enabled: true,
                     color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
                 }
@@ -394,8 +440,43 @@
         }, {
             name: 'Others',
             data: [5, 3, 2, 1, 4]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
     });
+
+
 
     ////////////////////////////////  Zip Code  ////////////////////////////////
     Highcharts.chart('chart-zip', {
@@ -440,6 +521,7 @@
             column: {
                 stacking: 'normal',
                 dataLabels: {
+                    useHTML: true,
                     enabled: true,
                     color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
                 }
@@ -461,7 +543,40 @@
         }, {
             name: 'Others',
             data: [5, 3, 4, 7, 2]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
     });
 
     ////////////////////////////////  Gender  ////////////////////////////////
@@ -470,7 +585,7 @@
             type: 'column'
         },
         title: {
-            text: 'People Statistics by Top 5 Zip Code'
+            text: 'People Statistics by Gender'
         },
         xAxis: {
             categories: ['Male', 'Female', 'Other']
@@ -507,6 +622,7 @@
             column: {
                 stacking: 'normal',
                 dataLabels: {
+                    useHTML: true,
                     enabled: true,
                     color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
                 }
@@ -528,7 +644,40 @@
         }, {
             name: 'Others',
             data: [3, 4, 4]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
     });
 
     ////////////////////////////////  Category  ////////////////////////////////
@@ -623,6 +772,7 @@
             column: {
                 stacking: 'normal',
                 dataLabels: {
+                    useHTML: true,
                     enabled: true,
                     color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
                 }
@@ -644,7 +794,40 @@
         }, {
             name: 'Others',
             data: [4, 3, 2, 1, 5, 3, 2, 1]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
     });
 
     ////////////////////////////////  Email  ////////////////////////////////
@@ -692,6 +875,9 @@
             }]
         }]
     });
+
+
+
 
 
 </script>

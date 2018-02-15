@@ -184,6 +184,10 @@ input::placeholder {
     .theme-green .chosen-container-multi .chosen-drop .chosen-results .highlighted {
       background-color: #39a655; }
 
+.chart-side-padding {
+  padding-left: 10px !important;
+  padding-right: 10px !important; }
+
 /*
  * App Header
  */
@@ -970,6 +974,13 @@ input::placeholder {
       background-color: #f5f5f5;
       color: #27302c;
       border-bottom: 1px solid #27302c; }
+  .app-body .highcharts-root {
+    font-family: open_sansregular, sans-serif !important; }
+  .app-body .highcharts-container .highcharts-data-label span {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+    font-family: open_sansregular, sans-serif !important; }
+  .app-body #chart-age .highcharts-container .highcharts-series-1 .highcharts-data-label span {
+    text-shadow: none; }
 
 .login-page .login-content {
   position: relative;

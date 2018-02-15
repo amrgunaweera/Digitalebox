@@ -56,7 +56,7 @@
                                             </div>
                                             <div class="col-md-4 col-xl-3">
                                                 <form>
-                                                    <div class="input-group mb-3 mt-4 mt-md-0">
+                                                    <div class="input-group mb-3">
                                                         <div class="input-group-prepend">
                                                             <label class="input-group-text" for="inputGroupSelect01">Range</label>
                                                         </div>
@@ -94,7 +94,7 @@
                                             </div>
                                             <div class="col-md-4 col-xl-3">
                                                 <form>
-                                                    <div class="input-group mb-3 mt-4 mt-md-0">
+                                                    <div class="input-group mb-3">
                                                         <div class="input-group-prepend">
                                                             <label class="input-group-text" for="inputGroupSelect01">Range</label>
                                                         </div>
@@ -177,7 +177,40 @@
         }, {
             name: 'Prospects',
             data: [11744, 17722, 19771, 16005, 20185, 32147, 24377, 39387]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
 
     });
 
@@ -212,7 +245,40 @@
         series: [{
             name: 'New Supporters',
             data: [24916, 24064, 29742, 32490, 29851, 30282, 40434, 38121]
-        }]
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 700
+                },
+                chartOptions: {
+                    legend: {
+                        x: 0,
+                        y: 10,
+                        floating: false,
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
+                    },
+                    yAxis: {
+                        labels: {
+                            align: 'left',
+                            x: 0,
+                            y: -5
+                        },
+                        title: {
+                            text: null
+                        }
+                    },
+                    subtitle: {
+                        text: null
+                    },
+                    credits: {
+                        enabled: false
+                    }
+                }
+            }]
+        }
 
     });
 </script>

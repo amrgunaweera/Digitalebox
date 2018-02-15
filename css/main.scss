@@ -233,6 +233,11 @@ input{
   }
 }
 
+.chart-side-padding{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
 /*
  * App Header
  */
@@ -1090,6 +1095,9 @@ input{
   @import "components";
 
   @import "advancedSearch";
+
+  @import "charts";
+
 
   .main-content{
 
