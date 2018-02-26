@@ -122,6 +122,15 @@ input::placeholder {
 .in-icon {
   color: #3b5998; }
 
+.font10 {
+  font-size: 10px; }
+
+.font12 {
+  font-size: 12px; }
+
+.font14 {
+  font-size: 14px; }
+
 .tooltip .arrow::before {
   border-top-color: #fff;
   border-bottom-color: #fff; }
@@ -860,10 +869,12 @@ input::placeholder {
       .theme-green .app-body .dashboard #activity .line:hover .desc {
         color: #191f1c; }
   .app-body .custom-file-label {
-    min-height: 40px; }
+    min-height: 40px;
+    line-height: 1.6rem; }
     .app-body .custom-file-label::after {
       min-height: 38px;
-      border-radius: 0; }
+      border-radius: 0;
+      line-height: 1.6rem; }
   .app-body .table-wrap {
     overflow: auto; }
     .app-body .table-wrap > .table {
@@ -979,6 +990,19 @@ input::placeholder {
       background-color: #f5f5f5;
       color: #27302c;
       border-bottom: 1px solid #27302c; }
+  .app-body .bootstrap-datetimepicker-widget a[data-action] {
+    padding: 6px 0;
+    height: auto !important;
+    box-shadow: none; }
+  .app-body .keyword-highlight {
+    font-size: 12px;
+    font-weight: normal;
+    padding: .15em .2em; }
+    .theme-blue .app-body .keyword-highlight {
+      background-color: #f8ac59; }
+  .app-body .profile-pic-lg img {
+    width: 40px !important;
+    height: 40px !important; }
   .app-body .highcharts-root {
     font-family: open_sansregular, sans-serif !important; }
   .app-body .highcharts-container .highcharts-data-label span {

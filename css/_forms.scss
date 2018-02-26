@@ -1,8 +1,10 @@
 .custom-file-label{
   min-height: 40px;
+  line-height: 1.6rem;
 
   &::after{
     min-height: 38px;
     border-radius: 0;
+    line-height: 1.6rem;
   }
 }

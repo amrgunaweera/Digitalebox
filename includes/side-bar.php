@@ -19,7 +19,7 @@
                     <li><a href="manage-keywords.php">Manage Keywords</a></li>
                     <li><a href="advanced-bulk-insert.php">Advanced Bulk Insert</a></li>
                     <li><a href="statistics.php">Statistics</a></li>
-                    <li><a href="#">Social Activities & Follow Ups</a></li>
+                    <li><a href="social-activities.php">Social Activities & Follow Ups</a></li>
                     <li><a href="#">Volunteers</a></li>
                     <li><a href="#">Resource</a></li>
                     <li><a href="#">Activities</a></li>

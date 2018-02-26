@@ -148,6 +148,16 @@ input{
   color: $in-color;
 }
 
+.font10{
+  font-size: 10px;
+}
+.font12{
+  font-size: 12px;
+}
+.font14{
+  font-size: 14px;
+}
+
 .tooltip{
   .arrow{
     &::before{

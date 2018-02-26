@@ -418,7 +418,7 @@
                         plotShadow: false
                     },
                     title: {
-                        text: 'Campaign<br>Media<br>2018',
+                        text: '',
                         align: 'center',
                         verticalAlign: 'middle',
                         y: -10

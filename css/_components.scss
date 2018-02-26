@@ -44,3 +44,25 @@ label{
     }
   }
 }
+
+.bootstrap-datetimepicker-widget a[data-action]{
+  padding: 6px 0;
+  height: auto !important;
+  box-shadow: none;
+}
+
+.keyword-highlight{
+  font-size: 12px;
+  font-weight: normal;
+  @include themify($themes) {
+    background-color: themed('third-color');
+  }
+  padding: .15em .2em;
+}
+
+.profile-pic-lg{
+  img{
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
