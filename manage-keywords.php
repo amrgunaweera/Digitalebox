@@ -37,7 +37,7 @@
                                 <div class="form-group col-md-4">
                                     <label for="from-date">From Date</label>
                                     <div class="input-group date" id="from-date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#from-date" placeholder="00/00/1990"/>
+                                        <input type="text" class="form-control datetimepicker-input" data-target="#from-date" placeholder="1990-01-01"/>
                                         <div class="input-group-append" data-target="#from-date" data-toggle="datetimepicker">
                                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                         </div>
@@ -46,7 +46,7 @@
                                 <div class="form-group col-md-4">
                                     <label for="to-date">To Date</label>
                                     <div class="input-group date" id="to-date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#to-date" placeholder="00/00/1990"/>
+                                        <input type="text" class="form-control datetimepicker-input" data-target="#to-date" placeholder="1990-01-01"/>
                                         <div class="input-group-append" data-target="#to-date" data-toggle="datetimepicker">
                                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                         </div>
@@ -100,6 +100,11 @@
 
 <script>
     $(document).ready(function () {
-
+        $('#from-date').datetimepicker({
+            format: 'YYYY-MM-DD'
+        });
+        $('#to-date').datetimepicker({
+            format: 'YYYY-MM-DD'
+        });
     });
 </script>

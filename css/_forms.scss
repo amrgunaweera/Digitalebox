@@ -1,3 +1,8 @@
-.networks{
+.custom-file-label{
+  min-height: 40px;
 
+  &::after{
+    min-height: 38px;
+    border-radius: 0;
+  }
 }

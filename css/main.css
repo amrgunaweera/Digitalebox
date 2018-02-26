@@ -859,6 +859,11 @@ input::placeholder {
         color: #293846; }
       .theme-green .app-body .dashboard #activity .line:hover .desc {
         color: #191f1c; }
+  .app-body .custom-file-label {
+    min-height: 40px; }
+    .app-body .custom-file-label::after {
+      min-height: 38px;
+      border-radius: 0; }
   .app-body .table-wrap {
     overflow: auto; }
     .app-body .table-wrap > .table {

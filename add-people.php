@@ -118,7 +118,7 @@
 
                                         <label for="address">Date of Birth</label>
                                         <div class="input-group date" id="dob1" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="00/00/1990"/>
+                                            <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="1990-01-01"/>
                                             <div class="input-group-append" data-target="#dob1" data-toggle="datetimepicker">
                                                 <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                             </div>
@@ -218,7 +218,7 @@
 <script>
     $(document).ready(function () {
         $('#dob1').datetimepicker({
-            format: 'L'
+            format: 'YYYY-MM-DD'
         });
 
         $(".chosen-select").chosen();

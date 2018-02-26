@@ -12,8 +12,8 @@
             <th scope="col">Created by</th>
             <th scope="col">Time Spent</th>
             <th scope="col">Progress</th>
-            <th scope="col">Status</th>
-            <th scope="col">Errors</th>
+            <th scope="col" class="text-center">Status</th>
+            <th scope="col" class="text-center">Errors</th>
             <th class="text-center actions saved-search" scope="col">Actions</th>
         </tr>
         </thead>
@@ -21,7 +21,7 @@
 
         <tr>
             <td>Phone Number</td>
-            <td>29/01/2018 07:38:08</td>
+            <td>2018-01-29 07:38:08</td>
             <td>Digitalbox Testing</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 1 sec</td>
             <td>
@@ -29,8 +29,8 @@
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
                 </div>
             </td>
-            <td><span class="badge badge-pill badge-success">Active</span></td>
-            <td><a href="" title="Download error report"><i class="fa fa-download fa-lg"></i></a></td>
+            <td class="text-center"><span class="badge badge-pill badge-success">Active</span></td>
+            <td class="text-center"><a href="" title="Download error report"><i class="fa fa-download fa-lg"></i></a></td>
             <td class="text-center">
                 <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
                 <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
@@ -40,7 +40,7 @@
 
         <tr>
             <td>ProspectDigibox</td>
-            <td>13/11/2017 09:46:07</td>
+            <td>2017-11-13 09:46:07</td>
             <td>Digitalbox Testing</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 29 sec</td>
             <td>
@@ -48,7 +48,7 @@
                     <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                 </div>
             </td>
-            <td><span class="badge badge-pill badge-danger">Deleted</span></td>
+            <td class="text-center"><span class="badge badge-pill badge-danger">Deleted</span></td>
             <td></td>
             <td class="text-center">
                 <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
@@ -59,7 +59,7 @@
 
         <tr>
             <td>15130 Search</td>
-            <td>04/07/2017 08:14:40</td>
+            <td>2017-07-04 08:14:40</td>
             <td>Elania Zito</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 101 sec</td>
             <td>
@@ -67,8 +67,8 @@
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                 </div>
             </td>
-            <td><span class="badge badge-pill badge-success">Active</span></td>
-            <td><a href="" title="Download error report"><i class="fa fa-download fa-lg"></i></a></td>
+            <td class="text-center"><span class="badge badge-pill badge-success">Active</span></td>
+            <td class="text-center"><a href="" title="Download error report"><i class="fa fa-download fa-lg"></i></a></td>
             <td class="text-center">
                 <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
                 <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>

@@ -256,7 +256,7 @@
                                                     </table>
                                                 </div>
 
-                                                <button class="btn btn-secondary btn-sm disabled">Auto Merge</button>
+                                                <button class="btn btn-secondary btn-sm disabled float-right">Auto Merge</button>
 
                                             </div>
                                         </div>
@@ -318,7 +318,7 @@
 
                                                 <p class="mt-2 notes"><i>Note: Please use the auto merge, if you found this page empty due to no conflicting attributes.</i></p>
 
-                                                <button class="btn btn-primary btn-sm show-merge mt-3" data-dismiss="modal">Save</button>
+                                                <button class="btn btn-primary btn-sm show-merge mt-3 float-right" data-dismiss="modal">Save</button>
 
                                             </div>
                                         </div>

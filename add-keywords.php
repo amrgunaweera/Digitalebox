@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">People</a> / <a href="">Advanced Bulk Insert</a> / <span>Add Keyword</span>
+                        <a href="">Home</a> / <a href="">People</a> / <a href="">Manage Keywords</a> / <span>Add Keyword</span>
                     </div>
                 </div>
             </div>

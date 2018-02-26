@@ -37,7 +37,7 @@
                                 <div class="form-group col-md-4">
                                     <label for="from-date">From Date</label>
                                     <div class="input-group date" id="from-date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#from-date" placeholder="00/00/1990"/>
+                                        <input type="text" class="form-control datetimepicker-input" data-target="#from-date" placeholder="1990-01-01"/>
                                         <div class="input-group-append" data-target="#from-date" data-toggle="datetimepicker">
                                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                         </div>
@@ -46,7 +46,7 @@
                                 <div class="form-group col-md-4">
                                     <label for="to-date">To Date</label>
                                     <div class="input-group date" id="to-date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#to-date" placeholder="00/00/1990"/>
+                                        <input type="text" class="form-control datetimepicker-input" data-target="#to-date" placeholder="1990-01-01"/>
                                         <div class="input-group-append" data-target="#to-date" data-toggle="datetimepicker">
                                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                         </div>
@@ -84,7 +84,7 @@
 
                                 <tr>
                                     <td>Phone Number</td>
-                                    <td>29/01/2018 07:38:08</td>
+                                    <td>2018-01-29 07:38:08</td>
                                     <td>Digitalbox Testing</td>
                                     <td class="text-center">
                                         <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
@@ -100,7 +100,7 @@
 
                                 <tr>
                                     <td>ProspectDigibox</td>
-                                    <td>13/11/2017 09:46:07</td>
+                                    <td>2017-11-13 09:46:07</td>
                                     <td>Digitalbox Testing</td>
                                     <td class="text-center">
                                         <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
@@ -116,7 +116,7 @@
 
                                 <tr>
                                     <td>15130 Search</td>
-                                    <td>04/07/2017 08:14:40</td>
+                                    <td>2017-07-04 08:14:40</td>
                                     <td>Elania Zito</td>
                                     <td class="text-center">
                                         <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
@@ -159,13 +159,13 @@
                                                 <div class="form-group">
                                                     <label for="end-date">End Date</label>
                                                     <div class="input-group date" id="end-date" data-target-input="nearest">
-                                                        <input type="text" class="form-control datetimepicker-input" data-target="#end-date" placeholder="00/00/1990"/>
+                                                        <input type="text" class="form-control datetimepicker-input" data-target="#end-date" placeholder="1990-01-01"/>
                                                         <div class="input-group-append" data-target="#end-date" data-toggle="datetimepicker">
                                                             <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="form-group">
+                                                <div class="form-group float-right">
                                                     <button type="submit" class="btn btn-primary">Send</button>
                                                     <button type="submit" class="btn btn-secondary">New Template</button>
                                                 </div>
@@ -301,14 +301,14 @@
 <script>
     $(document).ready(function () {
         $('#from-date').datetimepicker({
-            format: 'L'
+            format: 'YYYY-MM-DD'
         });
         $('#to-date').datetimepicker({
-            format: 'L'
+            format: 'YYYY-MM-DD'
         });
 
         $('#end-date').datetimepicker({
-            format: 'L'
+            format: 'YYYY-MM-DD'
         });
     });
 </script>
