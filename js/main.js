@@ -159,4 +159,35 @@ $( document ).ready(function() {
     $('[data-toggle="tooltip"]').tooltip();
     /////////////////////////////////////////////////////////////////////////////////
 
+
+    // Main Menu State
+    if (localStorage) {
+        /*
+         * Open menu on load
+         */
+
+        if (localStorage) {
+            /*$(".has-arrow").attr('aria-expanded',localStorage.secExpanded);
+            if(localStorage.secExpanded == 'true'){
+                $(".collapse").attr('aria-expanded',localStorage.secExpanded).addClass('in');
+            }else{
+                $(".collapse").attr('aria-expanded',localStorage.secExpanded).removeClass('in');
+            }*/
+
+            $('*[data-section="' + localStorage.secExpanded + '"]').attr('aria-expanded','true');
+            $('*[data-section="' + localStorage.secExpanded + '"]').next().attr('aria-expanded',localStorage.secExpanded).addClass('in');
+
+            console.log(localStorage.secExpanded);
+        }
+
+        /*
+         * Save the state
+         */
+        $(".side-bar .metismenu > li > a").click(function () {
+            localStorage.secExpanded = $(this).data('section');
+            /*localStorage.secExpanded = $(this).delay(500).attr('aria-expanded');*/
+        });
+    }
+    /////////////////////////////////////////////////////////////////////////////////
+
 });

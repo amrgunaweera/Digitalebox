@@ -13,15 +13,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="title">
-                        Add Keyword
+                        Volunteers
                     </div>
                     <div class="desc">
-                        Define new keyword
+                        Users those who were registered with the system
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">People</a> / <a href="">Manage Keywords</a> / <span>Add Keyword</span>
+                        <a href="">Home</a> / <a href="">People</a> / <span>Volunteers</span>
                     </div>
                 </div>
             </div>
@@ -31,37 +31,40 @@
             <div class="content-panel col-md-12">
                 <div class="content-inner">
                     <div class="content-area">
+
+                        <div class="content-panel-sub">
+                            <div class="panel-head">
+                                Search by
+                            </div>
+                        </div>
+
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-md-4">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="Name">
-                                </div>
-                                <div class="form-group col-md-4">
-                                    <label for="exampleFormControlSelect1">Behaviour</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>Manual</option>
-                                        <option>Auto</option>
+                                    <select class="form-control" id="">
+                                        <option>- Select -</option>
+                                        <option>Testing</option>
+                                        <option>Digitalebox</option>
+                                        <option>Keeneye</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="exampleFormControlSelect1">Status</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>Active</option>
-                                        <option>Inactive</option>
-                                        <option>Deleted</option>
-                                    </select>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-row text-left text-md-right">
-                                <div class="form-group col-md-12">
-                                    <button type="submit" onclick="location.href='manage-keywords.php'" class="btn btn-primary">Create</button>
-                                    <button type="button" onclick="location.href='manage-keywords.php'" class="btn btn-secondary">Cancel</button>
-                                </div>
+
                             </div>
+
                         </form>
+
+                        <?php include 'includes/grid.php'; ?>
+
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -76,6 +79,11 @@
 
 <script>
     $(document).ready(function () {
-
+        $('#from-date').datetimepicker({
+            format: 'YYYY-MM-DD'
+        });
+        $('#to-date').datetimepicker({
+            format: 'YYYY-MM-DD'
+        });
     });
 </script>

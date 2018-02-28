@@ -43,20 +43,27 @@
                     <div class="content-inner">
                         <div class="content-area">
 
-                            <form class="mt-4">
+                            <div class="content-panel-sub">
+                                <div class="panel-head">
+                                    Search by
+                                </div>
+                            </div>
+
+                            <form>
                                 <div class="form-row">
-                                    <div class="form-group col-md-6">
+                                    <div class="form-group col-md-5">
                                         <label for="fname">First Name</label>
                                         <input type="text" class="form-control" id="fname" placeholder="First Name">
                                     </div>
-                                    <div class="form-group col-md-6">
+                                    <div class="form-group col-md-5">
                                         <label for="lname">Last Name</label>
                                         <input type="text" class="form-control" id="lname" placeholder="Last Name">
                                     </div>
-                                </div>
-                                <div class="form-row text-left text-md-right">
-                                    <div class="form-group col-md-12">
-                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    <div class="form-group col-md-2">
+                                        <label for="" class="d-none d-md-block">&nbsp;</label>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary">Search</button>
+                                        </div>
                                     </div>
                                 </div>
 

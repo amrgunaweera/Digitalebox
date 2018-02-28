@@ -37,16 +37,19 @@
                             <a class="nav-link active" href="">Social Activities</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="follow-up.php">Follow Up</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="broadcast.php">Broadcast</a>
                         </li>
                     </ul>
                     <div class="content-inner">
                         <div class="content-area">
 
-                            <form class="mt-4">
+                            <div class="content-panel-sub">
+                                <div class="panel-head">
+                                    Search by
+                                </div>
+                            </div>
+
+                            <form>
                                 <div class="form-row">
                                     <div class="form-group col-md-3">
                                         <label for="from-date">From Date</label>

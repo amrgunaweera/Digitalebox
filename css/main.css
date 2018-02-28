@@ -875,6 +875,9 @@ input::placeholder {
       min-height: 38px;
       border-radius: 0;
       line-height: 1.6rem; }
+  .app-body .form-feild-info {
+    font-size: 10px;
+    margin-top: 3px; }
   .app-body .table-wrap {
     overflow: auto; }
     .app-body .table-wrap > .table {
@@ -963,6 +966,8 @@ input::placeholder {
     font-size: 12px; }
   .app-body .modal .notes {
     font-size: 12px; }
+  .app-body .modal .resource-details img {
+    max-height: 230px; }
   .app-body .card .card-body .profile-pic {
     width: 50px;
     height: 50px;
@@ -1003,6 +1008,45 @@ input::placeholder {
   .app-body .profile-pic-lg img {
     width: 40px !important;
     height: 40px !important; }
+  .app-body .resources .resource {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    margin-bottom: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+    .app-body .resources .resource:hover .pic img {
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2); }
+    .app-body .resources .resource .pic {
+      width: 200px;
+      height: 200px;
+      display: block;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+      .app-body .resources .resource .pic img {
+        max-width: 200px;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3); }
+    .app-body .resources .resource .title {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: bold; }
+    .app-body .resources .resource .created-by {
+      font-size: 10px;
+      margin-bottom: 10px;
+      margin-top: 5px; }
+    .app-body .resources .resource .status {
+      margin-bottom: 10px; }
+    .app-body .resources .resource .actions a {
+      margin-left: 5px;
+      margin-right: 5px; }
   .app-body .highcharts-root {
     font-family: open_sansregular, sans-serif !important; }
   .app-body .highcharts-container .highcharts-data-label span {

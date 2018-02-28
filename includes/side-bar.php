@@ -10,7 +10,7 @@
             </li>
 
             <li>
-                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> People</a>
+                <a class="has-arrow" data-section="1" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> People</a>
                 <ul aria-expanded="false">
                     <li><a href="add-people.php">Add People</a></li>
                     <li><a href="advanced-search.php">Advanced Search</a></li>
@@ -19,17 +19,17 @@
                     <li><a href="manage-keywords.php">Manage Keywords</a></li>
                     <li><a href="advanced-bulk-insert.php">Advanced Bulk Insert</a></li>
                     <li><a href="statistics.php">Statistics</a></li>
-                    <li><a href="social-activities.php">Social Activities & Follow Ups</a></li>
-                    <li><a href="#">Volunteers</a></li>
-                    <li><a href="#">Resource</a></li>
-                    <li><a href="#">Activities</a></li>
+                    <li><a href="social-activities.php">Social Activities & Broadcast</a></li>
+                    <li><a href="volunteers.php">Volunteers</a></li>
+                    <li><a href="resource.php">Resources</a></li>
+                    <li><a href="activities.php">Activities</a></li>
                     <li><a href="#">Donation & Membership</a></li>
                     <li><a href="#">Friend Finder</a></li>
                 </ul>
             </li>
 
             <li>
-                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
+                <a class="has-arrow" data-section="2" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
                 <ul aria-expanded="false">
                     <li><a href="#">Message Templates</a></li>
                     <li><a href="#">New Campaign</a></li>
@@ -41,7 +41,7 @@
             </li>
 
             <li>
-                <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-cogs"></span> System</a>
+                <a class="has-arrow" data-section="3" href="#" aria-expanded="false"><span class="fa fa-fw fa-cogs"></span> System</a>
                 <ul aria-expanded="false">
                     <li><a href="#">Manage Permissions</a></li>
                     <li><a href="#">Manage Roles</a></li>

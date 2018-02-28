@@ -13,15 +13,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="title">
-                        Saved Search
+                        Activities
                     </div>
                     <div class="desc">
-                        Different search criterias saved by you.
+                        User activities of DigitaleBox
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">People</a> / <span>Saved Search</span>
+                        <a href="">Home</a> / <a href="">People</a> / <span>Activities</span>
                     </div>
                 </div>
             </div>
@@ -32,46 +32,6 @@
                 <div class="content-inner">
                     <div class="content-area">
 
-                        <div class="content-panel-sub">
-                            <div class="panel-head">
-                                Search by
-                            </div>
-                        </div>
-
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-md-3">
-                                    <label for="from-date">From Date</label>
-                                    <div class="input-group date" id="from-date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#from-date" placeholder="1990-01-01"/>
-                                        <div class="input-group-append" data-target="#from-date" data-toggle="datetimepicker">
-                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="to-date">To Date</label>
-                                    <div class="input-group date" id="to-date" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#to-date" placeholder="1990-01-01"/>
-                                        <div class="input-group-append" data-target="#to-date" data-toggle="datetimepicker">
-                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="criteria">Criteria name</label>
-                                    <input type="text" class="form-control" id="criteria" placeholder="Criteria name">
-                                </div>
-                                <div class="form-group col-md-3">
-                                    <label for="" class="d-none d-md-block">&nbsp;</label>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Search</button>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </form>
-
                         <div class="text-right results-count mt-4">
                             Displaying 1-10 of 2420 results
                         </div>
@@ -81,60 +41,47 @@
                             <table class="table table-hover table-striped table-custom">
                                 <thead>
                                 <tr>
-                                    <th scope="col">Criteria Name</th>
-                                    <th scope="col">Created at</th>
-                                    <th scope="col">Created by</th>
-                                    <th class="text-center actions saved-search" scope="col">Actions</th>
+                                    <th scope="col" class="text-center">Profile</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Date Time</th>
+                                    <th scope="col">Activity</th>
                                 </tr>
                                 </thead>
                                 <tbody>
 
                                 <tr>
-                                    <td>Phone Number</td>
-                                    <td>2018-01-29 07:38:08</td>
-                                    <td>Digitalbox Testing</td>
-                                    <td class="text-center">
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="SMS Campaign"><i class="fa fa-mobile-phone fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="Email Campaign"><i class="fa fa-envelope fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="Twitter Campaign"><i class="fa fa-twitter fa-lg"></i></a>
-
-                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
-                                        <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
-                                    </td>
+                                    <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
+                                    <td>DB BO Testing</td>
+                                    <td>2018-02-28 10:16:31</td>
+                                    <td>Viewed advanced search people</td>
                                 </tr>
 
                                 <tr>
-                                    <td>ProspectDigibox</td>
-                                    <td>2017-11-13 09:46:07</td>
-                                    <td>Digitalbox Testing</td>
-                                    <td class="text-center">
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="SMS Campaign"><i class="fa fa-mobile-phone fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="Email Campaign"><i class="fa fa-envelope fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="Twitter Campaign"><i class="fa fa-twitter fa-lg"></i></a>
-
-                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
-                                        <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
-                                    </td>
+                                    <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
+                                    <td>DB BO Testing</td>
+                                    <td>2018-02-28 10:13:22</td>
+                                    <td>Viewed dashboard</td>
                                 </tr>
 
                                 <tr>
-                                    <td>15130 Search</td>
-                                    <td>2017-07-04 08:14:40</td>
-                                    <td>Elania Zito</td>
-                                    <td class="text-center">
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="SMS Campaign"><i class="fa fa-mobile-phone fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="Email Campaign"><i class="fa fa-envelope fa-lg"></i></a>
-                                        <a href="" data-toggle="modal" data-target="#sendCampaign" title="Twitter Campaign"><i class="fa fa-twitter fa-lg"></i></a>
+                                    <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
+                                    <td>DB BO Testing</td>
+                                    <td>2018-02-28 09:05:20</td>
+                                    <td>Search social feed</td>
+                                </tr>
 
-                                        <a href="" data-toggle="modal" data-target="#viewDetails" title="View Details"><i class="fa fa-eye fa-lg"></i></a>
-                                        <a href="" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
-                                        <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
-                                    </td>
+                                <tr>
+                                    <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
+                                    <td>DB BO Testing</td>
+                                    <td>2018-02-28 09:04:47</td>
+                                    <td>Created a new membership page</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
+                                    <td>DB BO Testing</td>
+                                    <td>2018-02-28 09:04:29</td>
+                                    <td>Viewed Inbox message</td>
                                 </tr>
 
                                 </tbody>
