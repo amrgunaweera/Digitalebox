@@ -45,8 +45,8 @@
 
                             <div class="row">
                                 <div class="col-md-12 text-left">
-                                    <button type="submit" class="btn btn-primary">Create Broadcast</button>
-                                    <button type="submit" class="btn btn-secondary">Authenticate</button>
+                                    <button type="submit" class="btn btn-primary" onclick="window.location='create-broadcast-messages.php';">Create Broadcast</button>
+                                    <button type="submit" class="btn btn-secondary" title="Authenticate Social Networks">Authenticate</button>
                                 </div>
                             </div>
 

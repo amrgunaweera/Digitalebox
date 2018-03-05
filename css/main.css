@@ -70,6 +70,9 @@ input::placeholder {
   -ms-border-radius: 0 !important;
   border-radius: 0 !important; }
 
+.input-group-text {
+  height: 40px; }
+
 .btn {
   font-size: 14px;
   height: 40px;
@@ -168,6 +171,18 @@ input::placeholder {
 .theme-blue .btn-secondary, .theme-blue .badge-secondary {
   background-color: #f8ac59;
   border-color: #f8ac59; }
+.btn-secondary i, .badge-secondary i {
+  color: #ffffff; }
+
+.btn-fb {
+  color: #ffffff !important;
+  background-color: #4867aa;
+  border-color: #4867aa; }
+
+.btn-tw {
+  color: #ffffff !important;
+  background-color: #2daae2;
+  border-color: #2daae2; }
 
 .form-check {
   padding-left: 0; }
@@ -878,6 +893,8 @@ input::placeholder {
   .app-body .form-feild-info {
     font-size: 10px;
     margin-top: 3px; }
+  .app-body .text-editor {
+    height: 300px; }
   .app-body .table-wrap {
     overflow: auto; }
     .app-body .table-wrap > .table {

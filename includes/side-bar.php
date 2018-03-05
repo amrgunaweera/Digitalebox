@@ -23,15 +23,14 @@
                     <li><a href="volunteers.php">Volunteers</a></li>
                     <li><a href="resource.php">Resources</a></li>
                     <li><a href="activities.php">Activities</a></li>
-                    <li><a href="#">Donation & Membership</a></li>
-                    <li><a href="#">Friend Finder</a></li>
+                    <li><a href="friend-finder.php">Friend Finder</a></li>
                 </ul>
             </li>
 
             <li>
                 <a class="has-arrow" data-section="2" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
                 <ul aria-expanded="false">
-                    <li><a href="#">Message Templates</a></li>
+                    <li><a href="message-templates.php">Message Templates</a></li>
                     <li><a href="#">New Campaign</a></li>
                     <li><a href="#">Create A/B Testing</a></li>
                     <li><a href="#">Sent Campaigns</a></li>
