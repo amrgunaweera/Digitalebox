@@ -541,7 +541,9 @@ input::placeholder {
  */
 .app-body {
   height: 100%;
-  overflow: auto; }
+  overflow: auto;
+  /*   New Campaign Stepper   */
+  /*   New Campaign Stepper  ends  */ }
   .theme-blue .app-body {
     background-color: #f3f3f4; }
   .theme-green .app-body {
@@ -1084,6 +1086,76 @@ input::placeholder {
     .app-body .resources .resource .actions a {
       margin-left: 5px;
       margin-right: 5px; }
+  .app-body .stepper-wrap {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    min-height: 200px; }
+    .app-body .stepper-wrap .step-wizard {
+      display: inline-block;
+      position: relative;
+      width: 100%; }
+      .app-body .stepper-wrap .step-wizard .progress {
+        position: absolute;
+        top: 20px;
+        left: 12.5%;
+        width: 75%; }
+      .app-body .stepper-wrap .step-wizard .progressbar {
+        position: absolute;
+        background-color: #0aa89e;
+        opacity: 0.4;
+        height: 12px;
+        border: 1px solid #e5e6e6;
+        width: 0%;
+        -webkit-transition: width 0.6s ease;
+        -o-transition: width 0.6s ease;
+        transition: width 0.6s ease; }
+        .app-body .stepper-wrap .step-wizard .progressbar.empty {
+          opacity: 1;
+          width: 100%;
+          background-color: #e5e6e6; }
+      .app-body .stepper-wrap .step-wizard .stepper {
+        position: absolute;
+        width: 100%;
+        list-style: none;
+        padding: 0; }
+        .app-body .stepper-wrap .step-wizard .stepper li {
+          display: inline-block;
+          text-align: center;
+          width: 24.7%; }
+          .app-body .stepper-wrap .step-wizard .stepper li:last-child {
+            width: 70px; }
+          .app-body .stepper-wrap .step-wizard .stepper li a {
+            text-align: center;
+            display: block;
+            width: 70px;
+            text-decoration: none; }
+            .app-body .stepper-wrap .step-wizard .stepper li a .step {
+              width: 50px;
+              height: 50px;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+              line-height: 50px;
+              text-align: center;
+              -webkit-border-radius: 30px;
+              -moz-border-radius: 30px;
+              -ms-border-radius: 30px;
+              border-radius: 30px; }
+              .theme-blue .app-body .stepper-wrap .step-wizard .stepper li a .step {
+                background-color: #a7b1c2; }
+              .app-body .stepper-wrap .step-wizard .stepper li a .step i {
+                color: #ffffff; }
+            .theme-blue .app-body .stepper-wrap .step-wizard .stepper li a .title {
+              color: #a7b1c2; }
+          .theme-blue .app-body .stepper-wrap .step-wizard .stepper li.active a .step {
+            background-color: #3f80be; }
+          .theme-green .app-body .stepper-wrap .step-wizard .stepper li.active a .step {
+            background-color: #39a655; }
+          .theme-blue .app-body .stepper-wrap .step-wizard .stepper li.active a .title {
+            color: #3f80be; }
+          .theme-green .app-body .stepper-wrap .step-wizard .stepper li.active a .title {
+            color: #39a655; }
   .app-body .highcharts-root {
     font-family: open_sansregular, sans-serif !important; }
   .app-body .highcharts-container .highcharts-data-label span {

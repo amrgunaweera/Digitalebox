@@ -31,7 +31,7 @@
                 <a class="has-arrow" data-section="2" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
                 <ul aria-expanded="false">
                     <li><a href="message-templates.php">Message Templates</a></li>
-                    <li><a href="#">New Campaign</a></li>
+                    <li><a href="new-campaign.php">New Campaign</a></li>
                     <li><a href="#">Create A/B Testing</a></li>
                     <li><a href="#">Sent Campaigns</a></li>
                     <li><a href="#">Message Box</a></li>

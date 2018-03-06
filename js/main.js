@@ -182,41 +182,24 @@ $( document ).ready(function() {
             $('*[data-section="' + localStorage.secExpanded + '"]').next().attr('aria-expanded',localStorage.secExpanded).addClass('in');
         }
 
-        // Change Account State
+        // Change Account State panel status
         if(localStorage.accountStatus == 'off'){
             var menu_h = $('#side-bar').height() - 70;
 
-            $( ".slimScrollDiv" ).animate({
-                height: menu_h
-            }, 500, function() {
-                // Animation complete.
-            });
-            $( ".account-status" ).animate({
-                height: '40'
-            }, 500, function() {
-                // Animation complete.
-                $('.account-status .title  > i').addClass('fa-angle-up').removeClass('fa-angle-down');
-            });
-            console.log(localStorage.accountStatus);
-            $(this).toggleClass("isDown");
-        }else if(localStorage.accountStatus == 'on'){
-            console.log(localStorage.accountStatus)
+            $( ".slimScrollDiv" ).css('height',menu_h);
+            $( ".account-status" ).css('height','40');
+            $('.account-status .title  > i').addClass('fa-angle-up').removeClass('fa-angle-down');
 
+            $('.account-status i').addClass("isDown");
+
+        }else if(localStorage.accountStatus == 'on'){
             var menu_h = $('#side-bar').height() - 210;
 
-            $( ".slimScrollDiv" ).animate({
-                height: menu_h
-            }, 500, function() {
-                // Animation complete.
-            });
-            $( ".account-status" ).animate({
-                height: "180"
-            }, 500, function() {
-                // Animation complete.
-                $('.account-status .title  > i').addClass('fa-angle-down').removeClass('fa-angle-up');
-            });
+            $( ".slimScrollDiv" ).css('height',menu_h);
+            $( ".account-status" ).css('height','180');
+            $('.account-status .title  > i').addClass('fa-angle-down').removeClass('fa-angle-up');
 
-            $(this).toggleClass("isDown");
+            $('.account-status i').removeClass("isDown");
         }
 
 
