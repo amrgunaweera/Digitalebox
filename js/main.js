@@ -15,6 +15,9 @@ $( document ).ready(function() {
     });
     /////////////////////////////////////////////////////////////////////////////////
 
+    //Show account section
+    $('.account-section').show();
+
     // side menu start
     $("#menu1").metisMenu();
 
@@ -160,12 +163,13 @@ $( document ).ready(function() {
     /////////////////////////////////////////////////////////////////////////////////
 
 
-    // Main Menu State
+    // Web Store State
     if (localStorage) {
         /*
          * Open menu on load
          */
 
+        // Main Menu State
         if (localStorage) {
             /*$(".has-arrow").attr('aria-expanded',localStorage.secExpanded);
             if(localStorage.secExpanded == 'true'){
@@ -176,16 +180,66 @@ $( document ).ready(function() {
 
             $('*[data-section="' + localStorage.secExpanded + '"]').attr('aria-expanded','true');
             $('*[data-section="' + localStorage.secExpanded + '"]').next().attr('aria-expanded',localStorage.secExpanded).addClass('in');
-
-            console.log(localStorage.secExpanded);
         }
+
+        // Change Account State
+        if(localStorage.accountStatus == 'off'){
+            var menu_h = $('#side-bar').height() - 70;
+
+            $( ".slimScrollDiv" ).animate({
+                height: menu_h
+            }, 500, function() {
+                // Animation complete.
+            });
+            $( ".account-status" ).animate({
+                height: '40'
+            }, 500, function() {
+                // Animation complete.
+                $('.account-status .title  > i').addClass('fa-angle-up').removeClass('fa-angle-down');
+            });
+            console.log(localStorage.accountStatus);
+            $(this).toggleClass("isDown");
+        }else if(localStorage.accountStatus == 'on'){
+            console.log(localStorage.accountStatus)
+
+            var menu_h = $('#side-bar').height() - 210;
+
+            $( ".slimScrollDiv" ).animate({
+                height: menu_h
+            }, 500, function() {
+                // Animation complete.
+            });
+            $( ".account-status" ).animate({
+                height: "180"
+            }, 500, function() {
+                // Animation complete.
+                $('.account-status .title  > i').addClass('fa-angle-down').removeClass('fa-angle-up');
+            });
+
+            $(this).toggleClass("isDown");
+        }
+
 
         /*
          * Save the state
          */
+        // Side bar opened section
         $(".side-bar .metismenu > li > a").click(function () {
             localStorage.secExpanded = $(this).data('section');
             /*localStorage.secExpanded = $(this).delay(500).attr('aria-expanded');*/
+        });
+
+        // Side bar account section status
+        if(!localStorage.accountStatus){
+            localStorage.accountStatus = 'on';
+        }
+        $(".account-status > .title > i").click(function () {
+            if(localStorage.accountStatus == 'off'){
+                localStorage.accountStatus = 'on';
+            }else if(localStorage.accountStatus == 'on')
+            {
+                localStorage.accountStatus = 'off';
+            }
         });
     }
     /////////////////////////////////////////////////////////////////////////////////

@@ -116,7 +116,7 @@
                             </div>
                             <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                 <div href="" class="resource">
-                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://via.placeholder.com/200x200" alt="" class="img-thumbnail"></a>
+                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://via.placeholder.com/200x200" alt="" class="img-thumbnail object-fit_cover"></a>
                                     <div class="title">Resource Title</div>
                                     <div class="desc">Resource description goes here</div>
                                     <div class="created-by">by Abc 20mins ago</div>
@@ -128,7 +128,7 @@
                             </div>
                             <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                 <div href="" class="resource">
-                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/officeword.png" alt="" class="img-thumbnail"></a>
+                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/officeword.png" alt="" class="img-thumbnail object-fit_cover"></a>
                                     <div class="title">Resource Title</div>
                                     <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate ligula arcu, at lacinia leo lacinia id.</div>
                                     <div class="created-by">by Abc 20mins ago</div>
@@ -142,7 +142,7 @@
                             </div>
                             <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                 <div href="" class="resource">
-                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://via.placeholder.com/100x200" alt="" class="img-thumbnail"></a>
+                                    <a class="pic" data-toggle="modal" data-target="#viewDetailsVideo" href=""><img id="srcvt-1" src="http://img.youtube.com/vi/6ZfuNTqbHE8/0.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                     <div class="title">Resource Title</div>
                                     <div class="desc">Resource description goes here</div>
                                     <div class="created-by">by Abc 20mins ago</div>
@@ -154,7 +154,7 @@
                             </div>
                             <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                 <div href="" class="resource">
-                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24//banner-bg.jpg" alt="" class="img-thumbnail"></a>
+                                    <a class="pic" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24//banner-bg.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                     <div class="title">Resource Title</div>
                                     <div class="desc">Resource description goes here</div>
                                     <div class="created-by">by Abc 20mins ago</div>
@@ -199,6 +199,55 @@
                                         <tr>
                                             <td><strong>Type</strong></td>
                                             <td class="text-right">Image</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Created at</strong></td>
+                                            <td class="text-right">2018-02-27 10:25:02</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Created by</strong></td>
+                                            <td class="text-right">by Abc 20mins ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Tags</strong></td>
+                                            <td class="text-right">Politics, Public</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View Modal Video -->
+        <div class="modal fade" id="viewDetailsVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Resource Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+
+                    <div class="modal-body resource-details">
+                        <div class="text-center resource-video">
+                            <iframe id="srcvideo-1" width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <h5 class="mt-3">Resource Title</h5>
+                        <p>
+                            Resource description goes here
+                        </p>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-wrap">
+                                    <table class="table table-striped table-custom">
+                                        <tr>
+                                            <td><strong>Type</strong></td>
+                                            <td class="text-right">Video</td>
                                         </tr>
                                         <tr>
                                             <td><strong>Created at</strong></td>
@@ -339,5 +388,15 @@
             }
 
         });
+
+        //Generate url for youtube thumbnail
+        var iframe           = $('#srcvideo-1');
+        var iframe_src       = iframe.attr('src');
+        var youtube_video_id = iframe_src.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/).pop();
+
+
+        if (youtube_video_id.length == 11) {
+            $('#srcvt-1').attr('src','//img.youtube.com/vi/'+youtube_video_id+'/0.jpg');
+        }
     });
 </script>

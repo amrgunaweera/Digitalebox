@@ -212,6 +212,21 @@ input::placeholder {
   padding-left: 10px !important;
   padding-right: 10px !important; }
 
+.object-fit_fill {
+  object-fit: fill; }
+
+.object-fit_contain {
+  object-fit: contain; }
+
+.object-fit_cover {
+  object-fit: cover; }
+
+.object-fit_none {
+  object-fit: none; }
+
+.object-fit_scale-down {
+  object-fit: scale-down; }
+
 /*
  * App Header
  */
@@ -570,7 +585,8 @@ input::placeholder {
       .app-body .side-bar .sidebar-nav ul ul ul {
         border-left: solid 2px #ccc !important; }
     .app-body .side-bar .account-section {
-      position: relative; }
+      position: relative;
+      display: none; }
       .app-body .side-bar .account-section .account-status {
         color: #fff;
         font-size: 0.75rem;
@@ -985,6 +1001,8 @@ input::placeholder {
     font-size: 12px; }
   .app-body .modal .resource-details img {
     max-height: 230px; }
+  .app-body .modal .resource-details .resource-video iframe {
+    width: 100%; }
   .app-body .card .card-body .profile-pic {
     width: 50px;
     height: 50px;
@@ -1048,6 +1066,8 @@ input::placeholder {
       margin-right: auto; }
       .app-body .resources .resource .pic img {
         max-width: 200px;
+        height: 200px;
+        width: 200px;
         -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
         -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
         box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3); }
