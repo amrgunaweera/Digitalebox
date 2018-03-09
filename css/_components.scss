@@ -137,24 +137,42 @@ label{
   #user-count-a, #user-count-b{
     text-align: center;
   }
+}
 
-  .bg-sent{
-    background-color: $cam-sent;
-  }
-  .bg-clicked{
-    background-color: $cam-clicked;
-  }
-  .bg-openned{
-    background-color: $cam-openned;
-  }
-  .bg-bounced{
-    background-color: $cam-bounced;
-  }
-  .btn-blockd{
-    background-color: $cam-blocked;
-  }
-  .btn-spam{
-    background-color: $cam-spam;
+/* Email Campaigns */
+.bg-sent{
+  background-color: $cam-sent;
+}
+.bg-clicked{
+  background-color: $cam-clicked;
+}
+.bg-opened{
+  background-color: $cam-opened;
+}
+.bg-bounced{
+  background-color: $cam-bounced;
+}
+.bg-blocked{
+  background-color: $cam-blocked;
+}
+.bg-spam{
+  background-color: $cam-spam;
+}
+.bg-failed{
+  background-color: $cam-failed;
+}
+.bg-unsubs{
+  background-color: $cam-unsubs;
+}
+
+.progress-keys{
+  margin-right: 20px;
+  float: left;
+  span{
+    .badge{
+      margin-left: 10px;
+      color: #fff;
+    }
   }
 }
 

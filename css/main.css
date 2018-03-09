@@ -678,6 +678,7 @@ input::placeholder {
   height: 100%;
   overflow: auto;
   /* AB Testing */
+  /* Email Campaigns */
   /*   New Campaign Stepper   */
   /*   New Campaign Stepper  ends  */ }
   .theme-blue .app-body {
@@ -1231,18 +1232,28 @@ input::placeholder {
     max-height: 115px; }
   .app-body .campaigns #user-count-a, .app-body .campaigns #user-count-b {
     text-align: center; }
-  .app-body .campaigns .bg-sent {
-    background-color: #ccc; }
-  .app-body .campaigns .bg-clicked {
-    background-color: #39a655; }
-  .app-body .campaigns .bg-openned {
-    background-color: #66ad49; }
-  .app-body .campaigns .bg-bounced {
-    background-color: #f28802; }
-  .app-body .campaigns .btn-blockd {
-    background-color: #404040; }
-  .app-body .campaigns .btn-spam {
-    background-color: #d04c85; }
+  .app-body .bg-sent {
+    background-color: #d0cdc7; }
+  .app-body .bg-clicked {
+    background-color: #01a629; }
+  .app-body .bg-opened {
+    background-color: #83d92c; }
+  .app-body .bg-bounced {
+    background-color: #ff8d04; }
+  .app-body .bg-blocked {
+    background-color: #000000; }
+  .app-body .bg-spam {
+    background-color: #ff0000; }
+  .app-body .bg-failed {
+    background-color: #ff5e72; }
+  .app-body .bg-unsubs {
+    background-color: #09cbff; }
+  .app-body .progress-keys {
+    margin-right: 20px;
+    float: left; }
+    .app-body .progress-keys span .badge {
+      margin-left: 10px;
+      color: #fff; }
   .app-body .campaign-outer {
     overflow: hidden; }
     .app-body .campaign-outer .stepper-wrap {

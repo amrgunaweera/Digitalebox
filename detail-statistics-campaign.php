@@ -39,46 +39,48 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-12 mb-5">
+                            <div class="col-md-12 mb-4">
                                 <div class="progress">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-dark" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-info" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
-                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-sent" title="Sent 30%" data-toggle="tooltip" role="progressbar" style="width: 30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-clicked" title="Clicked 10%" data-toggle="tooltip" role="progressbar" style="width: 10%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-opened" title="Opened 20%" data-toggle="tooltip" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-bounced" title="Bounced 5%" data-toggle="tooltip" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-blocked" title="Blockd 10%" data-toggle="tooltip" role="progressbar" style="width: 10%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-spam" title="Spam 10%" data-toggle="tooltip" role="progressbar" style="width: 10%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-failed" title="Failed 5%" data-toggle="tooltip" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-unsubs" title="Unsubs 10%" data-toggle="tooltip" role="progressbar" style="width: 10%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
 
                         </div>
 
                         <div class="row">
-                            <div class="col-md-1">
-                                <span>Sent <span class="badge badge-pill badge-success">15</span></span>
-                            </div>
-                            <div class="col-md-1">
-                                <span>Clicked <span class="badge badge-pill badge-success">15</span></span>
-                            </div>
-                            <div class="col-md-1">
-                                <span>Openned <span class="badge badge-pill badge-success">15</span></span>
-                            </div>
-                            <div class="col-md-1">
-                                <span>Bounced <span class="badge badge-pill badge-success">5</span></span>
-                            </div>
+                            <div class="col-md-12">
+                                <div class="progress-keys">
+                                    <span>Sent <span class="badge badge-pill bg-sent">60</span></span>
+                                </div>
+                                <div class="progress-keys">
+                                    <span>Clicked <span class="badge badge-pill bg-clicked">20</span></span>
+                                </div>
+                                <div class="progress-keys">
+                                    <span>Openned <span class="badge badge-pill bg-opened">40</span></span>
+                                </div>
+                                <div class="progress-keys">
+                                    <span>Bounced <span class="badge badge-pill bg-bounced">10</span></span>
+                                </div>
 
-                            <div class="col-md-1">
-                                <span>Blocked <span class="badge badge-pill badge-success">5</span></span>
-                            </div>
-                            <div class="col-md-1">
-                                <span>Spam <span class="badge badge-pill badge-success">5</span></span>
-                            </div>
-                            <div class="col-md-1">
-                                <span>Failed <span class="badge badge-pill badge-success">5</span></span>
-                            </div>
-                            <div class="col-md-1">
-                                <span>Unsubs <span class="badge badge-pill badge-success">5</span></span>
+                                <div class="progress-keys">
+                                    <span>Blocked <span class="badge badge-pill bg-blocked">20</span></span>
+                                </div>
+                                <div class="progress-keys">
+                                    <span>Spam <span class="badge badge-pill bg-spam">20</span></span>
+                                </div>
+                                <div class="progress-keys">
+                                    <span>Failed <span class="badge badge-pill bg-failed">10</span></span>
+                                </div>
+                                <div class="progress-keys">
+                                    <span>Unsubs <span class="badge badge-pill bg-unsubs">20</span></span>
+                                </div>
                             </div>
                         </div>
 

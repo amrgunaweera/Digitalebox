@@ -227,10 +227,10 @@
 
                     <div class="modal-body">
                         <div class="row">
-                            <div class="col-md-4">Success <span class="badge badge-pill badge-success">2</span></div>
-                            <div class="col-md-4">Failed <span class="badge badge-pill badge-danger">1</span></div>
-                            <div class="col-md-4">Pending <span class="badge badge-pill badge-warning">3</span></div>
-                            <div class="col-md-12 mt-3">Total <span class="badge badge-pill badge-info">6</span></div>
+                            <div class="col-6 col-sm-3">Success <span class="badge badge-pill badge-success">2</span></div>
+                            <div class="col-6 col-sm-3">Failed <span class="badge badge-pill badge-danger">1</span></div>
+                            <div class="col-6 col-sm-3">Pending <span class="badge badge-pill badge-warning">3</span></div>
+                            <div class="col-6 col-sm-3">Total <span class="badge badge-pill badge-info">6</span></div>
                         </div>
                     </div>
                 </div>

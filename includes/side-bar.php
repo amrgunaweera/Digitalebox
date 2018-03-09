@@ -46,11 +46,11 @@
                     <li><a href="#">Manage Roles</a></li>
                     <li><a href="#">Manage System Users</a></li>
                     <li><a href="#">Volunteer Portal</a></li>
-                    <li><a href="#">Feed Keywords</a></li>
+                    <li><a href="feed-keywords.php">Feed Keywords</a></li>
                     <li><a href="#">Configurations</a></li>
                     <li><a href="#">Portal Settings</a></li>
                     <li><a href="#">Custom Fields</a></li>
-                    <li><a href="#">Form Builder</a></li>
+                    <li><a href="form-builder.php">Form Builder</a></li>
                     <li><a href="#">Manage Membership Types</a></li>
                 </ul>
             </li>
