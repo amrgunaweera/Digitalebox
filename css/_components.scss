@@ -124,96 +124,311 @@ label{
   }
 }
 
-/*   New Campaign Stepper   */
-.stepper-wrap{
-  position: relative;
-  width: 100%;
-  text-align: center;
-  min-height: 200px;
+/* AB Testing */
+.campaigns{
+  img{
+    &.img-thumbnail{
+      width: 100%;
+      max-width: 115px;
+      max-height: 115px;
+    }
+  }
 
-  .step-wizard{
-    display: inline-block;
+  #user-count-a, #user-count-b{
+    text-align: center;
+  }
+
+  .bg-sent{
+    background-color: $cam-sent;
+  }
+  .bg-clicked{
+    background-color: $cam-clicked;
+  }
+  .bg-openned{
+    background-color: $cam-openned;
+  }
+  .bg-bounced{
+    background-color: $cam-bounced;
+  }
+  .btn-blockd{
+    background-color: $cam-blocked;
+  }
+  .btn-spam{
+    background-color: $cam-spam;
+  }
+}
+
+
+/*   New Campaign Stepper   */
+
+.campaign-outer{
+  overflow: hidden;
+
+  .stepper-wrap{
     position: relative;
     width: 100%;
-    .progress {
-      position: absolute;
-      top: 20px;
-      left: 12.5%;
-      width: 75%;
-    }
-    .progressbar {
-      position: absolute;
-      background-color: #0aa89e;
-      opacity: 0.4;
-      height: 12px;
-      border: 1px solid #e5e6e6;
-      width: 0%;
-      -webkit-transition: width 0.6s ease;
-      -o-transition: width 0.6s ease;
-      transition: width 0.6s ease;
-      &.empty {
-        opacity: 1;
-        width: 100%;
-        background-color: #e5e6e6;
-      }
-    }
-    .stepper{
-      position: absolute;
+    text-align: center;
+    min-height: 130px;
+
+    .step-wizard{
+      display: inline-block;
+      position: relative;
       width: 100%;
-      list-style: none;
-      padding: 0;
-      li{
-        display: inline-block;
-        text-align: center;
-        width: 24.7%;
 
-        &:last-child{
-          width: 70px;
+      .progress {
+        position: absolute;
+        top: 17px;
+        left: 12.5%;
+        width: 75%;
+        height: 6px;
+
+        @media (min-width: 576px) {
+          top: 23px;
         }
-
-        a{
+      }
+      .progressbar {
+        position: absolute;
+        @include themify($themes) {
+          background-color: themed('secondry-color');
+        }
+        opacity: 0.5;
+        height: 6px;
+        border: 1px solid #e5e6e6;
+        width: 0%;
+        -webkit-transition: width 0.6s ease;
+        -o-transition: width 0.6s ease;
+        transition: width 0.6s ease;
+        &.empty {
+          opacity: 1;
+          width: 100%;
+          background-color: #e5e6e6;
+        }
+      }
+      .stepper{
+        position: absolute;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        li{
+          display: inline-block;
           text-align: center;
-          display: block;
-          width: 70px;
-          text-decoration: none;
+          width: 22.5%;
 
-          .step{
-            width: 50px;
-            height: 50px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            line-height: 50px;
-            text-align: center;
-            @include border-radius(30px);
-            @include themify($themes) {
-              background-color: themed('primary-light');
-            }
-
-            i{
-              color: #ffffff;
-            }
+          &:last-child{
+            width: 70px;
           }
-          .title{
-            @include themify($themes) {
-              color: themed('primary-light');
-            }
-          }
-        }
 
-        &.active{
+          @media (min-width: 576px) {
+            width: 24.7%;
+          }
+
           a{
+            text-align: center;
+            display: block;
+            width: 50px;
+            text-decoration: none;
+            @media (min-width: 576px) {
+              width: 70px;
+            }
+
             .step{
+              width: 40px;
+              height: 40px;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+              line-height: 40px;
+              text-align: center;
+              @include border-radius(30px);
               @include themify($themes) {
-                background-color: themed('secondry-color');
+                background-color: themed('primary-light');
+              }
+              @media (min-width: 576px) {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+              }
+
+              i{
+                color: #ffffff;
               }
             }
             .title{
               @include themify($themes) {
-                color: themed('secondry-color');
+                color: themed('primary-light');
               }
             }
           }
+
+          &.active{
+            a{
+              .step{
+                @include themify($themes) {
+                  background-color: themed('secondry-color');
+                }
+                -webkit-transition: 1s ease;
+                -o-transition: 1s ease;
+                transition: 1s ease;
+
+              }
+              .title{
+                @include themify($themes) {
+                  color: themed('secondry-color');
+                }
+                -webkit-transition: 1s ease;
+                -o-transition: 1s ease;
+                transition: 1s ease;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .campaign-slides{
+    .owl-stage-outer{
+      overflow: inherit;
+
+      .owl-stage{
+        .owl-item{
+          a{
+            &.campaign-type{
+              width: 16vw;
+              height: 16vw;
+              padding-top: 3vw;
+              max-width: 200px;
+              max-height: 200px;
+              text-align: center;
+              display: block;
+              color: #ffffff;
+              text-decoration: none;
+              margin: 20px auto;
+              cursor: pointer;
+              @include drop-shadow(0px 2px 5px 0px rgba(0, 0, 0, 0.5));
+              @include border-radius(5px);
+              @include themify($themes) {
+                background-color: themed('secondry-color');
+              }
+
+              @media (min-width: 576px) {
+                padding-top: 2vw;
+              }
+              @media (min-width: 1200px) {
+                padding-top: 20px;
+              }
+
+              &:hover{
+                @include drop-shadow(0px 3px 15px 0px rgba(0, 0, 0, 0.3));
+              }
+
+              /*@media (min-width: 576px) {
+                width: 120px;
+                height: 120px;
+              }
+              @media (min-width: 768px) {
+                width: 160px;
+                height: 160px;
+              }
+              @media (min-width: 992px) {
+                width: 160px;
+                height: 160px;
+              }
+              @media (min-width: 1200px) {
+                width: 200px;
+                height: 200px;
+              }*/
+
+              .icon{
+                width: 10vw;
+                height: 10vw;
+                max-width: 130px;
+                max-height: 130px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0.9vw;
+                @include border-radius(100px);
+                @include themify($themes) {
+                  background-color: themed('third-color');
+                }
+
+                @media (min-width: 1200px) {
+                  width: 130px;
+                  height: 130px;
+                  margin-bottom: 15px;
+                }
+
+                i{
+                  font-size: 5vw;
+                  line-height: 10vw;
+
+                  @media (min-width: 1200px) {
+                    line-height: 130px;
+                    font-size: 80px;
+                  }
+                }
+              }
+              &>.title{
+                font-size: 1.5vw;
+
+                @media (min-width: 1200px) {
+                  font-size: 16px;
+                }
+              }
+
+              &.active{
+                @include drop-shadow(0px 1px 3px 0px rgba(0, 0, 0, 0.1));
+                @include themify($themes) {
+                  background-color: themed('primary-color');
+                }
+              }
+
+            }
+          }
+
+          .heading{
+            font-size: 24px;
+            @include themify($themes) {
+              color: themed('secondry-color');
+            }
+          }
+
+          .img-thumbnail{
+            width: 100%;
+            max-width: 115px;
+            max-height: 115px;
+          }
+
+        }
+      }
+    }
+    .owl-nav{
+      margin-top: 20px;
+
+      &>div{
+        color: #ffffff;
+        padding: .375rem 1.25rem;
+        @include border-radius(2px);
+        @include drop-shadow(0px 2px 5px 0px rgba(0, 0, 0, 0.1));
+        &:hover{
+          @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.2));
+        }
+        &.disabled{
+          opacity: 0.5;
+          @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0));
+        }
+      }
+
+      .owl-next{
+        float: right;
+        @include themify($themes) {
+          background-color: themed('secondry-color');
+        }
+      }
+      .owl-prev{
+        float: left;
+        @include themify($themes) {
+          background-color: themed('third-color');
         }
       }
     }

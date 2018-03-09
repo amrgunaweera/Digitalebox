@@ -32,8 +32,8 @@
                 <ul aria-expanded="false">
                     <li><a href="message-templates.php">Message Templates</a></li>
                     <li><a href="new-campaign.php">New Campaign</a></li>
-                    <li><a href="#">Create A/B Testing</a></li>
-                    <li><a href="#">Sent Campaigns</a></li>
+                    <li><a href="create-ab-testing.php">Create A/B Testing</a></li>
+                    <li><a href="sent-campaigns.php">Sent Campaigns</a></li>
                     <li><a href="#">Message Box</a></li>
                     <li><a href="#">Keyword Url</a></li>
                 </ul>

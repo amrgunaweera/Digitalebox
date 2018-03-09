@@ -1,3 +1,4 @@
+
 /*
  * Font styles
  */
@@ -9,6 +10,16 @@ $bold-font: open_sansbold, sans-serif;
 $fb-color: #4867aa;
 $tw-color: #2daae2;
 $in-color: #3b5998;
+
+/* Campaign status Colors */
+$cam-sent: #ccc;
+$cam-clicked: #39a655;
+$cam-openned: #66ad49;
+$cam-bounced: #f28802;
+$cam-blocked: #404040;
+$cam-spam: #d04c85;
+$cam-failed: #ff2823;
+$cam-unsubs: #46c8ff;
 
 /*
  * Theme definitions
@@ -50,6 +61,11 @@ $in-color: #3b5998;
 @function themed($key) {
   @return map-get($theme-map, $key);
 }
+
+/*
+ * Third party libraries
+ */
+@import "rangeslider";
 
 /*
  * Actual styles for the app
@@ -1133,7 +1149,6 @@ input{
   @import "advancedSearch";
 
   @import "charts";
-
 
   .main-content{
 

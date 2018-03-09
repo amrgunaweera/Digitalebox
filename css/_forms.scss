@@ -11,6 +11,11 @@
 .form-feild-info{
   font-size: 10px;
   margin-top: 3px;
+  margin-bottom: 5px;
+
+  @include themify($themes) {
+    color: themed('primary-light');
+  }
 }
 
 .text-editor{
