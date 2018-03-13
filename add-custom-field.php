@@ -13,15 +13,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="title">
-                        Add Form
+                        Add Custom Field
                     </div>
                     <div class="desc">
-                        Define new Form
+                        Define new Custom Field
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">System</a> / <a href="">Form Builder</a> / <span>Add Form</span>
+                        <a href="">Home</a> / <a href="">System</a> / <a href="">Custom Fields</a> / <span>Add Custom Field</span>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
 
                                 <div class="content-panel-sub">
                                     <div class="panel-head">
-                                        Form Details
+                                        Custom Field Details
                                     </div>
                                 </div>
 

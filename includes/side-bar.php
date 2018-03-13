@@ -49,7 +49,7 @@
                     <li><a href="feed-keywords.php">Feed Keywords</a></li>
                     <li><a href="#">Configurations</a></li>
                     <li><a href="#">Portal Settings</a></li>
-                    <li><a href="#">Custom Fields</a></li>
+                    <li><a href="custom-fields.php">Custom Fields</a></li>
                     <li><a href="form-builder.php">Form Builder</a></li>
                     <li><a href="#">Manage Membership Types</a></li>
                 </ul>

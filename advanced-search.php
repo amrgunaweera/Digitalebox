@@ -923,7 +923,7 @@
 
                                                         <label for="address">Date of Birth</label>
                                                         <div class="input-group date" id="dob1" data-target-input="nearest">
-                                                            <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="00/00/1990"/>
+                                                            <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="1990-00-00"/>
                                                             <div class="input-group-append" data-target="#dob1" data-toggle="datetimepicker">
                                                                 <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                             </div>
@@ -1019,14 +1019,14 @@
                                 <form>
                                     <div class="form-row">
                                         <div class="form-group col-8 col-sm-4">
-                                            <select id="inputState" class="form-control">
-                                                <option selected>Bulk Edit</option>
-                                                <option>Bulk Delete</option>
-                                                <option>Bulk Export</option>
+                                            <select id="actionToRun" class="form-control">
+                                                <option value="0" selected>Bulk Edit</option>
+                                                <option value="1">Bulk Delete</option>
+                                                <option value="2">Bulk Export</option>
                                             </select>
                                         </div>
                                         <div class="form-group col-4 col-sm-3">
-                                            <button type="submit" class="btn btn-primary">Run</button>
+                                            <button type="" class="btn btn-primary bulk-run">Run</button>
                                         </div>
                                     </div>
                                 </form>
@@ -1079,6 +1079,21 @@
         });
         /*$('#dob1').datetimepicker('show');*/
         $(".chosen-select").chosen();
+
+        $('.bulk-run').click(function (event) {
+            event.preventDefault();
+
+            var action = $('#actionToRun').val();
+            if(action == 0){
+                window.location.href = "http://localhost/digitalebox_revamp/digitaleboxui/bulk-edit.php";
+            }else if(action == 1){
+                console.log('Delete');
+                //window.location.href = "http://www.google.com";
+            }else if(action == 2){
+                console.log('Export');
+                //window.location.href = "http://www.google.com";
+            }
+        });
 
     });
 </script>
