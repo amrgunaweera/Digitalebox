@@ -58,7 +58,7 @@
                                 <tbody>
 
                                 <tr>
-                                    <td>2018-01-29 07:38:08</td>
+                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 PM</span></td>
                                     <td>All channels</td>
                                     <td>All channels</td>
                                     <td>Mass Message</td>
@@ -71,7 +71,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>2017-11-13 09:46:07</td>
+                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td>Test Template</td>
                                     <td>Mass Message</td>
@@ -84,7 +84,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>2017-07-04 08:14:40</td>
+                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 AM</span></td>
                                     <td>Test</td>
                                     <td>Test Description</td>
                                     <td>Mass Message</td>
@@ -96,7 +96,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>2018-01-29 07:38:08</td>
+                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 PM</span></td>
                                     <td>All channels</td>
                                     <td>All channels</td>
                                     <td>Mass Message</td>
@@ -109,7 +109,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>2017-11-13 09:46:07</td>
+                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td>Test Template</td>
                                     <td>Mass Message</td>
@@ -122,7 +122,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td>2017-07-04 08:14:40</td>
+                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 PM</span></td>
                                     <td>Test</td>
                                     <td>Test Description</td>
                                     <td>Mass Message</td>

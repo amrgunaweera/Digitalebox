@@ -43,7 +43,7 @@
                 <a class="has-arrow" data-section="3" href="#" aria-expanded="false"><span class="fa fa-fw fa-cogs"></span> System</a>
                 <ul aria-expanded="false">
                     <li><a href="#">Manage Permissions</a></li>
-                    <li><a href="#">Manage Roles</a></li>
+                    <li><a href="manage-roles.php">Manage Roles</a></li>
                     <li><a href="#">Manage System Users</a></li>
                     <li><a href="#">Volunteer Portal</a></li>
                     <li><a href="feed-keywords.php">Feed Keywords</a></li>

@@ -90,7 +90,6 @@
                                     <div class="form-group col-md-6">
                                         <label>Keywords</label>
                                         <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                            <option value=""></option>
                                             <option value="United States">United States</option>
                                             <option value="United Kingdom">United Kingdom</option>
                                             <option value="Afghanistan">Afghanistan</option>
@@ -114,7 +113,6 @@
                                     <div class="form-group col-md-6">
                                         <label>Types</label>
                                         <select data-placeholder="Types" class="form-control chosen-select" multiple>
-                                            <option value=""></option>
                                             <option value="United States">Retweet</option>
                                             <option value="United Kingdom">Tweet</option>
                                             <option value="Afghanistan">Reply tweet</option>

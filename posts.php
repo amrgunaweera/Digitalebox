@@ -69,7 +69,7 @@
 
                                 <tr>
                                     <td>
-                                        2018-01-12 09:48:00
+                                        <span class="badge badge-info">2018-01-12</span> <span class="badge badge-dark">09:48 AM</span>
                                     </td>
                                     <td>0</td>
                                     <td>0</td>
@@ -85,7 +85,7 @@
 
                                 <tr>
                                     <td>
-                                        2018-01-12 09:48:00
+                                        <span class="badge badge-info">2018-01-12</span> <span class="badge badge-dark">09:48 AM</span>
                                     </td>
                                     <td>0</td>
                                     <td>0</td>
@@ -101,7 +101,7 @@
 
                                 <tr>
                                     <td>
-                                        2018-01-12 09:48:00
+                                        <span class="badge badge-info">2018-01-12</span> <span class="badge badge-dark">09:48 AM</span>
                                     </td>
                                     <td>0</td>
                                     <td>0</td>
@@ -117,7 +117,7 @@
 
                                 <tr>
                                     <td>
-                                        2018-01-12 09:48:00
+                                        <span class="badge badge-info">2018-01-12</span> <span class="badge badge-dark">09:48 AM</span>
                                     </td>
                                     <td>0</td>
                                     <td>0</td>
@@ -133,7 +133,7 @@
 
                                 <tr>
                                     <td>
-                                        2018-01-12 09:48:00
+                                        <span class="badge badge-info">2018-01-12</span> <span class="badge badge-dark">09:48 AM</span>
                                     </td>
                                     <td>0</td>
                                     <td>0</td>

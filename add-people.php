@@ -128,7 +128,6 @@
                                     <div class="form-group col-md-6">
                                         <label for="keywords">Keywords</label>
                                         <select data-placeholder="Choose Keywords..." class="form-control chosen-select" multiple tabindex="4">
-                                            <option value=""></option>
                                             <option value="United States">United States</option>
                                             <option value="United Kingdom">United Kingdom</option>
                                             <option value="Afghanistan">Afghanistan</option>

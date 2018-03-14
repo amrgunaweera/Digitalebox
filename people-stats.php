@@ -81,7 +81,6 @@
                                         <div class="form-row">
                                             <div class="form-group col-md-10">
                                                 <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                    <option value=""></option>
                                                     <option value="" selected>Test</option>
                                                     <option value="" selected>iPhone</option>
                                                     <option value="" selected>Google</option>

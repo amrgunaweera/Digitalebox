@@ -35,6 +35,14 @@
 
       border-left: 1px solid #fafafa;
       border-right: 1px solid #fafafa;
+      .badge{
+        font-size: 100%;
+        font-weight: normal;
+      }
+      &.table-subhead{
+        background-color: #fff;
+        font-weight: bold;
+      }
     }
 
     &.table-striped {
@@ -44,6 +52,56 @@
             background-color: #f9f9f9;
           }
         }
+      }
+    }
+    &.table-hover{
+      tbody{
+        tr{
+          &:hover{
+            background-color: #f0f0f0;
+          }
+        }
+      }
+    }
+
+    a{
+      margin-left: 3px;
+      margin-right: 3px;
+      display: inline-block;
+      @include themify($themes) {
+        color: themed('secondry-light');
+      }
+    }
+
+  }
+
+  .table-permissions{
+    th{
+      border: none;
+      font-size: 16px;
+      padding: .75rem .25rem;
+      @include themify($themes) {
+        background-color: themed('body-bg');
+      }
+
+      &.enable{
+        width: 120px;
+      }
+      label{
+        margin-bottom: 0;
+      }
+    }
+    td{
+      font-size: 12px;
+      padding: .75rem .25rem;
+
+      .badge{
+        font-size: 100%;
+        font-weight: normal;
+      }
+      &.table-subhead{
+        background-color: #fff;
+        font-weight: bold;
       }
     }
     &.table-hover{

@@ -41,7 +41,7 @@
                         <div class="row">
                             <div class="col-md-12 mb-4">
                                 <div class="progress">
-                                    <div class="progress-bar bg-sent" title="Sent 30%" data-toggle="tooltip" role="progressbar" style="width: 30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar bg-not-opened" title="Not Opened 30%" data-toggle="tooltip" role="progressbar" style="width: 30%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                     <div class="progress-bar bg-clicked" title="Clicked 10%" data-toggle="tooltip" role="progressbar" style="width: 10%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                     <div class="progress-bar bg-opened" title="Opened 20%" data-toggle="tooltip" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
                                     <div class="progress-bar bg-bounced" title="Bounced 5%" data-toggle="tooltip" role="progressbar" style="width: 5%" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
@@ -57,7 +57,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="progress-keys">
-                                    <span>Sent <span class="badge badge-pill bg-sent">60</span></span>
+                                    <span>Not Opened <span class="badge badge-pill bg-not-opened">60</span></span>
                                 </div>
                                 <div class="progress-keys">
                                     <span>Clicked <span class="badge badge-pill bg-clicked">20</span></span>

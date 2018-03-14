@@ -102,7 +102,7 @@
 
                                 <tr>
                                     <td>Phone Number</td>
-                                    <td>2018-01-29 07:38:08</td>
+                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td><i class="fa fa-clock-o fa-lg"></i> 1 sec</td>
                                     <td>
@@ -120,7 +120,7 @@
 
                                 <tr>
                                     <td>ProspectDigibox</td>
-                                    <td>2017-11-13 09:46:07</td>
+                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 PM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td><i class="fa fa-clock-o fa-lg"></i> 29 sec</td>
                                     <td>
@@ -138,7 +138,7 @@
 
                                 <tr>
                                     <td>15130 Search</td>
-                                    <td>2017-07-04 08:14:40</td>
+                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 AM</span></td>
                                     <td>Elania Zito</td>
                                     <td><i class="fa fa-clock-o fa-lg"></i> 101 sec</td>
                                     <td>
@@ -218,7 +218,6 @@
                                 <div class="form-group">
                                     <label>Keywords</label>
                                     <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                        <option value=""></option>
                                         <option value="United States">United States</option>
                                         <option value="United Kingdom">United Kingdom</option>
                                         <option value="Afghanistan">Afghanistan</option>

@@ -91,7 +91,7 @@
 
                                 <tr>
                                     <td>Phone Number</td>
-                                    <td>2018-01-29 07:38:08</td>
+                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td class="text-center">
                                         <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
@@ -107,7 +107,7 @@
 
                                 <tr>
                                     <td>ProspectDigibox</td>
-                                    <td>2017-11-13 09:46:07</td>
+                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 PM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td class="text-center">
                                         <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
@@ -123,7 +123,7 @@
 
                                 <tr>
                                     <td>15130 Search</td>
-                                    <td>2017-07-04 08:14:40</td>
+                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 PM</span></td>
                                     <td>Elania Zito</td>
                                     <td class="text-center">
                                         <a href="" data-toggle="modal" data-target="#sendCampaign" title="All"><i class="fa fa-star fa-lg"></i></a>
@@ -249,7 +249,7 @@
                                                             </tr>
                                                             <tr>
                                                                 <td><strong>Created at</strong></td>
-                                                                <td class="text-right">2017-07-04 08:14:40</td>
+                                                                <td class="text-right"><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 AM<span class="badge badge-dark"></td>
                                                             </tr>
                                                         </table>
                                                     </div>

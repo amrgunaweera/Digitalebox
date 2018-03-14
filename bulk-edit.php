@@ -110,7 +110,6 @@
                                 <div class="col-md-6">
                                     <label>Keywords</label>
                                     <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                        <option value=""></option>
                                         <option>First Name</option>
                                         <option>Last Name</option>
                                         <option>Email</option>
@@ -137,7 +136,6 @@
                                     <div class="form-group">
                                         <label>Custom Multi select</label>
                                         <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                            <option value=""></option>
                                             <option>First Name</option>
                                             <option>Last Name</option>
                                             <option>Email</option>

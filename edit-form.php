@@ -51,7 +51,6 @@
                                             <div class="form-group">
                                                 <label>Form Fields</label>
                                                 <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                    <option value=""></option>
                                                     <option>First Name</option>
                                                     <option>Last Name</option>
                                                     <option>Email</option>
@@ -68,7 +67,6 @@
                                             <div class="form-group">
                                                 <label>Keywords</label>
                                                 <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                    <option value=""></option>
                                                     <option value="United States">United States</option>
                                                     <option value="United Kingdom">United Kingdom</option>
                                                     <option value="Afghanistan">Afghanistan</option>

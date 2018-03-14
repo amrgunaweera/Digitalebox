@@ -140,7 +140,7 @@ label{
 }
 
 /* Email Campaigns */
-.bg-sent{
+.bg-not-opened{
   background-color: $cam-sent;
 }
 .bg-clicked{
@@ -373,18 +373,21 @@ iframe{
                 width: 10vw;
                 height: 10vw;
                 max-width: 130px;
-                max-height: 130px;
+                /*max-height: 130px;*/
+                max-height: 90px;
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom: 0.9vw;
                 @include border-radius(100px);
-                @include themify($themes) {
+                /*@include themify($themes) {
                   background-color: themed('third-color');
-                }
+                }*/
 
                 @media (min-width: 1200px) {
-                  width: 130px;
-                  height: 130px;
+                  /*width: 130px;
+                  height: 130px;*/
+                  max-width: 150px;
+                  max-height: 110px;
                   margin-bottom: 15px;
                 }
 
@@ -410,6 +413,87 @@ iframe{
                 @include drop-shadow(0px 1px 3px 0px rgba(0, 0, 0, 0.1));
                 @include themify($themes) {
                   background-color: themed('primary-color');
+                }
+              }
+
+            }
+
+            &.campaign-type-1{
+              width: 16vw;
+              height: 16vw;
+              padding-top: 3vw;
+              max-width: 200px;
+              max-height: 200px;
+              text-align: center;
+              display: block;
+              color: #ffffff;
+              text-decoration: none;
+              margin: 20px auto;
+              cursor: pointer;
+              @include drop-shadow(0px 2px 5px 0px rgba(0, 0, 0, 0.5));
+              @include border-radius(5px);
+              @include themify($themes) {
+                background-color: themed('secondry-color');
+              }
+
+              @media (min-width: 576px) {
+                padding-top: 2vw;
+              }
+              @media (min-width: 1200px) {
+                padding-top: 20px;
+              }
+
+              &:hover{
+                @include drop-shadow(0px 3px 15px 0px rgba(0, 0, 0, 0.3));
+              }
+
+              .icon{
+                width: 10vw;
+                height: 10vw;
+                max-width: 130px;
+                max-height: 130px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 0.9vw;
+                @include border-radius(100px);
+                background-color: #ffffff;
+
+                @media (min-width: 1200px) {
+                  width: 130px;
+                  height: 130px;
+                  margin-bottom: 15px;
+                }
+
+                i{
+                  font-size: 5vw;
+                  line-height: 10vw;
+                  @include themify($themes) {
+                    color: themed('secondry-color');
+                  }
+
+                  @media (min-width: 1200px) {
+                    line-height: 130px;
+                    font-size: 80px;
+                  }
+                }
+              }
+              &>.title{
+                font-size: 1.5vw;
+
+                @media (min-width: 1200px) {
+                  font-size: 16px;
+                }
+              }
+
+              &.active{
+                @include drop-shadow(0px 1px 3px 0px rgba(0, 0, 0, 0.1));
+                @include themify($themes) {
+                  background-color: themed('primary-color');
+                }
+                i{
+                  @include themify($themes) {
+                    color: themed('primary-color');
+                  }
                 }
               }
 

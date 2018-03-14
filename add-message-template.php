@@ -40,10 +40,9 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="exampleFormControlSelect1">Template Type</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
+                                    <select class="form-control" id="exampleFormControlSelect1" disabled>
                                         <option>- Select -</option>
-                                        <option>Mass Message</option>
-                                        <option>Single Message</option>
+                                        <option selected>Mass Message</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-6">

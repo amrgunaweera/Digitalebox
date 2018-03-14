@@ -308,7 +308,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">-</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
@@ -338,7 +338,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">Cabourg</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
@@ -368,7 +368,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">-</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center">2</td>
                                     <td class="text-center">
@@ -398,7 +398,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">Paris</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
@@ -428,7 +428,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">-</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center">3</td>
                                     <td class="text-center">
@@ -458,7 +458,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">-</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
@@ -488,7 +488,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">Cabourg</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
@@ -518,7 +518,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">-</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center">2</td>
                                     <td class="text-center">
@@ -548,7 +548,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">Paris</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center"></td>
                                     <td class="text-center">
@@ -578,7 +578,7 @@
                                         <a href="#" data-toggle="modal" data-target="#editKeywords" title="Edit" id="username"><i class="fa fa-edit fa-lg"></i></a>
                                     </td>
                                     <td class="text-center">-</td>
-                                    <td class="text-center">2017-11-25</td>
+                                    <td class="text-center"><span class="badge badge-info">2017-11-25</span></td>
                                     <td class="text-center">24</td>
                                     <td class="text-center">3</td>
                                     <td class="text-center">
