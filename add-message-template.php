@@ -97,7 +97,7 @@
                                     <label>SMS Message</label>
                                     <textarea class="form-control" placeholder="SMS Message"></textarea>
                                     <span class="font10">[ 160 ]</span>
-                                    <span class="font10"><small>SMS are limited to 160 characters, if you use accents such as "é" "è" "à" "ù" "ô" SMS will be limited to 70 characters</small></span>
+                                    <span class="font10">SMS are limited to 160 characters, if you use accents such as "é" "è" "à" "ù" "ô" SMS will be limited to 70 characters</span>
                                 </div>
                             </div>
                             <div class="form-row text-left text-md-right">
