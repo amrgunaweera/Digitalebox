@@ -43,58 +43,67 @@
 
                                 <form>
                                     <div class="row">
-
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label for="title">Title</label>
-                                                <input type="text" class="form-control" id="title" placeholder="Title">
+                                                <label for="label">Label</label>
+                                                <input type="text" class="form-control" id="label" placeholder="Label">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Form Fields</label>
-                                                <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                    <option value=""></option>
-                                                    <option>First Name</option>
-                                                    <option>Last Name</option>
-                                                    <option>Email</option>
-                                                    <option>Contact No</option>
-                                                    <option>Gender</option>
-                                                    <option>Date of birth</option>
-                                                    <option>Street Address</option>
+                                                <label for="field-name">Field Name</label>
+                                                <input type="text" class="form-control" id="field-name" placeholder="Field Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label>Related Areas</label>
+                                                <select class="form-control">
+                                                    <option value="">- Select -</option>
+                                                    <option>People</option>
                                                 </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Redirect URL</label>
-                                                <input type="text" class="form-control" id="" placeholder="http://www.example.com">
+                                                <label>Custom Type</label>
+                                                <select class="form-control">
+                                                    <option value="">- Select -</option>
+                                                    <option>Related Areas First</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Keywords</label>
-                                                <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                                    <option value=""></option>
-                                                    <option value="United States">United States</option>
-                                                    <option value="United Kingdom">United Kingdom</option>
-                                                    <option value="Afghanistan">Afghanistan</option>
-                                                    <option value="Aland Islands">Aland Islands</option>
-                                                    <option value="Albania">Albania</option>
-                                                    <option value="Algeria">Algeria</option>
-                                                    <option value="American Samoa">American Samoa</option>
-                                                    <option value="Andorra">Andorra</option>
-                                                    <option value="Angola">Angola</option>
-                                                    <option value="Anguilla">Anguilla</option>
-                                                    <option value="Antarctica">Antarctica</option>
-                                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                    <option value="Argentina">Argentina</option>
-                                                    <option value="Armenia">Armenia</option>
-                                                    <option value="Aruba">Aruba</option>
-                                                    <option value="Australia">Australia</option>
-                                                    <option value="Austria">Austria</option>
-                                                    <option value="Azerbaijan">Azerbaijan</option>
-                                                </select>
+                                                <label for="default-value">Default Value</label>
+                                                <input type="text" class="form-control" id="default-value" placeholder="Default Value">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="sort-order">Sort Order</label>
+                                                <input type="number" class="form-control" id="sort-order" placeholder="Sort Order">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mt-3">
+                                                <label for="form-check" class="d-block">Display On</label>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                    <label class="form-check-label" for="inlineCheckbox3">Volunteer Sign Up</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox4" value="option4">
+                                                    <label class="form-check-label" for="inlineCheckbox4">People Bulk Insert</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox5" value="option5">
+                                                    <label class="form-check-label" for="inlineCheckbox5">People Advanced Search</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox6" value="option6">
+                                                    <label class="form-check-label" for="inlineCheckbox6">Form Builder</label>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -106,43 +115,11 @@
                                                 </div>
                                                 <div class="form-check form-check-inline">
                                                     <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
-                                                    <label class="form-check-label" for="inlineCheckbox2">Notify Admin</label>
+                                                    <label class="form-check-label" for="inlineCheckbox2">Required</label>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="exampleFormControlSelect1">Template</label>
-                                                <select class="form-control" id="exampleFormControlSelect1">
-                                                    <option>- Select -</option>
-                                                    <option>Survey</option>
-                                                    <option>Register</option>
-                                                </select>
-                                                <div class="form-feild-info">Subscriber will receive an email using the selected email template.</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <div class="row">
-                                                    <div class="col-lg-12 col-xl-5">
-                                                        <div class="switch switch-sm">
-                                                            <input type="checkbox" class="switch" id="switch-sm">
-                                                            <label for="switch-sm">Enable Payment</label>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12 col-xl-7 add-form-payments">
-                                                        <div class="form-check form-check-inline">
-                                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox3" value="option3">
-                                                            <label class="form-check-label" for="inlineCheckbox3">Membership Payment</label>
-                                                        </div>
-                                                        <div class="form-check form-check-inline">
-                                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox4" value="option4">
-                                                            <label class="form-check-label" for="inlineCheckbox4">Donation Payment</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                     <div class="form-row text-left text-md-right">
