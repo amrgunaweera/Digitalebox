@@ -44,7 +44,7 @@
                 <ul aria-expanded="false">
                     <li><a href="#">Manage Permissions</a></li>
                     <li><a href="manage-roles.php">Manage Roles</a></li>
-                    <li><a href="#">Manage System Users</a></li>
+                    <li><a href="manage-system-users.php">Manage System Users</a></li>
                     <li><a href="#">Volunteer Portal</a></li>
                     <li><a href="feed-keywords.php">Feed Keywords</a></li>
                     <li><a href="#">Configurations</a></li>
