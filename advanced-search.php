@@ -1085,7 +1085,7 @@
 
             var action = $('#actionToRun').val();
             if(action == 0){
-                window.location.href = "http://localhost/digitalebox_revamp/digitaleboxui/bulk-edit.php";
+                window.location.href = "http://54.38.42.53/DigitaleBoxUI/bulk-edit.php";
             }else if(action == 1){
                 console.log('Delete');
                 //window.location.href = "http://www.google.com";

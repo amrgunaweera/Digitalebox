@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4712e663-565e-45fd-af7b-83ecd78f5180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add-user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit-user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage-system-users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/side-bar.php" afterPath="$PROJECT_DIR$/includes/side-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-search.php" afterPath="$PROJECT_DIR$/advanced-search.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +16,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50060606">
+    <splitter split-orientation="horizontal" split-proportion="0.80121213">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="manage-system-users.php" pinned="false" current-in-tab="false">
@@ -45,11 +39,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="edit-user.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="edit-user.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/edit-user.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="74" column="148" lean-forward="false" selection-start-line="74" selection-start-column="148" selection-end-line="74" selection-end-column="148" />
+                <state relative-caret-position="260">
+                  <caret line="79" column="58" lean-forward="true" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="advanced-search.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/advanced-search.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="1075" column="35" lean-forward="true" selection-start-line="1075" selection-start-column="35" selection-end-line="1075" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -154,8 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>date of</find>
-      <find>1990</find>
       <find>ichec</find>
       <find>ena</find>
       <find>&lt;option value=&quot;&quot;&gt;&lt;/option&gt;</find>
@@ -184,6 +186,8 @@
       <find>badge badge-dark</find>
       <find>.swi</find>
       <find>badge-info</find>
+      <find>bulk ed</find>
+      <find>bulk</find>
     </findStrings>
     <replaceStrings>
       <replace>Not Opened</replace>
@@ -239,7 +243,6 @@
         <option value="$PROJECT_DIR$/edit-message-template.php" />
         <option value="$PROJECT_DIR$/manage-roles.php" />
         <option value="$PROJECT_DIR$/includes/grid.php" />
-        <option value="$PROJECT_DIR$/advanced-search.php" />
         <option value="$PROJECT_DIR$/activities.php" />
         <option value="$PROJECT_DIR$/form-builder.php" />
         <option value="$PROJECT_DIR$/message-templates.php" />
@@ -255,6 +258,7 @@
         <option value="$PROJECT_DIR$/manage-system-users.php" />
         <option value="$PROJECT_DIR$/edit-user.php" />
         <option value="$PROJECT_DIR$/css/_tables.scss" />
+        <option value="$PROJECT_DIR$/advanced-search.php" />
       </list>
     </option>
   </component>
@@ -492,12 +496,12 @@
       <workItem from="1520913150808" duration="17378000" />
       <workItem from="1520996560311" duration="596000" />
       <workItem from="1521001792283" duration="19709000" />
-      <workItem from="1521082227364" duration="13537000" />
+      <workItem from="1521082227364" duration="14241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="449429000" />
+    <option name="totallyTimeSpent" value="450133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -774,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="580" column="73" lean-forward="false" selection-start-line="580" selection-start-column="73" selection-end-line="580" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/activities.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -878,14 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit-user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="74" column="148" lean-forward="false" selection-start-line="74" selection-start-column="148" selection-end-line="74" selection-end-column="148" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -916,6 +904,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="79" column="58" lean-forward="true" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="1075" column="35" lean-forward="true" selection-start-line="1075" selection-start-column="35" selection-end-line="1075" selection-end-column="35" />
           <folding />
         </state>
       </provider>
