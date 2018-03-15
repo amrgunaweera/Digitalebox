@@ -52,35 +52,35 @@
                                 <tr>
                                     <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
                                     <td>DB BO Testing</td>
-                                    <td><span class="badge badge-info">2018-02-28</span> <span class="badge badge-dark">10:16 AM</span></td>
+                                    <td><span class="badge badge-day">2018-02-28</span> <span class="badge badge-time">10:16 AM</span></td>
                                     <td>Viewed advanced search people</td>
                                 </tr>
 
                                 <tr>
                                     <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
                                     <td>DB BO Testing</td>
-                                    <td><span class="badge badge-info">2018-02-28</span> <span class="badge badge-dark">10:13 AM</span></td>
+                                    <td><span class="badge badge-day">2018-02-28</span> <span class="badge badge-time">10:13 AM</span></td>
                                     <td>Viewed dashboard</td>
                                 </tr>
 
                                 <tr>
                                     <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
                                     <td>DB BO Testing</td>
-                                    <td><span class="badge badge-info">2018-02-28</span> <span class="badge badge-dark">09:05 PM</span></td>
+                                    <td><span class="badge badge-day">2018-02-28</span> <span class="badge badge-time">09:05 PM</span></td>
                                     <td>Search social feed</td>
                                 </tr>
 
                                 <tr>
                                     <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
                                     <td>DB BO Testing</td>
-                                    <td><span class="badge badge-info">2018-02-28</span> <span class="badge badge-dark">09:04 AM</span></td>
+                                    <td><span class="badge badge-day">2018-02-28</span> <span class="badge badge-time">09:04 AM</span></td>
                                     <td>Created a new membership page</td>
                                 </tr>
 
                                 <tr>
                                     <td class="text-center"><span class="profile-pic"><img src="img/user-profile.png"></span></td>
                                     <td>DB BO Testing</td>
-                                    <td><span class="badge badge-info">2018-02-28</span> <span class="badge badge-dark">09:01 AM</span></td>
+                                    <td><span class="badge badge-day">2018-02-28</span> <span class="badge badge-time">09:01 AM</span></td>
                                     <td>Viewed Inbox message</td>
                                 </tr>
 

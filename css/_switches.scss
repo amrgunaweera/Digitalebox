@@ -125,6 +125,24 @@ $switch-transition: .2s all !default;
     }
   }
 
+  //Secondary Color
+  &.switch-secondary{
+    input{
+      &:checked + label::before {
+        /*background-color: $switch-checked-bg;*/
+        @include themify($themes) {
+          background-color: themed('third-color');
+        }
+      }
+
+      &:focus, &:hover + label::before {
+        outline: none;
+        /*box-shadow: $switch-focus-box-shadow;*/
+        @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.05));
+      }
+    }
+  }
+
   // Small variation
   &.switch-sm {
     font-size: $font-size-sm;

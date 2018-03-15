@@ -5,34 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4712e663-565e-45fd-af7b-83ecd78f5180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create-role.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/edit-role.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage-roles.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new-campaign-1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activities.php" afterPath="$PROJECT_DIR$/activities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add-form.php" afterPath="$PROJECT_DIR$/add-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add-message-template.php" afterPath="$PROJECT_DIR$/add-message-template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add-people.php" afterPath="$PROJECT_DIR$/add-people.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-search.php" afterPath="$PROJECT_DIR$/advanced-search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulk-edit.php" afterPath="$PROJECT_DIR$/bulk-edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_components.scss" afterPath="$PROJECT_DIR$/css/_components.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create-role.php" afterPath="$PROJECT_DIR$/create-role.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_switches.scss" afterPath="$PROJECT_DIR$/css/_switches.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_tables.scss" afterPath="$PROJECT_DIR$/css/_tables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom-fields.php" afterPath="$PROJECT_DIR$/custom-fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/detail-statistics-campaign.php" afterPath="$PROJECT_DIR$/detail-statistics-campaign.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-form.php" afterPath="$PROJECT_DIR$/edit-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-message-template.php" afterPath="$PROJECT_DIR$/edit-message-template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-role.php" afterPath="$PROJECT_DIR$/edit-role.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form-builder.php" afterPath="$PROJECT_DIR$/form-builder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/grid.php" afterPath="$PROJECT_DIR$/includes/grid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/side-bar.php" afterPath="$PROJECT_DIR$/includes/side-bar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/message-templates.php" afterPath="$PROJECT_DIR$/message-templates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/people-stats.php" afterPath="$PROJECT_DIR$/people-stats.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts.php" afterPath="$PROJECT_DIR$/posts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saved-search.php" afterPath="$PROJECT_DIR$/saved-search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sent-campaigns.php" afterPath="$PROJECT_DIR$/sent-campaigns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/social-activities.php" afterPath="$PROJECT_DIR$/social-activities.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics.php" afterPath="$PROJECT_DIR$/statistics.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,34 +31,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.64363635">
+    <splitter split-orientation="horizontal" split-proportion="0.4812121">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="grid.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/includes/grid.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="560">
-                  <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="47" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="manage-roles.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/manage-roles.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-561">
-                  <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="62" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="create-role.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/create-role.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="932">
-                  <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+                <state relative-caret-position="378">
+                  <caret line="59" column="89" lean-forward="true" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -80,8 +47,8 @@
           <file leaf-file-name="edit-role.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/edit-role.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
-                  <caret line="119" column="109" lean-forward="false" selection-start-line="119" selection-start-column="109" selection-end-line="119" selection-end-column="109" />
+                <state relative-caret-position="352">
+                  <caret line="59" column="89" lean-forward="false" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -94,8 +61,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="136" selection-end-column="7" />
+                <state relative-caret-position="20">
+                  <caret line="134" column="6" lean-forward="false" selection-start-line="134" selection-start-column="6" selection-end-line="136" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -104,8 +71,8 @@
           <file leaf-file-name="_colour-themes.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/_colour-themes.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
+                <state relative-caret-position="120">
+                  <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -114,8 +81,8 @@
           <file leaf-file-name="_components.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/_components.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3316">
-                  <caret line="171" column="10" lean-forward="false" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="10" />
+                <state relative-caret-position="288">
+                  <caret line="183" column="13" lean-forward="false" selection-start-line="183" selection-start-column="12" selection-end-line="183" selection-end-column="13" />
                   <folding>
                     <element signature="e#6040#11257#0" expanded="false" />
                   </folding>
@@ -123,11 +90,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_tables.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_switches.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/_switches.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="784">
+                  <caret line="141" column="7" lean-forward="false" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_tables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/_tables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="83" column="41" lean-forward="false" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
+                <state relative-caret-position="340">
+                  <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -146,21 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>grid</find>
-      <find>keywo</find>
-      <find>check</find>
-      <find>$theme-colors</find>
-      <find>$switch-checked-bg</find>
-      <find>$switch-focus-box-shadow</find>
-      <find>drop</find>
-      <find>body</find>
-      <find>e9e9e9</find>
-      <find>viewDetails</find>
-      <find>togg</find>
-      <find>form</find>
-      <find>show</find>
-      <find>ke</find>
-      <find>bulk</find>
       <find>date of</find>
       <find>1990</find>
       <find>ichec</find>
@@ -176,11 +138,30 @@
       <find>created</find>
       <find>150</find>
       <find>edit-message-template.php</find>
+      <find>badge-dark</find>
+      <find>bbadge-info</find>
+      <find>babadge-info</find>
+      <find>badbadge-info</find>
+      <find>badgbadge-info</find>
+      <find>badgebadge-info</find>
+      <find>badge badge-info</find>
+      <find>badge badge-inf</find>
+      <find>badge badge-in</find>
+      <find>badge badge-i</find>
+      <find>badge badge-</find>
+      <find>badge badge-dar</find>
+      <find>badge badge-dark</find>
+      <find>badge-info</find>
+      <find>.swi</find>
     </findStrings>
     <replaceStrings>
       <replace>Not Opened</replace>
       <replace>&lt;span class=&quot;badge badge-info&quot;&gt;2017-11-25&lt;/span&gt;</replace>
       <replace>edit-role.php</replace>
+      <replace>badge-day</replace>
+      <replace>badge badge-day</replace>
+      <replace>badge badge-time</replace>
+      <replace>badge-time</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\wamp64\www\digitalebox_revamp\digitaleboxui</dir>
@@ -215,7 +196,6 @@
         <option value="$PROJECT_DIR$/includes/footer.php" />
         <option value="$PROJECT_DIR$/includes/header.php" />
         <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/css/_switches.scss" />
         <option value="$PROJECT_DIR$/add-form-preview.php" />
         <option value="$PROJECT_DIR$/Form-builder.php" />
         <option value="$PROJECT_DIR$/add-form.php" />
@@ -228,20 +208,21 @@
         <option value="$PROJECT_DIR$/new-campaign-1.php" />
         <option value="$PROJECT_DIR$/detail-statistics-campaign.php" />
         <option value="$PROJECT_DIR$/css/_components.scss" />
+        <option value="$PROJECT_DIR$/edit-message-template.php" />
+        <option value="$PROJECT_DIR$/includes/side-bar.php" />
+        <option value="$PROJECT_DIR$/manage-roles.php" />
+        <option value="$PROJECT_DIR$/css/_tables.scss" />
         <option value="$PROJECT_DIR$/includes/grid.php" />
         <option value="$PROJECT_DIR$/advanced-search.php" />
-        <option value="$PROJECT_DIR$/saved-search.php" />
-        <option value="$PROJECT_DIR$/statistics.php" />
-        <option value="$PROJECT_DIR$/posts.php" />
         <option value="$PROJECT_DIR$/activities.php" />
-        <option value="$PROJECT_DIR$/message-templates.php" />
-        <option value="$PROJECT_DIR$/edit-message-template.php" />
-        <option value="$PROJECT_DIR$/sent-campaigns.php" />
         <option value="$PROJECT_DIR$/form-builder.php" />
-        <option value="$PROJECT_DIR$/includes/side-bar.php" />
-        <option value="$PROJECT_DIR$/css/_tables.scss" />
+        <option value="$PROJECT_DIR$/message-templates.php" />
+        <option value="$PROJECT_DIR$/posts.php" />
+        <option value="$PROJECT_DIR$/sent-campaigns.php" />
+        <option value="$PROJECT_DIR$/statistics.php" />
+        <option value="$PROJECT_DIR$/saved-search.php" />
         <option value="$PROJECT_DIR$/create-role.php" />
-        <option value="$PROJECT_DIR$/manage-roles.php" />
+        <option value="$PROJECT_DIR$/css/_switches.scss" />
         <option value="$PROJECT_DIR$/edit-role.php" />
       </list>
     </option>
@@ -274,8 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -332,6 +311,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,12 +460,13 @@
       <workItem from="1520911606774" duration="449000" />
       <workItem from="1520913150808" duration="17378000" />
       <workItem from="1520996560311" duration="596000" />
-      <workItem from="1521001792283" duration="18995000" />
+      <workItem from="1521001792283" duration="19709000" />
+      <workItem from="1521082227364" duration="5794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435178000" />
+    <option name="totallyTimeSpent" value="441686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -494,13 +476,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_switches.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="184" column="1" lean-forward="false" selection-start-line="184" selection-start-column="1" selection-end-line="184" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/app-footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -683,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="78" column="81" lean-forward="true" selection-start-line="78" selection-start-column="81" selection-end-line="78" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2441">
           <caret line="188" column="98" lean-forward="false" selection-start-line="188" selection-start-column="98" selection-end-line="188" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="167" column="10" lean-forward="true" selection-start-line="167" selection-start-column="10" selection-end-line="167" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="265" column="11" lean-forward="true" selection-start-line="265" selection-start-column="11" selection-end-line="265" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,44 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="43" column="74" lean-forward="false" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/advanced-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="430" column="101" lean-forward="false" selection-start-line="430" selection-start-column="91" selection-end-line="430" selection-end-column="101" />
-          <folding>
-            <marker date="1521014817598" expanded="false" signature="43675:43682" ph="×" />
-            <marker date="1521014817598" expanded="false" signature="47283:47290" ph="×" />
-            <marker date="1521014817598" expanded="false" signature="62810:62817" ph="×" />
-            <marker date="1521014817598" expanded="false" signature="79902:79909" ph="«" />
-            <marker date="1521014817598" expanded="false" signature="80636:80643" ph="»" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="135" column="135" lean-forward="false" selection-start-line="135" selection-start-column="135" selection-end-line="135" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="173" column="135" lean-forward="false" selection-start-line="173" selection-start-column="135" selection-end-line="173" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/activities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -789,84 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sent-campaigns.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="162" column="128" lean-forward="false" selection-start-line="162" selection-start-column="128" selection-end-line="162" selection-end-column="128" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message-templates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="124" column="135" lean-forward="false" selection-start-line="124" selection-start-column="135" selection-end-line="124" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/side-bar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saved-search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="251" column="206" lean-forward="false" selection-start-line="251" selection-start-column="206" selection-end-line="251" selection-end-column="206" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form-builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="140" column="135" lean-forward="false" selection-start-line="140" selection-start-column="135" selection-end-line="140" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/grid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3316">
-          <caret line="171" column="10" lean-forward="false" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="10" />
-          <folding>
-            <element signature="e#6040#11257#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="136" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_colour-themes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_tables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="83" column="41" lean-forward="false" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -879,26 +738,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create-role.php">
+    <entry file="file://$PROJECT_DIR$/manage-roles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+        <state relative-caret-position="2120">
+          <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage-roles.php">
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="106" column="62" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="62" />
+        <state relative-caret-position="20">
+          <caret line="134" column="6" lean-forward="false" selection-start-line="134" selection-start-column="6" selection-end-line="136" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sent-campaigns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="162" column="101" lean-forward="false" selection-start-line="162" selection-start-column="101" selection-end-line="162" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="173" column="101" lean-forward="false" selection-start-line="173" selection-start-column="101" selection-end-line="173" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saved-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2933">
+          <caret line="265" column="114" lean-forward="true" selection-start-line="265" selection-start-column="114" selection-end-line="265" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="135" column="101" lean-forward="false" selection-start-line="135" selection-start-column="101" selection-end-line="135" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-templates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="124" column="101" lean-forward="false" selection-start-line="124" selection-start-column="101" selection-end-line="124" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="140" column="101" lean-forward="false" selection-start-line="140" selection-start-column="101" selection-end-line="140" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced-search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="580" column="73" lean-forward="false" selection-start-line="580" selection-start-column="73" selection-end-line="580" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="82" column="101" lean-forward="false" selection-start-line="82" selection-start-column="101" selection-end-line="82" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="183" column="13" lean-forward="false" selection-start-line="183" selection-start-column="12" selection-end-line="183" selection-end-column="13" />
+          <folding>
+            <element signature="e#6040#11257#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_colour-themes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_switches.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="141" column="7" lean-forward="false" selection-start-line="141" selection-start-column="7" selection-end-line="141" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create-role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="59" column="89" lean-forward="true" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="89" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edit-role.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="119" column="109" lean-forward="false" selection-start-line="119" selection-start-column="109" selection-end-line="119" selection-end-column="109" />
+        <state relative-caret-position="352">
+          <caret line="59" column="89" lean-forward="false" selection-start-line="59" selection-start-column="89" selection-end-line="59" selection-end-column="89" />
           <folding />
         </state>
       </provider>

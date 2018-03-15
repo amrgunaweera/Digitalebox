@@ -243,6 +243,16 @@ input[type="range"]:focus + .rangeslider .rangeslider__handle {
       cursor: not-allowed; }
     .switch input:disabled + label::before {
       background-color: #e9ecef; }
+  .switch.switch-secondary input:checked + label::before {
+    /*background-color: $switch-checked-bg;*/ }
+    .theme-blue .switch.switch-secondary input:checked + label::before {
+      background-color: #f8ac59; }
+  .switch.switch-secondary input:focus, .switch.switch-secondary input:hover + label::before {
+    outline: none;
+    /*box-shadow: $switch-focus-box-shadow;*/
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05); }
   .switch.switch-sm {
     font-size: 0.875rem; }
     .switch.switch-sm input + label {
@@ -1186,6 +1196,16 @@ input::placeholder {
       .app-body .table-wrap .table-custom td .badge {
         font-size: 100%;
         font-weight: normal; }
+        .app-body .table-wrap .table-custom td .badge.badge-day {
+          color: #ffffff; }
+          .theme-blue .app-body .table-wrap .table-custom td .badge.badge-day {
+            background-color: #3f80be; }
+          .theme-green .app-body .table-wrap .table-custom td .badge.badge-day {
+            background-color: #39a655; }
+        .app-body .table-wrap .table-custom td .badge.badge-time {
+          color: #ffffff; }
+          .theme-blue .app-body .table-wrap .table-custom td .badge.badge-time {
+            background-color: #f8ac59; }
       .app-body .table-wrap .table-custom td.table-subhead {
         background-color: #fff;
         font-weight: bold; }

@@ -102,7 +102,7 @@
 
                                 <tr>
                                     <td>Phone Number</td>
-                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 AM</span></td>
+                                    <td><span class="badge badge-day">2018-01-29</span> <span class="badge badge-time">07:38 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td><i class="fa fa-clock-o fa-lg"></i> 1 sec</td>
                                     <td>
@@ -120,7 +120,7 @@
 
                                 <tr>
                                     <td>ProspectDigibox</td>
-                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 PM</span></td>
+                                    <td><span class="badge badge-day">2017-11-13</span> <span class="badge badge-time">09:46 PM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td><i class="fa fa-clock-o fa-lg"></i> 29 sec</td>
                                     <td>
@@ -138,7 +138,7 @@
 
                                 <tr>
                                     <td>15130 Search</td>
-                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 AM</span></td>
+                                    <td><span class="badge badge-day">2017-07-04</span> <span class="badge badge-time">08:14 AM</span></td>
                                     <td>Elania Zito</td>
                                     <td><i class="fa fa-clock-o fa-lg"></i> 101 sec</td>
                                     <td>

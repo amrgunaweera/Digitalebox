@@ -38,6 +38,19 @@
       .badge{
         font-size: 100%;
         font-weight: normal;
+
+        &.badge-day{
+          color: #ffffff;
+          @include themify($themes) {
+            background-color: themed('secondry-color');
+          }
+        }
+        &.badge-time{
+          color: #ffffff;
+          @include themify($themes) {
+            background-color: themed('third-color');
+          }
+        }
       }
       &.table-subhead{
         background-color: #fff;

@@ -58,7 +58,7 @@
                                 <tbody>
 
                                 <tr>
-                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 PM</span></td>
+                                    <td><span class="badge badge-day">2018-01-29</span> <span class="badge badge-time">07:38 PM</span></td>
                                     <td>All channels</td>
                                     <td>All channels</td>
                                     <td>Mass Message</td>
@@ -71,7 +71,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 AM</span></td>
+                                    <td><span class="badge badge-day">2017-11-13</span> <span class="badge badge-time">09:46 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td>Test Template</td>
                                     <td>Mass Message</td>
@@ -84,7 +84,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 AM</span></td>
+                                    <td><span class="badge badge-day">2017-07-04</span> <span class="badge badge-time">08:14 AM</span></td>
                                     <td>Test</td>
                                     <td>Test Description</td>
                                     <td>Mass Message</td>
@@ -96,7 +96,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge badge-info">2018-01-29</span> <span class="badge badge-dark">07:38 PM</span></td>
+                                    <td><span class="badge badge-day">2018-01-29</span> <span class="badge badge-time">07:38 PM</span></td>
                                     <td>All channels</td>
                                     <td>All channels</td>
                                     <td>Mass Message</td>
@@ -109,7 +109,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td><span class="badge badge-info">2017-11-13</span> <span class="badge badge-dark">09:46 AM</span></td>
+                                    <td><span class="badge badge-day">2017-11-13</span> <span class="badge badge-time">09:46 AM</span></td>
                                     <td>Digitalbox Testing</td>
                                     <td>Test Template</td>
                                     <td>Mass Message</td>
@@ -122,7 +122,7 @@
                                 </tr>
 
                                 <tr>
-                                    <td><span class="badge badge-info">2017-07-04</span> <span class="badge badge-dark">08:14 PM</span></td>
+                                    <td><span class="badge badge-day">2017-07-04</span> <span class="badge badge-time">08:14 PM</span></td>
                                     <td>Test</td>
                                     <td>Test Description</td>
                                     <td>Mass Message</td>

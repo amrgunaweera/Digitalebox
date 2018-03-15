@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">System</a> / <a href="">Manage Roles</a> / <span>Create Role</span>
+                        <a href="">Home</a> / <a href="">System</a> / <a href="">Manage Roles</a> / <span>Update Role</span>
                     </div>
                 </div>
             </div>
@@ -57,9 +57,9 @@
                                     <tr>
                                         <th scope="col">Permission</th>
                                         <th class="text-center enable" scope="col">
-                                            <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm0">
-                                                <label for="switch-sm0"></label>
+                                            <div class="switch switch-sm switch-secondary">
+                                                <input type="checkbox" class="switch" id="toggle-all">
+                                                <label for="toggle-all"></label>
                                             </div>
                                         </th>
                                     </tr>
@@ -73,7 +73,7 @@
                                         <td>A/B Testing</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm1" checked>
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm1" checked>
                                                 <label for="switch-sm1"></label>
                                             </div>
                                         </td>
@@ -86,7 +86,7 @@
                                         <td>A/B Testing Create</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm3">
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm3">
                                                 <label for="switch-sm3"></label>
                                             </div>
                                         </td>
@@ -99,7 +99,7 @@
                                         <td>Campaign Users View People</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm4"checked>
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm4"checked>
                                                 <label for="switch-sm4"></label>
                                             </div>
                                         </td>
@@ -108,7 +108,7 @@
                                         <td>Campaign Users Delete People</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm5">
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm5">
                                                 <label for="switch-sm5"></label>
                                             </div>
                                         </td>
@@ -117,7 +117,7 @@
                                         <td>Campaign Users Update People</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm6" checked>
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm6" checked>
                                                 <label for="switch-sm6"></label>
                                             </div>
                                         </td>
@@ -130,7 +130,7 @@
                                         <td>Change Theme</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm7" checked>
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm7" checked>
                                                 <label for="switch-sm7"></label>
                                             </div>
                                         </td>
@@ -139,7 +139,7 @@
                                         <td>Change Portal Texts</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm8" checked>
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm8" checked>
                                                 <label for="switch-sm8"></label>
                                             </div>
                                         </td>
@@ -148,7 +148,7 @@
                                         <td>Change Front Images</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm9">
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm9">
                                                 <label for="switch-sm9"></label>
                                             </div>
                                         </td>
@@ -157,7 +157,7 @@
                                         <td>Manage Front Images</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm10" checked>
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm10" checked>
                                                 <label for="switch-sm10"></label>
                                             </div>
                                         </td>
@@ -166,7 +166,7 @@
                                         <td>Change Background Image</td>
                                         <td class="text-center">
                                             <div class="switch switch-sm">
-                                                <input type="checkbox" class="switch" id="switch-sm11">
+                                                <input type="checkbox" class="switch toggle-switch" id="switch-sm11">
                                                 <label for="switch-sm11"></label>
                                             </div>
                                         </td>
@@ -202,15 +202,12 @@
 
 <script>
     $(document).ready(function () {
-        $('#from-date').datetimepicker({
-            format: 'YYYY-MM-DD'
-        });
-        $('#to-date').datetimepicker({
-            format: 'YYYY-MM-DD'
-        });
-
-        $('#end-date').datetimepicker({
-            format: 'YYYY-MM-DD'
+        $('#toggle-all').change(function() {
+            if(this.checked){
+                $(".toggle-switch").prop("checked", true);
+            }else{
+                $(".toggle-switch").prop("checked", false);
+            }
         });
     });
 </script>
