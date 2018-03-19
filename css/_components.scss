@@ -549,3 +549,23 @@ iframe{
   }
 }
 /*   New Campaign Stepper  ends  */
+
+/*   My Accounts  */
+.profile-image{
+  width: 100%;
+
+  .account-picture{
+    text-align: center;
+
+    img{
+      width: 100%;
+      max-width: 250px;
+      max-height: 250px;
+      border: solid 5px #e2e2e2;
+      @include border-radius(300px);
+      margin-bottom: 20px;
+      @include drop-shadow(0px 5px 15px 0px rgba(0, 0, 0, 0.1));
+    }
+
+  }
+}

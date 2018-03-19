@@ -6,7 +6,7 @@
         </div>
     </div>
 
-    <a class="navbar-brand" href="#"><img src="img/digitalebox-logo.png"></a>
+    <a class="navbar-brand" href="#"><img src="img/digitalebox-logo@2x.png"></a>
 
 
 
@@ -87,23 +87,24 @@
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item dropdown header-dropdown desktop-hide">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="my-account.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-user fa-2x"></i>
                     <div class="text">My Account</div>
                 </a>
             </li>
 
             <li class="nav-item dropdown header-dropdown desktop-hide">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="change-password.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-lock fa-2x"></i>
                     <div class="text">Change Password</div>
                 </a>
             </li>
 
             <li class="nav-item dropdown languages header-dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="#" title="Language" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="flag"><img src="img/lang-eng.png"></div>
                     <div class="text desktop-hide">Languages</div>
+                    <div class="desktop-hide float-right"><i class="fa fa-angle-down"></i></div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
@@ -146,37 +147,40 @@
             </li>
 
             <li class="nav-item dropdown header-dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="badge notification">4</span> <i class="fa fa-bell fa-2x"></i>
-                    <div class="text desktop-hide">Messages</div>
+                <a class="nav-link" href="#" title="Notifications" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="badge notification">11</span> <i class="fa fa-bell fa-2x"></i>
+                    <div class="text desktop-hide">Notifications</div>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right mobile-hide" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
                     <a class="dropdown-item notifications list-items" href="#">
-                        <div class="message">
-                            <div class="name">Title 1</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                        <div class="category">
+                            New Messages
                         </div>
-                        <div class="date">28 Dec</div>
+                        <div class="count text-right">
+                            <span class="badge badge-pill badge-secondary">4</span>
+                        </div>
                     </a>
 
                     <a class="dropdown-item notifications list-items" href="#">
-                        <div class="message">
-                            <div class="name">Title 2</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                        <div class="category">
+                            Volunteers
                         </div>
-                        <div class="date">28 Dec</div>
+                        <div class="count text-right">
+                            <span class="badge badge-pill badge-secondary">5</span>
+                        </div>
                     </a>
 
                     <a class="dropdown-item notifications list-items" href="#">
-                        <div class="message">
-                            <div class="name">Title 3</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                        <div class="category">
+                            Followups
                         </div>
-                        <div class="date">28 Dec</div>
+                        <div class="count text-right">
+                            <span class="badge badge-pill badge-secondary">2</span>
+                        </div>
                     </a>
 
-                    <a class="dropdown-item notifications list-items" href="#">
+                    <!--<a class="dropdown-item notifications list-items" href="#">
                         <div class="message">
                             <div class="name">Title 4</div>
                             <div class="text">Lorem ipsum dolor sit amet</div>
@@ -190,15 +194,15 @@
                             <div class="text">Lorem ipsum dolor sit amet</div>
                         </div>
                         <div class="date">28 Dec</div>
-                    </a>
+                    </a>-->
 
                 </div>
             </li>
 
             <li class="nav-item dropdown header-dropdown">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="#" title="Messages" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="badge msg">3</span> <i class="fa fa-envelope fa-2x"></i>
-                    <div class="text desktop-hide">Notifications</div>
+                    <div class="text desktop-hide">Messages</div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right mobile-hide" aria-labelledby="navbarDropdown">
 
@@ -262,15 +266,15 @@
                     <img src="img/user-profile.png">
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item user-profile" href="#">
+                    <a class="dropdown-item user-profile" href="my-account.php">
                         <div class="pic"><img src="img/user-profile.png"></div>
                         <div class="details">
-                            <div class="name">User Name</div>
+                            <div class="name">John Doe</div>
                             <div class="role">Administrator</div>
                         </div>
                     </a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-user fa-lg"></i> My Account</a>
-                    <a class="dropdown-item" href="#"><i class="fa fa-lock fa-lg"></i> Change Password</a>
+                    <a class="dropdown-item" href="my-account.php"><i class="fa fa-user fa-lg"></i> My Account</a>
+                    <a class="dropdown-item" href="change-password.php"><i class="fa fa-lock fa-lg"></i> Change Password</a>
                     <a class="dropdown-item" href="#"><i class="fa fa-power-off fa-lg"></i> Logout</a>
                 </div>
             </li>

@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="title">
-                        Statistics
+                        Statistics - Posts
                     </div>
                     <div class="desc">
                         Your online community growth at a glance
@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">People</a> / <span>Statistics</span>
+                        <a href="">Home</a> / <a href="">People</a> / <a href="">Statistics</a> / <span>Posts</span>
                     </div>
                 </div>
             </div>

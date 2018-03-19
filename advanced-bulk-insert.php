@@ -33,7 +33,7 @@
                     <div class="content-area">
 
                         <form>
-                            <div class="form-row text-left text-md-right">
+                            <div class="form-row text-left">
                                 <div class="form-group col-md-12">
                                     <button type="button" onclick="location.href='add-zip-file.php'" class="btn btn-primary" >Add Zip File</button>
                                 </div>

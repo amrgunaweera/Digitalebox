@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="title">
-                        Account Merge
+                        Account Merge - User Matching
                     </div>
                     <div class="desc">
                         Merge duplicate profiles
@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="main-breadcrumb pt-3 text-left text-md-right">
-                        <a href="">Home</a> / <a href="">People</a> / <span>Account Merge</span>
+                        <a href="">Home</a> / <a href="">People</a> / <a href="">Account Merge</a> / <span>User Matching</span>
                     </div>
                 </div>
             </div>
