@@ -820,7 +820,9 @@ input::placeholder {
   /* Form Builder */
   /*   New Campaign Stepper   */
   /*   New Campaign Stepper  ends  */
-  /*   My Accounts  */ }
+  /*   My Accounts  */
+  /*   My Accounts ends  */
+  /*   Portal Settings  */ }
   .theme-blue .app-body {
     background-color: #f3f3f4; }
   .theme-green .app-body {
@@ -1328,6 +1330,9 @@ input::placeholder {
     max-height: 230px; }
   .app-body .modal .resource-details .resource-video iframe {
     width: 100%; }
+  .app-body .modal-xl {
+    width: 90%;
+    max-width: 1400px; }
   .app-body .card .card-body .profile-pic {
     width: 50px;
     height: 50px;
@@ -1772,6 +1777,17 @@ input::placeholder {
         -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
         box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1); }
+  .app-body .portal-setting-images {
+    width: 200px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .app-body .portal-setting-images img {
+      max-width: 200px;
+      height: 200px;
+      width: 200px; }
   .app-body .highcharts-root {
     font-family: open_sansregular, sans-serif !important; }
   .app-body .highcharts-container .highcharts-data-label span {
