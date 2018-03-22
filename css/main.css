@@ -598,8 +598,10 @@ input::placeholder {
   .app-header .navbar .navbar-collapse ul .header-dropdown > a {
     padding-top: 9px;
     padding-bottom: 9px;
-    position: relative;
-    margin-right: 15px; }
+    position: relative; }
+    @media (min-width: 992px) {
+      .app-header .navbar .navbar-collapse ul .header-dropdown > a {
+        margin-right: 15px; } }
     @media (max-width: 991.98px) {
       .app-header .navbar .navbar-collapse ul .header-dropdown > a {
         height: 50px;
@@ -822,7 +824,10 @@ input::placeholder {
   /*   New Campaign Stepper  ends  */
   /*   My Accounts  */
   /*   My Accounts ends  */
-  /*   Portal Settings  */ }
+  /*   Portal Settings  */
+  /*   Portal Settings ends  */
+  /*   Bulk Mapping   */
+  /*   Bulk Mapping ends  */ }
   .theme-blue .app-body {
     background-color: #f3f3f4; }
   .theme-green .app-body {
@@ -1195,6 +1200,8 @@ input::placeholder {
       color: #a7b1c2; }
   .app-body .text-editor {
     height: 300px; }
+  .app-body .form-row-separated {
+    border-bottom: solid 1px #e9ecef; }
   .app-body .table-wrap {
     overflow: auto; }
     .app-body .table-wrap > .table {
@@ -1216,6 +1223,8 @@ input::placeholder {
         background-color: #39a655; }
       .app-body .table-wrap .table-custom th.actions {
         min-width: 80px; }
+      .app-body .table-wrap .table-custom th .form-check .icheckbox_minimal.checked {
+        background-position: -80px 0; }
     .app-body .table-wrap .table-custom td {
       border: none;
       font-size: 12px;
@@ -1309,6 +1318,8 @@ input::placeholder {
     .app-body .table-wrap .saved-search.actions {
       width: 170px !important;
       min-width: 170px !important; }
+    .app-body .table-wrap .table-mapping td {
+      border: none; }
   .app-body .edit-keyword .chosen-container-multi .chosen-choices {
     height: 115px; }
   .app-body .results-count {
@@ -1788,6 +1799,12 @@ input::placeholder {
       max-width: 200px;
       height: 200px;
       width: 200px; }
+  .theme-blue .app-body .mapping-arrow {
+    color: #3f80be; }
+  .theme-green .app-body .mapping-arrow {
+    color: #39a655; }
+  .app-body .mapping-field {
+    min-width: 200px; }
   .app-body .highcharts-root {
     font-family: open_sansregular, sans-serif !important; }
   .app-body .highcharts-container .highcharts-data-label span {

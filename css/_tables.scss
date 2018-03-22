@@ -27,6 +27,12 @@
       &.actions{
         min-width: 80px;
       }
+
+      .form-check{
+        .icheckbox_minimal.checked{
+          background-position: -80px 0;
+        }
+      }
     }
     td{
       border: none;
@@ -212,6 +218,12 @@
     &.actions{
       width: 170px !important;
       min-width: 170px !important;
+    }
+  }
+
+  .table-mapping{
+    td{
+      border: none;
     }
   }
 

@@ -65,7 +65,7 @@
                             </div>
                             <div class="form-row text-left text-md-right">
                                 <div class="form-group col-md-12">
-                                    <button type="submit" onclick="location.href='advanced-bulk-insert.php'" class="btn btn-primary">Upload</button>
+                                    <button type="button" onclick="location.href='bulk-insert-mapping.php'" class="btn btn-primary">Upload</button>
                                     <button type="button" onclick="location.href='advanced-bulk-insert.php'" class="btn btn-secondary">Cancel</button>
                                 </div>
                             </div>

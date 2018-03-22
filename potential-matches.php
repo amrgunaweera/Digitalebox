@@ -140,7 +140,7 @@
 
                                 <!-- Modal -->
                                 <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLongTitle">Merge Accounts</h5>
@@ -190,7 +190,7 @@
                                                                 </div>
                                                             </th>
                                                             <th class="text-center" scope="col">Profile</th>
-                                                            <th scope="col">Network</th>
+                                                            <th class="text-center" scope="col">Network</th>
                                                             <th scope="col">First Name</th>
                                                             <th scope="col">Last Name</th>
 
@@ -215,7 +215,7 @@
                                                             <td class="text-center">
                                                                 <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
                                                                 <a href="" data-toggle="modal" class="hide-merge" data-target="#conflicts" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-trash fa-lg"></i></a>
+                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
                                                             </td>
                                                         </tr>
 
@@ -235,7 +235,7 @@
                                                             <td class="text-center">
                                                                 <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
                                                                 <a href="" data-toggle="modal" class="hide-merge" data-target="#conflicts" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-trash fa-lg"></i></a>
+                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
                                                             </td>
                                                         </tr>
 
@@ -255,7 +255,7 @@
                                                             <td class="text-center">
                                                                 <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
                                                                 <a href="" data-toggle="modal" class="hide-merge" data-target="#conflicts" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-trash fa-lg"></i></a>
+                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
                                                             </td>
                                                         </tr>
 
@@ -263,7 +263,7 @@
                                                     </table>
                                                 </div>
 
-                                                <button class="btn btn-secondary btn-sm disabled float-right">Auto Merge</button>
+                                                <button class="btn btn-secondary btn-sm float-right">Auto Merge</button>
 
                                             </div>
                                         </div>
@@ -271,9 +271,9 @@
                                 </div>
                                 <!-- Modal ends -->
 
-                                <!-- Modal 2 -->
+                                <!-- Conflicts Modal -->
                                 <div class="modal fade" id="conflicts" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title" id="exampleModalLongTitle">Merge Conflicts</h5>
@@ -288,15 +288,14 @@
                                                 </div>
 
                                                 <div class="row no-gutters mt-2">
-                                                    <div class="col-4"><p>Master Account</p></div>
-                                                    <div class="col-8"><p><strong>Mark Otto</strong></p></div>
+                                                    <div class="col-12"><p>Master Account - <strong>Mark Otto</strong></p></div>
                                                 </div>
 
-                                                <div class="table-wrap">
-                                                    <table class="table table-striped table-custom">
-                                                        <tr>
-                                                            <td width="40%">Street Address</td>
-                                                            <td>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="form-row form-row-separated mb-3">
+                                                            <div class="form-group">
+                                                                <label>Street Address</label><br>
                                                                 <div class="form-check form-check-inline">
                                                                     <input class="form-check-input custom-icheck" type="radio" id="inline1" name="street" value="option1">
                                                                     <label class="form-check-label" for="inlineCheckbox1">Victoria Island</label>
@@ -305,25 +304,43 @@
                                                                     <input class="form-check-input custom-icheck" type="radio" id="inline2" name="street" value="option2">
                                                                     <label class="form-check-label" for="inlineCheckbox1">Port Harcourt</label>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>City</td>
-                                                            <td>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input class="form-check-input custom-icheck" type="radio" id="inline1" name="city" value="option1">
+                                                                    <input class="form-check-input custom-icheck" type="radio" id="inline2" name="street" value="option3">
+                                                                    <label class="form-check-label" for="inlineCheckbox1">Port Harcourt</label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input custom-icheck" type="radio" id="inline2" name="street" value="option4">
+                                                                    <label class="form-check-label" for="inlineCheckbox1">Port Harcourt</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-row form-row-separated mb-3">
+                                                            <div class="form-group">
+                                                                <label>City</label><br>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input custom-icheck" type="radio" id="" name="city" value="option1">
                                                                     <label class="form-check-label" for="inlineCheckbox1">Paris</label>
                                                                 </div>
                                                                 <div class="form-check form-check-inline">
-                                                                    <input class="form-check-input custom-icheck" type="radio" id="inline2" name="city" value="option2">
+                                                                    <input class="form-check-input custom-icheck" type="radio" id="" name="city" value="option2">
                                                                     <label class="form-check-label" for="inlineCheckbox1">London</label>
                                                                 </div>
-                                                            </td>
-                                                        </tr>
-                                                    </table>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input custom-icheck" type="radio" id="" name="city" value="option3">
+                                                                    <label class="form-check-label" for="inlineCheckbox1">Washington</label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input custom-icheck" type="radio" id="" name="city" value="option4">
+                                                                    <label class="form-check-label" for="inlineCheckbox1">Wills</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
 
                                                 <p class="mt-2 notes"><i>Note: Please use the auto merge, if you found this page empty due to no conflicting attributes.</i></p>
+
+                                                <button class="btn btn-secondary btn-sm show-merge mt-3" data-target="#mergePreview" data-toggle="modal" data-dismiss="modal">Preview</button>
 
                                                 <button class="btn btn-primary btn-sm show-merge mt-3 float-right" data-dismiss="modal">Save</button>
 
@@ -331,7 +348,30 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Modal 2 ends -->
+                                <!-- Conflicts ends -->
+
+                                <!-- Preview Modal -->
+                                <div class="modal fade" id="mergePreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Merge Preview</h5>
+                                                <button type="button" class="close show-merge" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+
+                                            <div class="modal-body">
+
+
+
+                                                <button class="btn btn-primary btn-sm show-merge mt-3 float-right" data-dismiss="modal">Close</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Preview ends -->
 
 
                             </div>

@@ -5,6 +5,7 @@
 </div>
 
 <link rel="stylesheet" href="css/cropper.css">
+<link rel="stylesheet" href="css/cropper-main.css">
 
 <div class="app-body">
     <?php include 'includes/side-bar.php'; ?>
