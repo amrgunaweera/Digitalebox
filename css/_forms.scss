@@ -25,3 +25,10 @@
 .form-row-separated{
   border-bottom: solid 1px #e9ecef;
 }
+
+#message-template-email-subject{
+  input{
+    min-height: 10px !important;
+    height: 10px;
+  }
+}

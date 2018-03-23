@@ -1,5 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
+<link href="css/emoji.min.css" rel="stylesheet">
+
 <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
 <script>tinymce.init({ selector:'.text-editor' });</script>
 
@@ -35,7 +37,6 @@
                 <div class="content-inner">
                     <div class="content-area">
 
-
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
@@ -55,7 +56,9 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label>Email Subject</label>
-                                    <input type="text" class="form-control" id="" placeholder="Name">
+                                    <div class="emoji-picker-container" id="message-template-email-subject">
+                                        <input type="text" class="form-control" id="" placeholder="Email Subject" data-emojiable="true" data-emoji-input="unicode">
+                                    </div>
                                 </div>
                                 <div class="form-group col-md-12 col-xl-9">
                                     <label>Email Content</label>
@@ -122,8 +125,24 @@
 
 <?php include 'includes/footer.php'; ?>
 
-<script>
-    $(document).ready(function () {
+<!-- Begin emoji-picker JavaScript -->
+<script src="js/emoji/config.js"></script>
+<script src="js/emoji/util.js"></script>
+<script src="js/emoji/jquery.emojiarea.js"></script>
+<script src="js/emoji/emoji-picker.js"></script>
+<!-- End emoji-picker JavaScript -->
 
+<script>
+    $(function() {
+        // Initializes and creates emoji set from sprite sheet
+        window.emojiPicker = new EmojiPicker({
+            emojiable_selector: '[data-emojiable=true]',
+            assetsPath: 'img/emoji/',
+            popupButtonClasses: 'fa fa-smile-o'
+        });
+        // Finds all elements with `emojiable_selector` and converts them to rich emoji input fields
+        // You may want to delay this step if you have dynamically created input fields that appear later in the loading process
+        // It can be called as many times as necessary; previously converted input fields will not be converted again
+        window.emojiPicker.discover();
     });
 </script>

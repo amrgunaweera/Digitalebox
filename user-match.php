@@ -99,7 +99,7 @@
                                         <td>mark@gmail.com</td>
 
                                         <td class="text-center">
-                                            <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-edit fa-lg"></i></a>
+                                            <a href="" data-toggle="modal" data-target="#viewDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         </td>
                                     </tr>
 
@@ -112,7 +112,7 @@
                                         <td>mark@gmail.com</td>
 
                                         <td class="text-center">
-                                            <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-edit fa-lg"></i></a>
+                                            <a href="" data-toggle="modal" data-target="#viewDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         </td>
                                     </tr>
 
@@ -125,125 +125,12 @@
                                         <td>mark@gmail.com</td>
 
                                         <td class="text-center">
-                                            <a href="" data-toggle="modal" data-target="#viewDetails" title="View"><i class="fa fa-edit fa-lg"></i></a>
+                                            <a href="" data-toggle="modal" data-target="#viewDetails" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         </td>
                                     </tr>
 
                                     </tbody>
                                 </table>
-
-                                <!-- Modal -->
-                                <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Merge Accounts</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-
-
-                                            <div class="modal-body edit-keyword">
-                                                <h6>Master Account</h6>
-                                                <div class="table-wrap">
-                                                    <table class="table table-hover table-striped table-custom">
-                                                        <!--<thead>
-                                                        <tr>
-                                                            <th class="text-center" scope="col">Profile</th>
-                                                            <th scope="col">First Name</th>
-                                                            <th scope="col">Last Name</th>
-                                                            <th scope="col">Email</th>
-                                                        </tr>
-                                                        </thead>-->
-                                                        <tbody>
-
-                                                        <tr>
-                                                            <td class="text-center">
-                                                                <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                            </td>
-                                                            <td>Mark</td>
-                                                            <td>Otto</td>
-                                                            <td>mark@gmail.com</td>
-
-                                                        </tr>
-
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-
-
-                                                <p>Merge Similar Accounts with master</p>
-                                                <div class="table-wrap">
-                                                    <table class="table table-hover table-striped table-custom">
-                                                        <thead>
-                                                        <tr>
-                                                            <th class="text-center" scope="col">Profile</th>
-                                                            <th scope="col">Network</th>
-                                                            <th scope="col">First Name</th>
-                                                            <th scope="col">Last Name</th>
-
-                                                            <th class="text-center actions" scope="col">Actions</th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-
-                                                        <tr>
-                                                            <td class="text-center">
-                                                                <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                            </td>
-                                                            <td class="text-center"><i class="fa fa-facebook fa-lg"></i></td>
-                                                            <td>Mark</td>
-                                                            <td>Otto</td>
-
-                                                            <td class="text-center">
-                                                                <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-trash fa-lg"></i></a>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <td class="text-center">
-                                                                <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                            </td>
-                                                            <td class="text-center"><i class="fa fa-twitter fa-lg"></i></td>
-                                                            <td></td>
-                                                            <td>Otto</td>
-
-                                                            <td class="text-center">
-                                                                <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                                <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-trash fa-lg"></i></a>
-                                                            </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <td class="text-center">
-                                                                <span class="profile-pic"><img src="img/user-profile.png"></span>
-                                                            </td>
-                                                            <td class="text-center"><i class="fa fa-facebook fa-lg"></i></td>
-                                                            <td>Mark</td>
-                                                            <td></td>
-
-                                                            <td class="text-center">
-                                                                <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
-                                                                <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
-                                                                <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-trash fa-lg"></i></a>
-                                                            </td>
-                                                        </tr>
-
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            <!--
-                                                                                    <div class="modal-footer">
-                                                                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                                                                    </div>-->
-                                        </div>
-                                    </div>
-                                </div>
 
                             </div>
 
@@ -271,6 +158,119 @@
                                             </li>
                                         </ul>
                                     </nav>
+                                </div>
+                            </div>
+
+                            <!-- Merge Modal -->
+                            <div class="modal fade" id="viewDetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Merge Accounts</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+
+
+                                        <div class="modal-body edit-keyword">
+                                            <h6>Master Account</h6>
+                                            <div class="table-wrap">
+                                                <table class="table table-hover table-striped table-custom">
+                                                    <!--<thead>
+                                                    <tr>
+                                                        <th class="text-center" scope="col">Profile</th>
+                                                        <th scope="col">First Name</th>
+                                                        <th scope="col">Last Name</th>
+                                                        <th scope="col">Email</th>
+                                                    </tr>
+                                                    </thead>-->
+                                                    <tbody>
+
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            <span class="profile-pic"><img src="img/user-profile.png"></span>
+                                                        </td>
+                                                        <td>Mark</td>
+                                                        <td>Otto</td>
+                                                        <td>mark@gmail.com</td>
+
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+
+                                            <p>Merge Similar Accounts with master</p>
+                                            <div class="table-wrap">
+                                                <table class="table table-hover table-striped table-custom">
+                                                    <thead>
+                                                    <tr>
+                                                        <th class="text-center" scope="col">Profile</th>
+                                                        <th scope="col">Network</th>
+                                                        <th scope="col">First Name</th>
+                                                        <th scope="col">Last Name</th>
+
+                                                        <th class="text-center actions" scope="col">Actions</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            <span class="profile-pic"><img src="img/user-profile.png"></span>
+                                                        </td>
+                                                        <td class="text-center"><i class="fa fa-facebook fa-lg"></i></td>
+                                                        <td>Mark</td>
+                                                        <td>Otto</td>
+
+                                                        <td class="text-center">
+                                                            <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            <span class="profile-pic"><img src="img/user-profile.png"></span>
+                                                        </td>
+                                                        <td class="text-center"><i class="fa fa-twitter fa-lg"></i></td>
+                                                        <td></td>
+                                                        <td>Otto</td>
+
+                                                        <td class="text-center">
+                                                            <a href="" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
+                                                            <a href="" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="text-center">
+                                                            <span class="profile-pic"><img src="img/user-profile.png"></span>
+                                                        </td>
+                                                        <td class="text-center"><i class="fa fa-facebook fa-lg"></i></td>
+                                                        <td>Mark</td>
+                                                        <td></td>
+
+                                                        <td class="text-center">
+                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="View"><i class="fa fa-eye fa-lg"></i></a>
+                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Merge"><i class="fa fa-toggle-up fa-lg"></i></a>
+                                                            <a href="" data-toggle="tooltip" data-target="#viewDetails" title="Reject"><i class="fa fa-close fa-lg"></i></a>
+                                                        </td>
+                                                    </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <!--
+                                                                                <div class="modal-footer">
+                                                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                                                                </div>-->
+                                    </div>
                                 </div>
                             </div>
 
