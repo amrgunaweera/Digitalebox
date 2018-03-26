@@ -227,8 +227,6 @@
                             </div>
                         </div>
 
-
-
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -248,6 +246,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="cprt mt-4 text-center text-lg-right">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
                 </form>
 
             </div>

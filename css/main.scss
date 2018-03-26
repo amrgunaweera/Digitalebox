@@ -218,6 +218,19 @@ input{
     border-color: themed('secondry-color');
   }
 }
+.btn-primary{
+  &:hover, &:focus, &:active{
+    @include themify($themes) {
+      background-color: themed('secondry-dark') !important;
+      border-color: themed('secondry-color') !important;
+    }
+  }
+  &:focus{
+    @include themify($themes) {
+      box-shadow: 0 1px 3px 0 themed('primary-light')!important;;
+    }
+  }
+}
 .btn-secondary, .badge-secondary{
   color: #ffffff !important;
   @include themify($themes) {
@@ -226,6 +239,19 @@ input{
   }
   i{
     color: #ffffff;
+  }
+}
+.btn-secondary{
+  &:hover, &:focus, &:active{
+    @include themify($themes) {
+      background-color: themed('third-dark') !important;
+      border-color: themed('third-color') !important;
+    }
+  }
+  &:focus{
+    @include themify($themes) {
+      box-shadow: 0 1px 3px 0 themed('primary-light')!important;;
+    }
   }
 }
 

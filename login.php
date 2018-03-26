@@ -94,7 +94,7 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-10 col-md-6">
+                        <div class="col-10 col-md-7">
                             <div class="row justify-content-center">
                                 <a href="" class="logo">
                                     <img src="img/digitalebox-logo.png">
@@ -129,9 +129,9 @@
                             </form>
 
                             <div class="social-signin row justify-content-center">
-                                <div class="social-link"><a id="tw" href=""><i class="fa fa-twitter"></i></a></div>
-                                <div class="social-link"><a id="fb" href=""><i class="fa fa-facebook"></i></a></div>
-                                <div class="social-link"><a id="in" href=""><i class="fa fa-linkedin"></i></a></div>
+                                <div class="social-link"><a id="tw-1" class="tw" href=""><i class="fa fa-twitter"></i></a></div>
+                                <div class="social-link"><a id="fb-1" class="fb" href=""><i class="fa fa-facebook"></i></a></div>
+                                <div class="social-link"><a id="in-1" class="in" href=""><i class="fa fa-linkedin"></i></a></div>
                             </div>
 
                             <div class="row justify-content-center">
@@ -139,6 +139,8 @@
                                     Need a new account? <span><a href="register-promo.php">Sign Up</a></span>
                                 </div>
                             </div>
+
+                            <div class="cprt mt-4 mb-1">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
                         </div>
                     </div>
 

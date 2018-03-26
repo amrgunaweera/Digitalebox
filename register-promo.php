@@ -40,6 +40,8 @@
                             <div class="share-this">
                                 Share this page on <a id="fb" href=""><i class="fa fa-facebook"></i></a> <a id="tw" href=""><i class="fa fa-twitter"></i></a> <a id="in" href=""><i class="fa fa-linkedin"></i></a>
                             </div>
+
+                            <div class="cprt mt-4 mb-1">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
                         </div>
 
                     </div>

@@ -19,7 +19,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 
-  @media (min-width: 992px) {
+  @media (min-width: 992px) and (min-height: 740px) {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -30,4 +30,10 @@ body {
 #app-main{
   width: 100%;
   height: auto;
+}
+
+.cprt{
+  font-size: 10px;
+  color: #ccc;
+  text-align: center;
 }

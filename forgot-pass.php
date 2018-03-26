@@ -37,12 +37,12 @@
                                 </form>
                             </div>
 
+                            <div class="cprt mt-4">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
+
                         </div>
 
                     </div>
                 </div>
-
-
 
             </div>
 

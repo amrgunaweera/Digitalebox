@@ -598,3 +598,34 @@ iframe{
   min-width: 200px;
 }
 /*   Bulk Mapping ends  */
+
+
+/*   Date Picker   */
+
+.bootstrap-datetimepicker-widget table td.today:before {
+  @include themify($themes) {
+    border-bottom-color: themed('secondry-color');
+  }
+}
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+  @include themify($themes) {
+    background-color: themed('secondry-color');
+  }
+}
+
+.bootstrap-datetimepicker-widget table td span.active {
+  @include themify($themes) {
+    background-color: themed('secondry-color');
+  }
+}
+
+/*   Date Picker ends  */
+
+/*   Progress bar   */
+.progress-bar{
+  @include themify($themes) {
+    background-color: themed('secondry-dark');
+  }
+}
+/*   Progress bar ends   */
