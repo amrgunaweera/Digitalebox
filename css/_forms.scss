@@ -32,3 +32,18 @@
     height: 10px;
   }
 }
+
+.error{
+  color: #f44336;
+  font-size: 12px;
+}
+
+select{
+  option{
+    &::selection{
+      @include themify($themes) {
+        background-color: themed('primary-light');
+      }
+    }
+  }
+}

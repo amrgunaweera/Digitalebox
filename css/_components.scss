@@ -16,7 +16,7 @@
   label{
     &.active{
       @include themify($themes) {
-        border-top: solid 3px themed('secondry-color');
+        border-top: solid 1px themed('secondry-color');
       }
 
     }
@@ -629,3 +629,31 @@ iframe{
   }
 }
 /*   Progress bar ends   */
+
+/*   Pagination   */
+.pagination{
+  .page-item{
+    &.active{
+      .page-link{
+        @include themify($themes) {
+          background-color: themed('secondry-color');
+          border-color: themed('secondry-dark');
+        }
+      }
+    }
+  }
+}
+/*   Pagination ends   */
+
+/*   Dropdown menu   */
+.dropdown-menu{
+  .dropdown-item{
+    &:hover, &:focus, &:active{
+      @include themify($themes) {
+        background-color: themed('secondry-color') !important;
+      }
+    }
+  }
+}
+
+/*   Dropdown menu ends   */
