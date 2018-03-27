@@ -29,17 +29,39 @@
                                 <a href="register.php" class="btn btn-primary" id="signup">Sign Up with email</a>
                             </div>
 
-                            <div class="social-links mb-5">
+                            <div class="social-links mb-4">
                                 <ul>
-                                    <li><a id="tw" href=""><i class="fa fa-twitter"></i></a></li>
-                                    <li><a id="fb" href=""><i class="fa fa-facebook"></i></a></li>
-                                    <li><a id="in" href=""><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a class="tw" href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a class="fb" href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a class="in" href=""><i class="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
 
                             <div class="share-this">
-                                Share this page on <a id="fb" href=""><i class="fa fa-facebook"></i></a> <a id="tw" href=""><i class="fa fa-twitter"></i></a> <a id="in" href=""><i class="fa fa-linkedin"></i></a>
+                                Share this page on
+                                <!--<a id="fb" href=""><i class="fa fa-facebook"></i></a> <a id="tw" href=""><i class="fa fa-twitter"></i></a> <a id="in" href=""><i class="fa fa-linkedin"></i></a>-->
+
+                                <div class="row">
+                                    <div class="col-md-6 mx-auto text-center">
+                                        <span class="">FB</span>
+                                        <span class="">TWITTER</span>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mx-auto">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Email Address">
+                                            <div class="input-group-append">
+                                                <button class="btn" type="button">Share</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <div class="cprt mt-4 mb-1">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
                         </div>
