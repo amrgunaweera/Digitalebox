@@ -24,14 +24,27 @@ $themes: (
                 selected: #fafafa
         ),
         purple: (
-                primary-color: #2f4050,
+                primary-color: #312e34,
                 primary-light: #a7b1c2,
-                primary-dark: #293846,
-                secondry-color: #3f80be,
-                secondry-light: #4ae178,
+                primary-dark: #1d1b1f,
+                secondry-color: #9d72bc,
+                secondry-dark: #875ea5,
                 third-color: #f8ac59,
+                third-dark: #eba256,
                 headerBg: #fff,
-                body-bg: #f3f3f4,
+                body-bg: #f4f2f6,
+                selected: #fafafa
+        ),
+        red: (
+                primary-color: #262020,
+                primary-light: #c2a7a7,
+                primary-dark: #171414,
+                secondry-color: #cc5050,
+                secondry-dark: #ad4747,
+                third-color: #37b4aa,
+                third-dark: #2d9187,
+                headerBg: #fff,
+                body-bg: #f4f2f6,
                 selected: #fafafa
         ),
 );

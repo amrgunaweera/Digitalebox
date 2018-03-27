@@ -13,11 +13,23 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f5f5f5;
-  background-image: url("../img/login-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
+  &.theme-blue{
+    background-image: url("../img/login-bg.jpg");
+  }
+  &.theme-green{
+    background-image: url("../img/login-bg-green.jpg");
+  }
+  &.theme-purple{
+    background-image: url("../img/login-bg-purple.jpg");
+  }
+  &.theme-red{
+    background-image: url("../img/login-bg-green.jpg");
+  }
 
   @media (min-width: 992px) and (min-height: 740px) {
     display: -ms-flexbox;

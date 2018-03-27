@@ -279,6 +279,20 @@ input{
   }
 }
 
+.dropdown-menu{
+  .dropdown-item{
+    color: inherit;
+
+    &
+    &:focus, &:active{
+      @include themify($themes) {
+        background-color: themed('primary-light') !important;
+      }
+    }
+  }
+}
+
+
 .chosen-container-multi {
   width: 100% !important;
 

@@ -51,6 +51,7 @@ label{
   box-shadow: none;
 }
 
+
 .keyword-highlight{
   font-size: 12px;
   font-weight: normal;
@@ -648,9 +649,10 @@ iframe{
 /*   Dropdown menu   */
 .dropdown-menu{
   .dropdown-item{
+    color: inherit;
     &:hover, &:focus, &:active{
       @include themify($themes) {
-        background-color: themed('secondry-color') !important;
+        /*background-color: themed('secondry-color') !important;*/
       }
     }
   }
