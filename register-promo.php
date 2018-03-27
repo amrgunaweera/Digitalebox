@@ -42,25 +42,35 @@
                                 <!--<a id="fb" href=""><i class="fa fa-facebook"></i></a> <a id="tw" href=""><i class="fa fa-twitter"></i></a> <a id="in" href=""><i class="fa fa-linkedin"></i></a>-->
 
                                 <div class="row">
-                                    <div class="col-md-6 mx-auto text-center">
-                                        <span class="">FB</span>
-                                        <span class="">TWITTER</span>
+                                    <div class="col-md-4">
+                                        FB
+                                    </div>
+                                    <div class="col-md-4">
+                                        TW
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button class="btn btn-primary btn-share-by-email btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                            Share by email
+                                        </button>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-md-6 mx-auto">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Email Address">
-                                            <div class="input-group-append">
-                                                <button class="btn" type="button">Share</button>
+                            <div class="collapse mt-3" id="collapseExample">
+                                <div class="row">
+                                    <div class="col-md-10 mx-auto">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Email Address">
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-primary" type="button">Share</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
 
 
                             <div class="cprt mt-4 mb-1">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
