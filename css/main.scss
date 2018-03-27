@@ -204,6 +204,11 @@ input{
   height: 100%;
 }
 
+.error{
+  color: #f44336;
+  font-size: 12px;
+}
+
 .frame{
   height: 100%;
   @include themify($themes) {
