@@ -44,8 +44,12 @@ body {
   height: auto;
 }
 
-.required{
-  display: none;
+label{
+  &>span{
+    &.required{
+      display: none;
+    }
+  }
 }
 
 .cprt{
