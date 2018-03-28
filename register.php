@@ -11,44 +11,122 @@
                     <div class="col-md-6"><div class="title">Sign Up</div></div>
                     <div class="col-md-6 mb-2 text-center text-lg-right"><img src="img/digitalebox-logo.png"></div>
                 </div>
+
                 <form action="dashboard.php">
+
+                    <!--<div class="card">
+                        <div class="card-head">
+                            Check Email
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label>Email Address</label>
+                                        <div class="input-group mb-3">
+                                            <input type="email" class="form-control" placeholder="Email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button">Check</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label>Verify Code</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="verification code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button">Verify Code</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+
                     <div class="row">
 
                         <div class="col-lg-6">
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
+
+                            <div class="register-form-area" id="slimscroll">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label>First Name</label>
                                             <input type="text" class="form-control" id="" placeholder="First Name">
                                         </div>
-                                        <div class="form-group col-md-6">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label>Last Name</label>
                                             <input type="text" class="form-control" id="" placeholder="Last Name">
                                         </div>
                                     </div>
-                                    <div class="form-group">
+
+                                    <div class="col-md-6">
                                         <label>Email Address</label>
-                                        <input type="email" class="form-control" id="" placeholder="ex: abc@companyname.com">
+                                        <input class="form-control" id="" placeholder="ex: abc@companyname.com" type="email">
                                     </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label>User Name</label>
                                             <input type="text" class="form-control" id="" placeholder="User Name">
                                         </div>
-                                        <div class="form-group col-md-6">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Gender</label>
+                                            <select class="form-control">
+                                                <option>- Select -</option>
+                                                <option>Male</option>
+                                                <option>Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label>City</label>
                                             <input type="text" class="form-control" id="" placeholder="ex: Paris">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Street Address</label>
-                                        <input type="text" class="form-control" id="" placeholder="ex: 27 Avenue Pasteur">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="mobile">Mobile Number</label>
+                                            <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/lang-eng.png"></button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#"><img src="img/lang-fra.png"> France</a>
+                                                        <a class="dropdown-item" href="#"><img src="img/lang-ita.png"> Italy</a>
+                                                        <a class="dropdown-item" href="#"><img src="img/lang-por.png"> Portugal</a>
+                                                        <a class="dropdown-item" href="#"><img src="img/lang-rus.png"> Russia</a>
+                                                    </div>
+                                                </div>
+                                                <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="+33 000 000 0000">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label>Street Address</label>
+                                            <input type="text" class="form-control" id="" placeholder="ex: 27 Avenue Pasteur">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label>Zip Code</label>
                                             <input type="text" class="form-control" id="" placeholder="ex: 14390">
                                         </div>
-                                        <div class="form-group col-md-6">
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
                                             <label>Country</label>
                                             <select id="" class="form-control">
                                                 <option selected>- Select -</option>
@@ -58,8 +136,18 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6 show_hide_password">
+                                    <div class="col-md-6">
+                                        <label for="address">Date of Birth</label>
+                                        <div class="input-group date" id="dob1" data-target-input="nearest">
+                                            <input type="text" class="form-control datetimepicker-input" data-target="#dob1" placeholder="1990-01-01"/>
+                                            <div class="input-group-append" data-target="#dob1" data-toggle="datetimepicker">
+                                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group show_hide_password">
                                             <label>Password</label>
                                             <div class="input-group">
                                                 <input class="form-control" type="password" placeholder="Password">
@@ -70,7 +158,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group col-md-6 show_hide_password">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group show_hide_password">
                                             <label>Confirm Password</label>
                                             <div class="input-group">
                                                 <input class="form-control" type="password" placeholder="Confirm Password">
@@ -82,6 +172,8 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="col-lg-6">
@@ -248,6 +340,7 @@
                     </div>
 
                     <div class="cprt mt-4 text-center text-lg-right">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>
+
                 </form>
 
             </div>
@@ -263,8 +356,16 @@
 
 <script>
     $(document).ready(function () {
+        $('#dob1').datetimepicker({
+            format: 'YYYY-MM-DD'
+        });
 
-
+        // side menu scroller start
+        $('#slimscroll').slimScroll({
+            width: '100%',
+            height: '100%'
+        });
+        /////////////////////////////////////////////////////////////////////////////////
 
     });
 </script>

@@ -37,9 +37,9 @@
         <script src="js/highcharts.js"></script>
         <script src="js/exporting.js"></script>
     </head>
-    <body>
+    <body class="theme-red"><!-- (color themes - 'theme-blue', 'theme-green', 'theme-purple', 'theme-red') -->
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div id="app-main" class="theme-green">
+        <div id="app-main">
             <div class="frame">

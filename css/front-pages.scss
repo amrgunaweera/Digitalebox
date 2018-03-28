@@ -52,6 +52,14 @@ label{
   }
 }
 
+.register-form-area{
+  @media (min-width: 992px) {
+    overflow: hidden;
+    max-height: 500px;
+    margin-bottom: 10px;
+  }
+}
+
 .cprt{
   font-size: 10px;
   color: #ccc;

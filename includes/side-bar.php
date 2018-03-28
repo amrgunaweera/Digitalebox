@@ -177,19 +177,19 @@
             <div class="social-btns">
 
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                    <label class="btn-secondary active">
+                    <label class="btn-connections active">
                         <img src="img/social-twitter.svg">
                     </label>
-                    <label class="btn-secondary">
+                    <label class="btn-connections">
                         <img src="img/social-fb.svg">
                     </label>
-                    <label class="btn-secondary active">
+                    <label class="btn-connections active">
                         <img src="img/social-in.svg">
                     </label>
-                    <label class="btn-secondary">
+                    <label class="btn-connections">
                         <img src="img/social-mailchimp.svg">
                     </label>
-                    <label class="btn-secondary">
+                    <label class="btn-connections">
                         <img src="img/social-bitly.svg">
                     </label>
                 </div>
