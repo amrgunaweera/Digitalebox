@@ -12,7 +12,7 @@
                     <div class="carousel">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
-                                <div class="slide-text">
+                                <!--<div class="slide-text">
                                     <div class="slide-title">
                                         Reach People
                                     </div>
@@ -20,11 +20,11 @@
                                         Targeted Communication, Emailing & Newsletter, Direct Message, SMS
                                     </div>
                                 </div>
-                                <div class="img-overlay"></div>
+                                <div class="img-overlay"></div>-->
                                 <img src="img/login-slide-1.jpg">
                             </div>
                             <div class="item">
-                                <div class="slide-text">
+                                <!--<div class="slide-text">
                                     <div class="slide-title">
                                         Reach People
                                     </div>
@@ -32,8 +32,20 @@
                                         Targeted Communication, Emailing & Newsletter, Direct Message, SMS
                                     </div>
                                 </div>
-                                <div class="img-overlay"></div>
+                                <div class="img-overlay"></div>-->
                                 <img src="img/login-slide-2.jpg">
+                            </div>
+                            <div class="item">
+                                <!--<div class="slide-text">
+                                    <div class="slide-title">
+                                        Reach People
+                                    </div>
+                                    <div class="slide-desc">
+                                        Targeted Communication, Emailing & Newsletter, Direct Message, SMS
+                                    </div>
+                                </div>
+                                <div class="img-overlay"></div>-->
+                                <img src="img/login-slide-3.jpg">
                             </div>
                         </div>
                     </div>
@@ -165,7 +177,13 @@
             navText:['<i class="fa fa-long-arrow-left"></i>','<i class="fa fa-long-arrow-right"></i>'],
             //autoplay: true,
             //autoplayTimeout: 5000
-        })
+        });
+
+        $(".desc").mCustomScrollbar({
+            setHeight:330,
+            scrollbarPosition: "outside",
+            theme:"light-thin"
+        });
 
     });
 </script>

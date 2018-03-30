@@ -76,7 +76,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row mb-3 mt-3">
                             <div class="col-md-12">
 
                                 <div class="owl-carousel owl-theme campaign-slides">
@@ -235,11 +235,6 @@
 
                             </div>
                         </div>
-
-
-
-
-                        <div></div>
 
                     </div>
                 </div>

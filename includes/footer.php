@@ -16,6 +16,7 @@
         <script type="text/javascript" src="js/icheck.min.js"></script>
 
         <script src="js/jquery.slimscroll.min.js"></script>
+
         <script src="js/metisMenu.min.js"></script>
 
         <script src="js/owl.carousel.min.js"></script>
@@ -25,6 +26,8 @@
         <script src="js/chosen.jquery.min.js"></script>
 
         <script src="js/bootstrap-toggle.min.js"></script>
+
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <script src="js/main.js"></script>
 

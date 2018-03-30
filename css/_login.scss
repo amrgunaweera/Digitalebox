@@ -115,7 +115,14 @@
     .desc{
       font-size: 14px;
       padding: 40px;
-      min-height: 320px;
+      height: 330px;
+      overflow: hidden;
+      .mCSB_outside+.mCSB_scrollTools{
+        right: 5px;
+        top: 40px;
+        bottom: 40px;
+      }
+
       @include themify($themes) {
         color: themed('primary-light');
       }

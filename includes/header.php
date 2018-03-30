@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="css/minimal.css">
 
         <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 
         <link rel="stylesheet" href="css/tempusdominus-bootstrap-4.min.css">
 
