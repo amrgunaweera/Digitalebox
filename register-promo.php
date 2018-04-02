@@ -42,16 +42,18 @@
                                 <!--<a id="fb" href=""><i class="fa fa-facebook"></i></a> <a id="tw" href=""><i class="fa fa-twitter"></i></a> <a id="in" href=""><i class="fa fa-linkedin"></i></a>-->
 
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        FB
-                                    </div>
-                                    <div class="col-md-4">
-                                        TW
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-primary btn-share-by-email btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                            Share by email
-                                        </button>
+                                    <div class="col-md-12">
+                                        <div class="d-inline-block">
+                                            <a href=""><img src="img/twitter.png"></a>
+                                        </div>
+                                        <div class="d-inline-block">
+                                            <a href=""><img src="img/facebook.png"></a>
+                                        </div>
+                                        <div class="d-inline-block">
+                                            <button class="btn btn-primary btn-share-by-email btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                                Share by email
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

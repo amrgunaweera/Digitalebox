@@ -12,7 +12,7 @@
                     <div class="col-md-6 mb-2 text-center text-lg-right"><img src="img/digitalebox-logo.png"></div>
                 </div>
 
-                <form action="dashboard.php">
+                <form action="sign-up-complete.php">
 
                     <!--<div class="card">
                         <div class="card-head">
@@ -360,12 +360,11 @@
             format: 'YYYY-MM-DD'
         });
 
-        // side menu scroller start
-        $('#slimscroll').slimScroll({
-            width: '100%',
-            height: '100%'
+        $("#slimscroll").mCustomScrollbar({
+            setHeight:500,
+            scrollbarPosition: "outside",
+            theme:"dark-thin"
         });
-        /////////////////////////////////////////////////////////////////////////////////
 
     });
 </script>

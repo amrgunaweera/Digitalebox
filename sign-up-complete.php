@@ -26,10 +26,9 @@
                             <div class="col-md-12 mx-auto">
                                 <div class="desc">
                                     Thank you for registering with us. If you want to support and promote our Organization you can share the following link on your social media pages as well as blog pages.
-                                    <br><br>
-                                    <a href="">http://staging.moncenis.com/index.php/Signup/Step1</a>
+                                    <a class="mt-2 d-block" href="">http://staging.moncenis.com/index.php/Signup/Step1</a>
                                 </div>
-                                <button class="btn btn-primary mt-3">Complete</button>
+                                <a href="dashboard.php" class="btn btn-primary mt-3">Complete</a>
                             </div>
 
                             <div class="cprt mt-4">Copyright © 2018 by DigitaleBox. All Rights Reserved.</div>

@@ -182,9 +182,9 @@
 
                                                             <div class="btn-group">
                                                                 <button type="button" class="btn btn-primary" data-method="zoom" data-toggle="tooltip" data-option="0.1" title="Zoom In">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, 0.1)">
-                                                          <span class="fa fa-search-plus"></span>
-                                                        </span>
+                                                                    <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, 0.1)">
+                                                                      <span class="fa fa-search-plus"></span>
+                                                                    </span>
                                                                 </button>
                                                             </div>
 
