@@ -362,10 +362,10 @@
                                             <p class="mt-2 notes"><i>Note: Please use the auto merge, if you found this page empty due to no conflicting attributes.</i></p>
 
                                             <div class="row">
-                                                <div class="col-md-6">
+                                                <div class="col-3">
                                                     <button class="btn btn-secondary btn-sm show-merge mt-3" data-dismiss="modal">Back</button>
                                                 </div>
-                                                <div class="col-md-6 text-right">
+                                                <div class="col-9 text-right">
                                                     <button class="btn btn-primary btn-sm show-merge mt-3" data-dismiss="modal">Merge</button>
                                                     <button class="btn btn-secondary btn-sm mt-3" data-target="#mergePreview" data-toggle="modal" data-dismiss="modal">Preview</button>
                                                 </div>

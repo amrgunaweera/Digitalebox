@@ -261,7 +261,7 @@
                                 <div class="form-feild-info">Image Formats - *.jpg, *.jpeg, *.png. Minimum size 1400px X 800px</div>
 
                                 <div class="img-container mt-3">
-                                    <img id="image" src="img/" alt="Upload Your Image">
+                                    <img id="uploadedImage" class="uploadedImage" src="img/" alt="Upload Your Image">
                                 </div>
 
                             </div>
@@ -272,50 +272,50 @@
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="zoom" data-toggle="tooltip" data-option="0.1" title="Zoom In">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, 0.1)">
-                                                          <span class="fa fa-search-plus"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, 0.1)">
+                                          <span class="fa fa-search-plus"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="zoom" data-toggle="tooltip" data-option="-0.1" title="Zoom Out">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, -0.1)">
-                                                          <span class="fa fa-search-minus"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, -0.1)">
+                                          <span class="fa fa-search-minus"></span>
+                                        </span>
                                     </button>
                                 </div>
 
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="rotate" data-toggle="tooltip" data-option="-45" title="Rotate Left">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, -45)">
-                                                          <span class="fa fa-rotate-left"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, -45)">
+                                          <span class="fa fa-rotate-left"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="rotate" data-toggle="tooltip" data-option="45" title="Rotate Right">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, 45)">
-                                                          <span class="fa fa-rotate-right"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, 45)">
+                                          <span class="fa fa-rotate-right"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="scaleX" data-toggle="tooltip" data-option="-1" title="Flip Horizontal">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;scaleX&quot;, -1)">
-                                                          <span class="fa fa-arrows-h"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;scaleX&quot;, -1)">
+                                          <span class="fa fa-arrows-h"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="scaleY" data-toggle="tooltip" data-option="-1" title="Flip Vertical">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;scaleY&quot;, -1)">
-                                                          <span class="fa fa-arrows-v"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;scaleY&quot;, -1)">
+                                          <span class="fa fa-arrows-v"></span>
+                                        </span>
                                     </button>
                                 </div>
 
@@ -344,17 +344,17 @@
                             <div class="col-md-4 text-left text-md-right mb-4">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="crop" data-toggle="tooltip" title="Crop">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;crop&quot;)">
-                                                          <span class="fa fa-check"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;crop&quot;)">
+                                          <span class="fa fa-check"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="reset" data-toggle="tooltip" title="Reset">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;reset&quot;)">
-                                                          <span class="fa fa-refresh"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;reset&quot;)">
+                                          <span class="fa fa-refresh"></span>
+                                        </span>
                                     </button>
                                 </div>
                             </div>
@@ -389,7 +389,7 @@
                                 <div class="form-feild-info">Image Formats - *.jpg, *.jpeg, *.png. Minimum size 1400px X 800px</div>
 
                                 <div class="img-container mt-3">
-                                    <img id="EditImage" src="img/" alt="Upload Your Image">
+                                    <img id="EditImage" class="uploadedImage" src="img/" alt="Upload Your Image">
                                 </div>
 
                             </div>
@@ -400,50 +400,50 @@
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="zoom" data-toggle="tooltip" data-option="0.1" title="Zoom In">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, 0.1)">
-                                                          <span class="fa fa-search-plus"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, 0.1)">
+                                          <span class="fa fa-search-plus"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="zoom" data-toggle="tooltip" data-option="-0.1" title="Zoom Out">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, -0.1)">
-                                                          <span class="fa fa-search-minus"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;zoom&quot;, -0.1)">
+                                          <span class="fa fa-search-minus"></span>
+                                        </span>
                                     </button>
                                 </div>
 
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="rotate" data-toggle="tooltip" data-option="-45" title="Rotate Left">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, -45)">
-                                                          <span class="fa fa-rotate-left"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, -45)">
+                                          <span class="fa fa-rotate-left"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="rotate" data-toggle="tooltip" data-option="45" title="Rotate Right">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, 45)">
-                                                          <span class="fa fa-rotate-right"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;rotate&quot;, 45)">
+                                          <span class="fa fa-rotate-right"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="scaleX" data-toggle="tooltip" data-option="-1" title="Flip Horizontal">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;scaleX&quot;, -1)">
-                                                          <span class="fa fa-arrows-h"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;scaleX&quot;, -1)">
+                                          <span class="fa fa-arrows-h"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="scaleY" data-toggle="tooltip" data-option="-1" title="Flip Vertical">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;scaleY&quot;, -1)">
-                                                          <span class="fa fa-arrows-v"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;scaleY&quot;, -1)">
+                                          <span class="fa fa-arrows-v"></span>
+                                        </span>
                                     </button>
                                 </div>
 
@@ -472,17 +472,17 @@
                             <div class="col-md-4 text-left text-md-right mb-4">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="crop" data-toggle="tooltip" title="Crop">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;crop&quot;)">
-                                                          <span class="fa fa-check"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;crop&quot;)">
+                                          <span class="fa fa-check"></span>
+                                        </span>
                                     </button>
                                 </div>
 
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-primary" data-method="reset" data-toggle="tooltip" title="Reset">
-                                                        <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" title="$().cropper(&quot;reset&quot;)">
-                                                          <span class="fa fa-refresh"></span>
-                                                        </span>
+                                        <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;reset&quot;)">
+                                          <span class="fa fa-refresh"></span>
+                                        </span>
                                     </button>
                                 </div>
                             </div>
@@ -516,7 +516,7 @@
 
             var console = window.console || { log: function () {} };
             var URL = window.URL || window.webkitURL;
-            var $image = $('#image');
+            var $image = $('#uploadedImage');
             var $download = $('#download');
             var $dataX = $('#dataX');
             var $dataY = $('#dataY');

@@ -31,8 +31,8 @@
             <div class="row no-gutters">
                 <div class="content-panel col-md-12">
                     <div class="content-inner">
-                        <div class="panel-head">Enter New Password</div>
-                        <div class="content-area">
+                        <!--<div class="panel-head">Enter New Password</div>-->
+                        <div class="content-area pt-4">
 
                             <form>
 

@@ -87,14 +87,14 @@
         <ul class="navbar-nav ml-auto">
 
             <li class="nav-item dropdown header-dropdown desktop-hide">
-                <a class="nav-link" href="my-account.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="my-account.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-user fa-2x"></i>
                     <div class="text">My Account</div>
                 </a>
             </li>
 
             <li class="nav-item dropdown header-dropdown desktop-hide">
-                <a class="nav-link" href="change-password.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="change-password.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-lock fa-2x"></i>
                     <div class="text">Change Password</div>
                 </a>
@@ -168,15 +168,6 @@
                         </div>
                         <div class="count text-right">
                             <span class="badge badge-pill badge-secondary">5</span>
-                        </div>
-                    </a>
-
-                    <a class="dropdown-item notifications list-items" href="#">
-                        <div class="category">
-                            Followups
-                        </div>
-                        <div class="count text-right">
-                            <span class="badge badge-pill badge-secondary">2</span>
                         </div>
                     </a>
 
