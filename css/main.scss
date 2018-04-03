@@ -206,12 +206,12 @@ input{
 
 .error{
   color: #f44336;
-}
-
-.help-block{
   font-size: 12px;
-  line-height: 12px;
-  margin-top: 3px;
+}
+.alert-error{
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
 }
 
 .frame{
@@ -313,6 +313,12 @@ input{
   }
 }
 
+.form-control{
+  &:focus{
+    box-shadow: 0 0 0 1px rgba(0,123,255,.1) !important;
+  }
+}
+
 .chosen-container-multi {
   width: 100% !important;
 
@@ -375,6 +381,23 @@ input{
 .object-fit_cover { object-fit: cover }
 .object-fit_none { object-fit: none }
 .object-fit_scale-down { object-fit: scale-down }
+
+.mCSB_dragger_bar{
+  @include themify($themes) {
+    background-color: themed('secondry-color') !important;
+  }
+}
+
+.full-width{
+  width: 100%;
+}
+.intl-tel-input{
+  width: 100%;
+
+  .country-list{
+    white-space: pre-wrap !important;
+  }
+}
 
 /*
  * App Header
@@ -1277,3 +1300,5 @@ input{
 @import "login";
 
 @import "register";
+
+@import "calendar";
