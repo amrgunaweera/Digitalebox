@@ -152,7 +152,7 @@
 
                                     </div><!-- /.docs-buttons -->
 
-                                    <div class="col-md-4 text-left text-md-right mb-4">
+                                    <div class="docs-buttons col-md-4 text-left text-md-right mb-4">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-primary" data-method="crop" data-toggle="tooltip" title="Crop">
                                                 <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;crop&quot;)">

@@ -6,6 +6,8 @@
 
 <link rel="stylesheet" href="css/cropper.css">
 <link rel="stylesheet" href="css/cropper-main.css">
+<!--Plugin source
+https://github.com/fengyuanchen/jquery-cropper-->
 
 <div class="app-body">
     <?php include 'includes/side-bar.php'; ?>
@@ -251,7 +253,7 @@
 
                                                         </div><!-- /.docs-buttons -->
 
-                                                        <div class="col-md-4 text-left text-md-right mb-4">
+                                                        <div class="col-md-4 text-left text-md-right docs-buttons mb-4">
                                                             <div class="btn-group">
                                                                 <button type="button" class="btn btn-primary" data-method="crop" data-toggle="tooltip" title="Crop">
                                                                     <span class="docs-tooltip" data-animation="false" title="$().cropper(&quot;crop&quot;)">

@@ -25,7 +25,7 @@
             <td>Digitalbox Testing</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 1 sec</td>
             <td>
-                <div class="progress">
+                <div class="progress themed-progress">
                     <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
                 </div>
             </td>
@@ -44,7 +44,7 @@
             <td>Digitalbox Testing</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 29 sec</td>
             <td>
-                <div class="progress">
+                <div class="progress themed-progress">
                     <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                 </div>
             </td>
@@ -63,7 +63,7 @@
             <td>Elania Zito</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 101 sec</td>
             <td>
-                <div class="progress">
+                <div class="progress themed-progress">
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                 </div>
             </td>

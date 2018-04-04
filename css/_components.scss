@@ -624,9 +624,11 @@ iframe{
 /*   Date Picker ends  */
 
 /*   Progress bar   */
-.progress-bar{
-  @include themify($themes) {
-    background-color: themed('secondry-dark');
+.themed-progress{
+  .progress-bar{
+    @include themify($themes) {
+      background-color: themed('secondry-dark');
+    }
   }
 }
 /*   Progress bar ends   */
