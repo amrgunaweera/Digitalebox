@@ -9,7 +9,15 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="apple-touch-icon" href="apple-icon-114x114.png">
+        <link rel="icon" type="image/png" href="favicon-96x96.png">
+        <link rel="manifest" href="manifest.json">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-grid.min.css">
