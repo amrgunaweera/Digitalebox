@@ -55,6 +55,15 @@
                 </ul>
             </li>
 
+            <li>
+                <a class="has-arrow" data-section="4" href="#" aria-expanded="false"><span class="fa fa-fw fa-envelope"></span> Email Templates</a>
+                <ul aria-expanded="false">
+                    <li><a href="email-templates/email-template-1.html">Template 1</a></li>
+                    <li><a href="email-templates/email-template-2.html">Template 2</a></li>
+                    <li><a href="email-templates/email-template-3.html">Template 3</a></li>
+                </ul>
+            </li>
+
 
             <li>
                 <a href="list-view.php">
