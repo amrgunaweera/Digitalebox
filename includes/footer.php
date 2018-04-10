@@ -29,7 +29,7 @@
 
         <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
-        <script src="js/main.js"></script>
+        <script src="js/main.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

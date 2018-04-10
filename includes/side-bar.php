@@ -1,3 +1,4 @@
+<!--Left side bar-->
 <div id="side-bar" class="side-bar">
     <nav class="sidebar-nav" id="slimscrolldiv">
         <ul class="metismenu" id="menu1">

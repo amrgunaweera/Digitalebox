@@ -1145,11 +1145,17 @@ input{
   //Config panel
   .config-panel{
     width: 240px;
+    height: auto;
+    top: 0px;
+    right: -243px;
+    z-index: 800;
+    position: absolute;
+    @include border-radius(0 0 0 3px);
+    /*position: fixed;
     height: calc(100% - 80px);
-    position: fixed;
     top: 50px;
     right: -240px;
-    z-index: 800;
+    */
 
     @include themify($themes) {
       background-color: themed('body-bg');
@@ -1159,7 +1165,7 @@ input{
     &>.panel-toggle{
       position: absolute;
       z-index: 900;
-      top: 10px;
+      top: 5px;
       left: -30px;
       width: 30px;
       height: 30px;
@@ -1245,6 +1251,10 @@ input{
           }
         }
       }
+
+      .mCSB_outside + .mCSB_scrollTools{
+        right: -18px !important;
+      }
     }
   }
   //Config panel ends
@@ -1255,6 +1265,8 @@ input{
     margin-left: 220px;
     padding: 30px;
     position: relative;
+    height: 100%;
+    overflow-x: hidden;
 
     @media (max-width: 991.98px) {
       margin-left: 0;

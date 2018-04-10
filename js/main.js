@@ -1,3 +1,5 @@
+/*! DigitaleBox - amrg */
+
 $( document ).ready(function() {
 
     // Password Toggle
@@ -55,6 +57,48 @@ $( document ).ready(function() {
     }
     /////////////////////////////////////////////////////////////////////////////////
 
+
+    // Config panel
+
+    // Theme change
+    $('.config-panel .theme').click(function (event) {
+        event.preventDefault();
+
+        var selectedTheme = $(this).data('theme');
+        $('body').removeClass().addClass('theme-' + selectedTheme);
+
+        $('.config-panel .theme').removeClass('active');
+        $(this).addClass('active');
+    });
+    // Slide toggle
+    $('.config-panel .panel-toggle').click(function () {
+
+        if ( $(this).hasClass("isDown") ) {
+            //alert('closing');
+            $( ".config-panel" ).animate({
+                right: -243
+            }, 500, function() {
+                // Animation complete.
+            });
+        } else {
+            //alert('openning');
+            $( ".config-panel" ).animate({
+                right: 0
+            }, 500, function() {
+                // Animation complete.
+            });
+        }
+
+        $(this).toggleClass("isDown");
+        return false;
+    });
+
+    $('#configPanel').mCustomScrollbar({
+        theme:"dark",
+        scrollInertia: 500,
+        scrollbarPosition: "outside"
+    });
+    /////////////////////////////////////////////////////////////////////////////////
 
     // Account status toglle
     $(".account-status i").click( function(event){

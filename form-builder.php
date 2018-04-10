@@ -9,6 +9,8 @@
 
     <div class="app-content">
 
+        <?php include 'includes/config-panel.php'; ?>
+
         <div class="page-header">
             <div class="row">
                 <div class="col-md-6">

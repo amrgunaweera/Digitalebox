@@ -10,6 +10,7 @@
 
 	    <div class="app-content">
 
+            <?php include 'includes/config-panel.php'; ?>
 
             <div class="dashboard">
 

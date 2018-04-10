@@ -1312,11 +1312,20 @@ input::placeholder {
               margin-top: -2px; }
   .app-body .config-panel {
     width: 240px;
+    height: auto;
+    top: 0px;
+    right: -243px;
+    z-index: 800;
+    position: absolute;
+    -webkit-border-radius: 0 0 0 3px;
+    -moz-border-radius: 0 0 0 3px;
+    -ms-border-radius: 0 0 0 3px;
+    border-radius: 0 0 0 3px;
+    /*position: fixed;
     height: calc(100% - 80px);
-    position: fixed;
     top: 50px;
     right: -240px;
-    z-index: 800;
+    */
     -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3); }
@@ -1331,7 +1340,7 @@ input::placeholder {
     .app-body .config-panel > .panel-toggle {
       position: absolute;
       z-index: 900;
-      top: 10px;
+      top: 5px;
       left: -30px;
       width: 30px;
       height: 30px;
@@ -1425,10 +1434,14 @@ input::placeholder {
               -webkit-box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.1) !important;
               -moz-box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.1) !important;
               box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.1) !important; }
+      .app-body .config-panel > .panel .mCSB_outside + .mCSB_scrollTools {
+        right: -18px !important; }
   .app-body .app-content {
     margin-left: 220px;
     padding: 30px;
-    position: relative; }
+    position: relative;
+    height: 100%;
+    overflow-x: hidden; }
     @media (max-width: 991.98px) {
       .app-body .app-content {
         margin-left: 0; } }
