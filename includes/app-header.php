@@ -147,20 +147,69 @@
             </li>
 
             <li class="nav-item dropdown header-dropdown">
+                <a class="nav-link" href="#" title="Volunteers" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-hand-paper-o fa-2x"></i>
+                    <div class="text desktop-hide"></div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right mobile-hide" aria-labelledby="navbarDropdown">
+
+                    <a class="dropdown-item messages list-items" href="#">
+                        <div class="profile-pic"><img src="img/user-profile.png"></div>
+                        <div class="message">
+                            <div class="name">User Name 1</div>
+                            <div class="text">user1@digitalebox.com</div>
+                        </div>
+                        <div class="date">R - 5</div>
+                    </a>
+
+                    <a class="dropdown-item messages list-items" href="#">
+                        <div class="profile-pic"><img src="img/user-profile.png"></div>
+                        <div class="message">
+                            <div class="name">User Name 2</div>
+                            <div class="text">user2@digitalebox.com</div>
+                        </div>
+                        <div class="date">R - 2</div>
+                    </a>
+
+                    <a class="dropdown-item messages list-items" href="#">
+                        <div class="profile-pic"><img src="img/user-profile.png"></div>
+                        <div class="message">
+                            <div class="name">User Name 3</div>
+                            <div class="text">user3@digitalebox.com</div>
+                        </div>
+                        <div class="date">R - 1</div>
+                    </a>
+
+                    <a class="dropdown-item messages list-items" href="#">
+                        <div class="profile-pic"><img src="img/user-profile.png"></div>
+                        <div class="message">
+                            <div class="name">User Name 4</div>
+                            <div class="text">user4@digitalebox.com</div>
+                        </div>
+                        <div class="date">R - 23</div>
+                    </a>
+
+                    <a class="dropdown-item messages list-items" href="#">
+                        <div class="profile-pic"><img src="img/user-profile.png"></div>
+                        <div class="message">
+                            <div class="name">User Name 5</div>
+                            <div class="text">user5@digitalebox.com</div>
+                        </div>
+                        <div class="date">R - 16</div>
+                    </a>
+
+                    <a class="dropdown-item messages list-items see-all" href="#">
+                        <div class="text-center">See All</div>
+                    </a>
+
+                </div>
+            </li>
+            <!--<li class="nav-item dropdown header-dropdown">
                 <a class="nav-link" href="#" title="Notifications" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="badge notification">5</span> <i class="fa fa-bell fa-2x"></i>
                     <div class="text desktop-hide">Notifications</div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-
-                    <!--<a class="dropdown-item notifications list-items" href="#">
-                        <div class="category">
-                            New Messages
-                        </div>
-                        <div class="count text-right">
-                            <span class="badge badge-pill badge-secondary">4</span>
-                        </div>
-                    </a>-->
 
                     <a class="dropdown-item notifications list-items" href="#">
                         <div class="category">
@@ -171,24 +220,8 @@
                         </div>
                     </a>
 
-                    <!--<a class="dropdown-item notifications list-items" href="#">
-                        <div class="message">
-                            <div class="name">Title 4</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
-                        </div>
-                        <div class="date">28 Dec</div>
-                    </a>
-
-                    <a class="dropdown-item notifications list-items" href="#">
-                        <div class="message">
-                            <div class="name">Title 5</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
-                        </div>
-                        <div class="date">28 Dec</div>
-                    </a>-->
-
                 </div>
-            </li>
+            </li>-->
 
             <li class="nav-item dropdown header-dropdown">
                 <a class="nav-link" href="#" title="Messages" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

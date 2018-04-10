@@ -1384,18 +1384,18 @@ input::placeholder {
           background-color: #f4f2f6; }
         .theme-red .app-body .config-panel > .panel > .section-head {
           background-color: #f3eeee; }
-      .app-body .config-panel > .panel .themes {
+      .app-body .config-panel > .panel > .themes {
         /*margin-top: 50px;*/
-        height: calc(100% - 50px);
-        margin: 50px 20px 20px; }
-        .app-body .config-panel > .panel .themes > .title {
+        height: calc(100% - 70px);
+        margin: 60px 20px 10px; }
+        .app-body .config-panel > .panel > .themes .title {
           font-size: 12px;
           margin-bottom: 5px; }
-        .app-body .config-panel > .panel .themes > .portal-setting-images {
+        .app-body .config-panel > .panel > .themes .portal-setting-images {
           height: auto;
           position: relative;
           margin-bottom: 20px; }
-          .app-body .config-panel > .panel .themes > .portal-setting-images.theme.active:after {
+          .app-body .config-panel > .panel > .themes .portal-setting-images.theme.active:after {
             content: 'Active';
             font-weight: bold;
             position: absolute;
@@ -1411,7 +1411,7 @@ input::placeholder {
             -moz-border-radius: 5px;
             -ms-border-radius: 5px;
             border-radius: 5px; }
-          .app-body .config-panel > .panel .themes > .portal-setting-images > img {
+          .app-body .config-panel > .panel > .themes .portal-setting-images > img {
             -webkit-border-radius: 5px;
             -moz-border-radius: 5px;
             -ms-border-radius: 5px;
@@ -1421,7 +1421,7 @@ input::placeholder {
             -webkit-box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.2) !important;
             -moz-box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.2) !important;
             box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.2) !important; }
-            .app-body .config-panel > .panel .themes > .portal-setting-images > img:hover {
+            .app-body .config-panel > .panel > .themes .portal-setting-images > img:hover {
               -webkit-box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.1) !important;
               -moz-box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.1) !important;
               box-shadow: 1px 5px 5px 0 rgba(0, 0, 0, 0.1) !important; }
