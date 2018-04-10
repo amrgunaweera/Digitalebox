@@ -58,7 +58,7 @@
                             <div class="row">
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center mb-3">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/skyblue-th.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-blue-thumb.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                     </div>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@
 
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div class="mb-4">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/skyblue-th.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-blue-thumb.jpg" alt="Theme Blue Thumb" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a class="btn btn-primary" href="">Activate</a>
                                         </div>
@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div class="mb-4">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/green-tea-th.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-green-thumb.jpg" alt="Theme Green Thumb" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a class="btn btn-primary" href="">Activate</a>
                                         </div>
@@ -90,7 +90,7 @@
 
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center mb-3">
                                     <div class="mb-4">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/sunset-th.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-purple-thumb.jpg" alt="Theme Purple Thumb" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a class="btn btn-primary" href="">Activate</a>
                                         </div>
@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div class="mb-4">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/themes/bootstrap_spacelab/img/indego-th.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-red-thumb.jpg" alt="Theme Red Thumb" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a class="btn btn-primary" href="">Activate</a>
                                         </div>
@@ -127,7 +127,7 @@
 
                     <div class="modal-body">
                         <div class="text-center">
-                            <img src="https://www.loggly.com/wp-content/uploads/2017/09/Screen-Shot-2017-09-28-at-4.13.35-PM.png" alt="" class="img-thumbnail">
+                            <img src="img/theme-blue-preview.jpg" alt="Theme Blue Preview" class="img-thumbnail">
                         </div>
                     </div>
                 </div>
