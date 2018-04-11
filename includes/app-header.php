@@ -149,7 +149,7 @@
             <li class="nav-item dropdown header-dropdown">
                 <a class="nav-link" href="#" title="Volunteers" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-hand-paper-o fa-2x"></i>
-                    <div class="text desktop-hide"></div>
+                    <div class="text desktop-hide">Volunteers</div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right mobile-hide" aria-labelledby="navbarDropdown">
 
