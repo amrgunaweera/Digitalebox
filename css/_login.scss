@@ -168,6 +168,7 @@
           img{
             width: 22px;
             height: 17px;
+            @include drop-shadow(0 0 3px 0 rgba(0,0,0,.3) );
           }
         }
       }
@@ -206,6 +207,7 @@
 
           img{
             width: 22px;
+            @include drop-shadow(0 0 3px 0 rgba(0,0,0,.3) );
           }
         }
         .message{

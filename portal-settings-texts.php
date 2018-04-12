@@ -127,12 +127,8 @@
             </div>
         </div>
 
-
-
-
-
-        <?php include 'includes/app-footer.php'; ?>
     </div>
+    <?php include 'includes/app-footer.php'; ?>
 
 </div>
 

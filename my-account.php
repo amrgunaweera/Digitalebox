@@ -288,10 +288,8 @@ https://github.com/fengyuanchen/jquery-cropper-->
             </div>
         </div>
 
-
-
-        <?php include 'includes/app-footer.php'; ?>
     </div>
+    <?php include 'includes/app-footer.php'; ?>
 
 </div>
 

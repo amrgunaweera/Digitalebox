@@ -73,7 +73,7 @@
                             <div class="row">
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center mb-3">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24//banner-bg.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-blue-preview.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/page-header-bg%202b.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/login-slide-1.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -91,7 +91,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/ur44l.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/register-map.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -101,7 +101,7 @@
 
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center mb-3">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24//banner-bg.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/digitalebox-logo.png" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/ur44l.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/picture.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -119,7 +119,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/urdl.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/main-profile-pic.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -129,7 +129,7 @@
 
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center mb-3">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24//banner-bg.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/login-bg-green.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -138,7 +138,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/page-header-bg%202b.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/theme-red-preview.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/urdl.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/login-slide-2.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -157,7 +157,7 @@
 
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center mb-3">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24//banner-bg.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/login-slide-3.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -166,7 +166,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/page-header-bg%202b.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/login-bg-red.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -175,7 +175,7 @@
                                 </div>
                                 <div class="col-sm-6 col-md-4 col-xl-3 text-center">
                                     <div href="" class="resource">
-                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="http://staging.moncenis.com/resources/24/urdl.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
+                                        <a class="portal-setting-images" data-toggle="modal" data-target="#viewDetails" href=""><img src="img/login-bg.jpg" alt="" class="img-thumbnail object-fit_cover"></a>
                                         <div class="actions mt-2">
                                             <a href="" data-toggle="modal" data-target="#editDetails" class="mr-2" title="Change Image"><i class="fa fa-edit fa-lg"></i></a>
                                             <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
@@ -232,7 +232,7 @@
 
                     <div class="modal-body">
                         <div class="text-center">
-                            <img src="http://staging.moncenis.com/resources/24/page-header-bg%202b.jpg" alt="" class="img-thumbnail">
+                            <img src="img/picture.jpg" alt="" class="img-thumbnail">
                         </div>
                     </div>
                 </div>
@@ -495,11 +495,8 @@
         </div>
 
 
-
-
-
-        <?php include 'includes/app-footer.php'; ?>
     </div>
+    <?php include 'includes/app-footer.php'; ?>
 
 </div>
 

@@ -10,8 +10,8 @@
                 </a>
             </li>
 
-            <li>
-                <a class="has-arrow" data-section="1" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> People</a>
+            <li class="has-arrow">
+                <a data-section="1" href="#" aria-expanded="false"><span class="fa fa-fw fa-users"></span> People</a>
                 <ul aria-expanded="false">
                     <li><a href="add-people.php">Add People</a></li>
                     <li><a href="advanced-search.php">Advanced Search</a></li>
@@ -28,8 +28,8 @@
                 </ul>
             </li>
 
-            <li>
-                <a class="has-arrow" data-section="2" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
+            <li class="has-arrow">
+                <a data-section="2" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
                 <ul aria-expanded="false">
                     <li><a href="message-templates.php">Message Templates</a></li>
                     <li><a href="new-campaign.php">New Campaign</a></li>
@@ -40,8 +40,8 @@
                 </ul>
             </li>
 
-            <li>
-                <a class="has-arrow" data-section="3" href="#" aria-expanded="false"><span class="fa fa-fw fa-cogs"></span> System</a>
+            <li class="has-arrow">
+                <a data-section="3" href="#" aria-expanded="false"><span class="fa fa-fw fa-cogs"></span> System</a>
                 <ul aria-expanded="false">
                     <li><a href="#">Manage Permissions</a></li>
                     <li><a href="manage-roles.php">Manage Roles</a></li>
@@ -56,8 +56,8 @@
                 </ul>
             </li>
 
-            <li>
-                <a class="has-arrow" data-section="4" href="#" aria-expanded="false"><span class="fa fa-fw fa-envelope"></span> Email Templates</a>
+            <li class="has-arrow">
+                <a data-section="4" href="#" aria-expanded="false"><span class="fa fa-fw fa-envelope"></span> Email Templates</a>
                 <ul aria-expanded="false">
                     <li><a href="email-templates/email-template-1.html">Template 1</a></li>
                     <li><a href="email-templates/email-template-2.html">Template 2</a></li>
