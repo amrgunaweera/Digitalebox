@@ -402,6 +402,52 @@ input{
   }
 }
 
+.error-page{
+  background: url("../img/404-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  text-align: center;
+  min-height: 400px;
+  @media (max-height: 400px){
+    padding-top: 10px;
+  }
+
+  .error-404{
+    width: 100%;
+    text-align: center;
+    margin-top: 5vh;
+
+    @media (max-height: 400px){
+      margin-top: 15px;
+    }
+
+    img{
+      width: 80%;
+      max-width: 550px;
+    }
+  }
+  .text-area{
+    text-align: center;
+    width: 100%;
+    padding: 2% 5%;
+    color: #fff;
+    margin-top: 5vh;
+    font-size: 14px;
+
+    .main-line{
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .sub-line{
+      margin-top: 10px;
+    }
+
+    a{
+      color: #fff;
+    }
+  }
+}
+
 /*
  * App Header
  */

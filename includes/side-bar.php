@@ -65,11 +65,17 @@
                 </ul>
             </li>
 
-
             <li>
                 <a href="list-view.php">
                     <span class="fa fa-fw fa-compass"></span>
                     Guide
+                </a>
+            </li>
+
+            <li>
+                <a href="404-error.php">
+                    <span class="fa fa-fw fa-exclamation-triangle"></span>
+                    404
                 </a>
             </li>
 
