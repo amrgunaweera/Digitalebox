@@ -266,6 +266,18 @@ input{
     }
   }
 }
+.btn-no-frame{
+  border: none;
+
+  &:hover, &:focus, &:active{
+    @include drop-shadow(none !important);
+    @include themify($themes) {
+      color: themed('secondry-color') !important;
+    }
+    background-color: transparent !important;
+
+  }
+}
 
 .btn-fb{
   color: #ffffff !important;
@@ -319,6 +331,16 @@ input{
   &:focus{
     @include drop-shadow(0 0 0 1px rgba(0,123,255,.1) !important );
     /*box-shadow: 0 0 0 1px rgba(0,123,255,.1) !important;*/
+  }
+}
+
+select{
+  &.custom-select{
+    option{
+      &:disabled {
+        color: #ccc;
+      }
+    }
   }
 }
 

@@ -15,6 +15,7 @@
                 <ul aria-expanded="false">
                     <li><a href="add-people.php">Add People</a></li>
                     <li><a href="advanced-search.php">Advanced Search</a></li>
+                    <li><a href="advanced-search-v2.php">Advanced Search V2</a></li>
                     <li><a href="potential-matches.php">Account Merge</a></li>
                     <li><a href="saved-search.php">Saved Search</a></li>
                     <li><a href="manage-keywords.php">Manage Keywords</a></li>

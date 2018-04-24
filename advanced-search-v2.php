@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="title">
-                        Advanced Search
+                        Advanced Search V2
                     </div>
                     <div class="desc">
                         Search people by various criteria
@@ -72,7 +72,6 @@
                             </div>
                         </form>
 
-
                         <div class="content-panel-sub">
                             <div class="panel-head">
                                 Search by criteria
@@ -81,41 +80,273 @@
 
                         <form>
 
-                            <div class="form-row">
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <input type="text" class="form-control" id="fname" placeholder="First Name">
+                            <div class="row no-gutters">
+                                <div class="col-md-6" id="field-list">
+
+                                    <div id="field-1" class="input-group mb-3 field-items">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                    <div id="field-2" class="input-group mb-3 field-items">
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-3" class="input-group mb-3 field-items hidden-field">
+                                        <input type="text" class="form-control" id="city" placeholder="City">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                    <div id="field-4" class="input-group mb-3 field-items hidden-field">
+                                        <select id="category" class="form-control">
+                                            <option selected>- Country -</option>
+                                            <option>France</option>
+                                            <option>United States</option>
+                                            <option>Italy</option>
+                                            <option>United Kingdom</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-5" class="input-group mb-3 field-items hidden-field">
+                                        <select id="gender" class="form-control">
+                                            <option selected>- Gender -</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-6" class="input-group mb-3 field-items hidden-field">
+                                        <select id="category" class="form-control">
+                                            <option selected>- Category -</option>
+                                            <option>Supporter</option>
+                                            <option>Prospect</option>
+                                            <option>Non Supporter</option>
+                                            <option>Unknown</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-7" class="input-group mb-3 field-items hidden-field">
+                                        <input type="text" class="form-control" id="zipcode" placeholder="Zip Code">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-8" class="input-group mb-3 field-items hidden-field">
+                                        <input type="email" class="form-control" id="email" placeholder="Email Address">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-9" class="input-group mb-3 field-items hidden-field">
+                                        <input type="tel" class="form-control" id="mobile" placeholder="Mobile Phone">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-10" class="input-group mb-3 field-items hidden-field">
+                                        <input type="number" class="form-control" id="age" placeholder="Age (N or N-N)">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-11" class="input-group mb-3 field-items hidden-field">
+                                        <select id="category" class="form-control">
+                                            <option selected>- Zone -</option>
+                                            <option>Z - 1</option>
+                                            <option>Z - 2</option>
+                                            <option>Z - 3</option>
+                                            <option>Z - 4</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-12" class="input-group mb-3 field-items hidden-field">
+                                        <input type="text" class="form-control" id="address" placeholder="Address(27 Avenue Pasteur)">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-13" class="input-group mb-3 field-items hidden-field">
+                                        <div class="form-group col-md-12">
+                                            <div class="form-check form-check-inline align-top">
+                                                <div for="networks" class="networks">Networks</div>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                <label class="form-check-label" for="inlineCheckbox1">Twitter</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox2" value="option2">
+                                                <label class="form-check-label" for="inlineCheckbox2">Facebook</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox3" value="option3">
+                                                <label class="form-check-label" for="inlineCheckbox3">Linkedin</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox4" value="option4">
+                                                <label class="form-check-label" for="inlineCheckbox4">Mobile</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox5" value="option5">
+                                                <label class="form-check-label" for="inlineCheckbox5">Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-14" class="input-group mb-3 field-items hidden-field">
+                                        <select data-placeholder="Team Names" class="form-control chosen-select" multiple tabindex="4">
+                                            <option value=""></option>
+                                            <option value="United States">United States</option>
+                                            <option value="United Kingdom">United Kingdom</option>
+                                            <option value="Afghanistan">Afghanistan</option>
+                                            <option value="Aland Islands">Aland Islands</option>
+                                            <option value="Albania">Albania</option>
+                                            <option value="Algeria">Algeria</option>
+                                            <option value="American Samoa">American Samoa</option>
+                                            <option value="Andorra">Andorra</option>
+                                            <option value="Angola">Angola</option>
+                                            <option value="Anguilla">Anguilla</option>
+                                            <option value="Antarctica">Antarctica</option>
+                                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Armenia">Armenia</option>
+                                            <option value="Aruba">Aruba</option>
+                                            <option value="Australia">Australia</option>
+                                            <option value="Austria">Austria</option>
+                                            <option value="Azerbaijan">Azerbaijan</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-15" class="input-group mb-3 field-items hidden-field">
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Normal
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-16" class="input-group mb-3 field-items hidden-field">
+                                        <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
+                                            <option value=""></option>
+                                            <option value="United States">United States</option>
+                                            <option value="United Kingdom">United Kingdom</option>
+                                            <option value="Afghanistan">Afghanistan</option>
+                                            <option value="Aland Islands">Aland Islands</option>
+                                            <option value="Albania">Albania</option>
+                                            <option value="Algeria">Algeria</option>
+                                            <option value="American Samoa">American Samoa</option>
+                                            <option value="Andorra">Andorra</option>
+                                            <option value="Angola">Angola</option>
+                                            <option value="Anguilla">Anguilla</option>
+                                            <option value="Antarctica">Antarctica</option>
+                                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Armenia">Armenia</option>
+                                            <option value="Aruba">Aruba</option>
+                                            <option value="Australia">Australia</option>
+                                            <option value="Austria">Austria</option>
+                                            <option value="Azerbaijan">Azerbaijan</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-17" class="input-group mb-3 field-items hidden-field">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Enable Keywords 2</label>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <select class="custom-select form-control" id="fields">
+                                            <option value="0" selected>- Add search field -</option>
+                                            <option value="1" disabled>First Name</option>
+                                            <option value="2" disabled>Last Name</option>
+                                            <option value="3">City</option>
+                                            <option value="4">Country</option>
+                                            <option value="5">Gender</option>
+                                            <option value="6">Category</option>
+                                            <option value="7">Zip Code</option>
+                                            <option value="8">Email Address</option>
+                                            <option value="9">Mobile Phone</option>
+                                            <option value="10">Age</option>
+                                            <option value="11">Zone</option>
+                                            <option value="12">Address</option>
+                                            <option value="13">Networks</option>
+                                            <option value="14">Team Names</option>
+                                            <option value="15">Keywords</option>
+                                            <option value="16">Keywords 2</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" id="add-field" type="button"><i class="fa fa-lg fa-plus" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <input type="text" class="form-control" id="city" placeholder="City">
+                            </div>
+
+                            <div class="row no-gutters mt-3">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input custom-icheck" type="checkbox" id="inlineCheckbox10" value="option10">
+                                            <label class="form-check-label" for="inlineCheckbox10">Exclude Personal Facebook Contacts</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                        <button type="submit" class="btn btn-secondary">Save Search</button>
+                                    </div>
                                 </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <select id="category" class="form-control">
-                                        <option selected>- Country -</option>
-                                        <option>France</option>
-                                        <option>United States</option>
-                                        <option>Italy</option>
-                                        <option>United Kingdom</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <select id="gender" class="form-control">
-                                        <option selected>- Gender -</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <select id="category" class="form-control">
-                                        <option selected>- Category -</option>
-                                        <option>Supporter</option>
-                                        <option>Prospect</option>
-                                        <option>Non Supporter</option>
-                                        <option>Unknown</option>
-                                    </select>
-                                </div>
+                            </div>
+
+
+                            <!--<div class="form-row">
+
                             </div>
 
                             <div class="form-row">
@@ -264,13 +495,13 @@
                                     <button type="submit" class="btn btn-primary">Search</button>
                                     <button type="submit" class="btn btn-secondary">Save Search</button>
                                 </div>
-                            </div>
+                            </div>-->
 
 
                         </form>
 
 
-                        <div class="mt-4">
+                        <div class="mt-5">
                             <div class="text-right results-count">
                                 Displaying 1-10 of 24420 results
                             </div>
@@ -1065,6 +1296,7 @@
                                     </nav>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
@@ -1105,5 +1337,91 @@
             }
         });
 
+
+        // Add field
+        $( "#add-field" ).click(function() {
+            var fieldValue = parseInt( $('#fields').val() );
+
+            if (fieldValue != 0)
+            {
+                $('#field-'+fieldValue).removeClass('hidden-field');
+            }else{
+                alert('Please select a field');
+            }
+
+            $('#fields').val('0');
+            $('#fields option[value='+fieldValue+']').attr("disabled","disabled");
+        });
+
+        // Remove field
+        $( ".remove-field" ).click(function() {
+            var hiddenItems = $('.hidden-field').length;
+            var filedsCount = $('#field-list .input-group').length;
+
+            if(hiddenItems < filedsCount-1){
+                $(this).parents('.field-items').addClass('hidden-field');
+            }
+        });
+
+        /*function addField( selectedField ){
+            console.log( selectedField );
+            /!*$('#field-list').append('<input type="text">');*!/
+
+            if (selectedField != 0)
+            {
+                var start = '<div class="input-group mb-3">';
+                var ending = '<div class="input-group-append"><button class="btn btn-outline-secondary btn-no-frame" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button></div></div>';
+
+                switch (selectedField) {
+                    case 1:
+                        $('#field-list').append(start+'<input type="text" class="form-control" placeholder="First Name">'+ending);
+                        break;
+                    case 2:
+                        $('#field-list').append(start+'<input type="text" class="form-control" placeholder="Last Name">'+ending);
+                        break;
+                    case 3:
+                        $('#field-list').append(start+'<input type="text" class="form-control" placeholder="City">'+ending);
+                        break;
+                    case 4:
+                        $('#field-list').append(start+'<input type="text" class="form-control" placeholder="City">'+ending);
+                        break;
+                    case 5:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 6:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 7:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 8:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 9:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 10:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 11:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 12:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 13:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 14:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                    case 15:
+                        $('#field-list').append('<input type="text">');
+                        break;
+                }
+
+            }
+
+        }*/
     });
 </script>
