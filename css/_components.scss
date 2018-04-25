@@ -675,7 +675,11 @@ iframe{
   .keyword-select{
     max-height: 45px;
   }
-  #exclude_keywords_1_chosen, #exclude_keywords_2_chosen{
+  /*#exclude_keywords_1_chosen, #exclude_keywords_2_chosen{
+    display: none;
+    margin-top: 5px;
+  }*/
+  #exclude-keywords-1, #exclude-keywords-2{
     display: none;
     margin-top: 5px;
   }

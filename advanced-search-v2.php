@@ -222,7 +222,8 @@
 
                                     <div id="field-14" class="input-group mb-3 field-items hidden-field">
                                         <div class="form-control no-border p-0 chosen-field">
-                                            <select data-placeholder="Team Names" class="chosen-select" multiple tabindex="4">
+                                            <label class="d-block d-sm-block d-md-none">Team Names</label>
+                                            <select data-placeholder="Team Names" class="chosen-select form-control" multiple tabindex="4">
                                                 <option value=""></option>
                                                 <option value="United States">United States</option>
                                                 <option value="United Kingdom">United Kingdom</option>
@@ -254,6 +255,7 @@
                                         <div class="form-control no-border p-0">
                                             <div class="input-group no-gutters">
                                                 <div class="form-control no-border p-0 col-md-8 col-lg-9">
+                                                    <label class="d-block d-sm-block d-md-none">Keywords</label>
                                                     <select data-placeholder="Keywords" class="chosen-select form-control" multiple>
                                                         <option value=""></option>
                                                         <option value="United States">United States</option>
@@ -284,27 +286,31 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" id="exclude-keywords-1" multiple>
-                                                <option value=""></option>
-                                                <option value="United States">United States</option>
-                                                <option value="United Kingdom">United Kingdom</option>
-                                                <option value="Afghanistan">Afghanistan</option>
-                                                <option value="Aland Islands">Aland Islands</option>
-                                                <option value="Albania">Albania</option>
-                                                <option value="Algeria">Algeria</option>
-                                                <option value="American Samoa">American Samoa</option>
-                                                <option value="Andorra">Andorra</option>
-                                                <option value="Angola">Angola</option>
-                                                <option value="Anguilla">Anguilla</option>
-                                                <option value="Antarctica">Antarctica</option>
-                                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                <option value="Argentina">Argentina</option>
-                                                <option value="Armenia">Armenia</option>
-                                                <option value="Aruba">Aruba</option>
-                                                <option value="Australia">Australia</option>
-                                                <option value="Austria">Austria</option>
-                                                <option value="Azerbaijan">Azerbaijan</option>
-                                            </select>
+                                            <div id="exclude-keywords-1">
+                                                <label class="d-block d-sm-block d-md-none mt-2">Exclude keywords</label>
+                                                <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" multiple>
+                                                    <option value=""></option>
+                                                    <option value="United States">United States</option>
+                                                    <option value="United Kingdom">United Kingdom</option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Aland Islands">Aland Islands</option>
+                                                    <option value="Albania">Albania</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="American Samoa">American Samoa</option>
+                                                    <option value="Andorra">Andorra</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Anguilla">Anguilla</option>
+                                                    <option value="Antarctica">Antarctica</option>
+                                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                    <option value="Argentina">Argentina</option>
+                                                    <option value="Armenia">Armenia</option>
+                                                    <option value="Aruba">Aruba</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Austria">Austria</option>
+                                                    <option value="Azerbaijan">Azerbaijan</option>
+                                                </select>
+                                            </div>
+
                                         </div>
 
                                         <div class="input-group-append">
@@ -316,6 +322,7 @@
                                         <div class="form-control no-border p-0">
                                             <div class="input-group no-gutters">
                                                 <div class="form-control no-border p-0 col-md-8 col-lg-9">
+                                                    <label class="d-block d-sm-block d-md-none">Keywords 2</label>
                                                     <select data-placeholder="Keywords 2" class="chosen-select form-control" multiple>
                                                         <option value=""></option>
                                                         <option value="United States">United States</option>
@@ -346,27 +353,31 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <select data-placeholder="Exclude keywords 2" class="chosen-select mt-2 form-control" id="exclude-keywords-2" multiple>
-                                                <option value=""></option>
-                                                <option value="United States">United States</option>
-                                                <option value="United Kingdom">United Kingdom</option>
-                                                <option value="Afghanistan">Afghanistan</option>
-                                                <option value="Aland Islands">Aland Islands</option>
-                                                <option value="Albania">Albania</option>
-                                                <option value="Algeria">Algeria</option>
-                                                <option value="American Samoa">American Samoa</option>
-                                                <option value="Andorra">Andorra</option>
-                                                <option value="Angola">Angola</option>
-                                                <option value="Anguilla">Anguilla</option>
-                                                <option value="Antarctica">Antarctica</option>
-                                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                <option value="Argentina">Argentina</option>
-                                                <option value="Armenia">Armenia</option>
-                                                <option value="Aruba">Aruba</option>
-                                                <option value="Australia">Australia</option>
-                                                <option value="Austria">Austria</option>
-                                                <option value="Azerbaijan">Azerbaijan</option>
-                                            </select>
+                                            <div id="exclude-keywords-2">
+                                                <label class="d-block d-sm-block d-md-none mt-2">Exclude keywords 2</label>
+                                                <select data-placeholder="Exclude keywords 2" class="chosen-select mt-2 form-control" multiple>
+                                                    <option value=""></option>
+                                                    <option value="United States">United States</option>
+                                                    <option value="United Kingdom">United Kingdom</option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Aland Islands">Aland Islands</option>
+                                                    <option value="Albania">Albania</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="American Samoa">American Samoa</option>
+                                                    <option value="Andorra">Andorra</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Anguilla">Anguilla</option>
+                                                    <option value="Antarctica">Antarctica</option>
+                                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                    <option value="Argentina">Argentina</option>
+                                                    <option value="Armenia">Armenia</option>
+                                                    <option value="Aruba">Aruba</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Austria">Austria</option>
+                                                    <option value="Azerbaijan">Azerbaijan</option>
+                                                </select>
+                                            </div>
+
                                             <!--<input class="form-control mt-2 exclude-keywords" placeholder="Exclude keywords 2">-->
                                         </div>
 
@@ -1428,10 +1439,10 @@
         $( ".keyword-select" ).on('change', function() {
             var keywordType = $(this).val();
             if(keywordType == 3){
-                $(this).parents('.input-group').find('#exclude_keywords_1_chosen, #exclude_keywords_2_chosen').show();
+                $(this).parents('.input-group').find('#exclude-keywords-1, #exclude-keywords-2').show();
                 //$('#exclude-keywords').show();
             }else{
-                $(this).parents('.input-group').find('#exclude_keywords_1_chosen, #exclude_keywords_2_chosen').hide();
+                $(this).parents('.input-group').find('#exclude-keywords-1, #exclude-keywords-2').hide();
             }
         });
 
