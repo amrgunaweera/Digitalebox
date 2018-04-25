@@ -662,8 +662,44 @@ iframe{
 
 /*   Dropdown menu ends   */
 
+/*   Advanced search   */
 .advanced-search{
   .hidden-field{
     display: none;
   }
+  .no-border{
+    &.form-control{
+      border: none;
+    }
+  }
+  .keyword-select{
+    max-height: 45px;
+  }
+  #exclude_keywords_1_chosen, #exclude_keywords_2_chosen{
+    display: none;
+    margin-top: 5px;
+  }
 }
+/*   Advanced search ends   */
+
+/*   Chosen   */
+.chosen-container-multi {
+  .chosen-choices{
+    border: 1px solid #ced4da;
+
+    li{
+      &.search-field{
+        input[type="text"]{
+          height: 35px;
+        }
+      }
+    }
+  }
+}
+.chosen-container-active{
+  .chosen-choices{
+    @include drop-shadow(none);
+    border: 1px solid #80bdff;
+  }
+}
+/*   Chosen ends   */
