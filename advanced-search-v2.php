@@ -252,9 +252,9 @@
                                     <div id="field-15" class="input-group mb-3 field-items hidden-field">
 
                                         <div class="form-control no-border p-0">
-                                            <div class="input-group">
-                                                <div class="form-control no-border p-0">
-                                                    <select data-placeholder="Keywords" class="chosen-select" multiple>
+                                            <div class="input-group no-gutters">
+                                                <div class="form-control no-border p-0 col-md-8 col-lg-9">
+                                                    <select data-placeholder="Keywords" class="chosen-select form-control" multiple>
                                                         <option value=""></option>
                                                         <option value="United States">United States</option>
                                                         <option value="United Kingdom">United Kingdom</option>
@@ -276,15 +276,15 @@
                                                         <option value="Azerbaijan">Azerbaijan</option>
                                                     </select>
                                                 </div>
-                                                <div class="input-group-append">
-                                                    <select class="keyword-select" id="keyword-select-1">
+                                                <div class="input-group-append col-md-4 col-lg-3">
+                                                    <select class="keyword-select form-control" id="keyword-select-1">
                                                         <option value="1">Normal</option>
                                                         <option value="2">Strict</option>
                                                         <option value="3">Exclude</option>
                                                     </select>
                                                 </div>
                                             </div>
-                                            <select data-placeholder="Exclude keywords" class="chosen-select mt-2" id="exclude-keywords-1" multiple>
+                                            <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" id="exclude-keywords-1" multiple>
                                                 <option value=""></option>
                                                 <option value="United States">United States</option>
                                                 <option value="United Kingdom">United Kingdom</option>
@@ -314,9 +314,9 @@
 
                                     <div id="field-16" class="input-group mb-3 field-items hidden-field">
                                         <div class="form-control no-border p-0">
-                                            <div class="input-group">
-                                                <div class="form-control no-border p-0">
-                                                    <select data-placeholder="Keywords 2" class="chosen-select" multiple>
+                                            <div class="input-group no-gutters">
+                                                <div class="form-control no-border p-0 col-md-8 col-lg-9">
+                                                    <select data-placeholder="Keywords 2" class="chosen-select form-control" multiple>
                                                         <option value=""></option>
                                                         <option value="United States">United States</option>
                                                         <option value="United Kingdom">United Kingdom</option>
@@ -338,15 +338,15 @@
                                                         <option value="Azerbaijan">Azerbaijan</option>
                                                     </select>
                                                 </div>
-                                                <div class="input-group-append">
-                                                    <select class="keyword-select" id="keyword-select-2">
+                                                <div class="input-group-append col-md-4 col-lg-3">
+                                                    <select class="keyword-select form-control" id="keyword-select-2">
                                                         <option value="1">Normal</option>
                                                         <option value="2">Strict</option>
                                                         <option value="3">Exclude</option>
                                                     </select>
                                                 </div>
                                             </div>
-                                            <select data-placeholder="Exclude keywords 2" class="chosen-select mt-2" id="exclude-keywords-2" multiple>
+                                            <select data-placeholder="Exclude keywords 2" class="chosen-select mt-2 form-control" id="exclude-keywords-2" multiple>
                                                 <option value=""></option>
                                                 <option value="United States">United States</option>
                                                 <option value="United Kingdom">United Kingdom</option>
@@ -1449,6 +1449,7 @@
 
             $('#fields').val('0');
             $('#fields option[value='+fieldValue+']').attr("disabled","disabled");
+
         });
 
         // Remove field
