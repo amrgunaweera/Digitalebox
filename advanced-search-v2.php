@@ -81,7 +81,7 @@
                         <form>
 
                             <div class="row no-gutters">
-                                <div class="col-md-6" id="field-list">
+                                <div class="col-md-7 col-lg-8 col-xl-6" id="field-list">
 
                                     <div id="field-1" class="input-group mb-3 field-items">
                                         <input type="text" class="form-control" placeholder="First Name">
@@ -224,7 +224,6 @@
                                         <div class="form-control no-border p-0 chosen-field">
                                             <label class="d-block d-sm-block d-md-none">Team Names</label>
                                             <select data-placeholder="Team Names" class="chosen-select form-control" multiple tabindex="4">
-                                                <option value=""></option>
                                                 <option value="United States">United States</option>
                                                 <option value="United Kingdom">United Kingdom</option>
                                                 <option value="Afghanistan">Afghanistan</option>
@@ -252,12 +251,13 @@
 
                                     <div id="field-15" class="input-group mb-3 field-items hidden-field">
 
-                                        <div class="form-control no-border p-0">
+                                        <div class="form-control no-border group-bg">
+                                            <div class="row no-gutters">
+                                                <label class="d-block d-sm-block d-md-none col-md-12">Keywords</label>
+                                            </div>
                                             <div class="input-group no-gutters">
-                                                <div class="form-control no-border p-0 col-md-8 col-lg-9">
-                                                    <label class="d-block d-sm-block d-md-none">Keywords</label>
+                                                <div class="form-control no-border p-0 col-sm-9 col-md-8 col-lg-9">
                                                     <select data-placeholder="Keywords" class="chosen-select form-control" multiple>
-                                                        <option value=""></option>
                                                         <option value="United States">United States</option>
                                                         <option value="United Kingdom">United Kingdom</option>
                                                         <option value="Afghanistan">Afghanistan</option>
@@ -278,7 +278,7 @@
                                                         <option value="Azerbaijan">Azerbaijan</option>
                                                     </select>
                                                 </div>
-                                                <div class="input-group-append col-md-4 col-lg-3">
+                                                <div class="input-group-append col-sm-3 col-md-4 col-lg-3">
                                                     <select class="keyword-select form-control" id="keyword-select-1">
                                                         <option value="1">Normal</option>
                                                         <option value="2">Strict</option>
@@ -287,9 +287,8 @@
                                                 </div>
                                             </div>
                                             <div id="exclude-keywords-1">
-                                                <label class="d-block d-sm-block d-md-none mt-2">Exclude keywords</label>
+                                                <label class="mt-2">Exclude keywords</label>
                                                 <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" multiple>
-                                                    <option value=""></option>
                                                     <option value="United States">United States</option>
                                                     <option value="United Kingdom">United Kingdom</option>
                                                     <option value="Afghanistan">Afghanistan</option>
@@ -319,12 +318,13 @@
                                     </div>
 
                                     <div id="field-16" class="input-group mb-3 field-items hidden-field">
-                                        <div class="form-control no-border p-0">
+                                        <div class="form-control no-border group-bg">
+                                            <div class="row no-gutters">
+                                                <label class="d-block d-sm-block d-md-none col-md-12">Keywords 2</label>
+                                            </div>
                                             <div class="input-group no-gutters">
-                                                <div class="form-control no-border p-0 col-md-8 col-lg-9">
-                                                    <label class="d-block d-sm-block d-md-none">Keywords 2</label>
+                                                <div class="form-control no-border p-0 col-sm-9 col-md-8 col-lg-9">
                                                     <select data-placeholder="Keywords 2" class="chosen-select form-control" multiple>
-                                                        <option value=""></option>
                                                         <option value="United States">United States</option>
                                                         <option value="United Kingdom">United Kingdom</option>
                                                         <option value="Afghanistan">Afghanistan</option>
@@ -345,7 +345,7 @@
                                                         <option value="Azerbaijan">Azerbaijan</option>
                                                     </select>
                                                 </div>
-                                                <div class="input-group-append col-md-4 col-lg-3">
+                                                <div class="input-group-append col-sm-3 col-md-4 col-lg-3">
                                                     <select class="keyword-select form-control" id="keyword-select-2">
                                                         <option value="1">Normal</option>
                                                         <option value="2">Strict</option>
@@ -354,9 +354,8 @@
                                                 </div>
                                             </div>
                                             <div id="exclude-keywords-2">
-                                                <label class="d-block d-sm-block d-md-none mt-2">Exclude keywords 2</label>
+                                                <label class="mt-2">Exclude keywords 2</label>
                                                 <select data-placeholder="Exclude keywords 2" class="chosen-select mt-2 form-control" multiple>
-                                                    <option value=""></option>
                                                     <option value="United States">United States</option>
                                                     <option value="United Kingdom">United Kingdom</option>
                                                     <option value="Afghanistan">Afghanistan</option>
@@ -397,9 +396,9 @@
                                     </div>
 
                                 </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-4">
-                                    <div class="input-group">
+                                <div class="col-md-1 col-lg-auto col-xl-2"></div>
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <div class="input-group mt-3 mt-md-0">
                                         <select class="custom-select form-control" id="fields">
                                             <option value="0" selected>- Add search field -</option>
                                             <option value="1" disabled="disabled">First Name</option>
