@@ -1435,7 +1435,7 @@
         });
 
         // Exclude keyword field show
-        $( ".keyword-select" ).on('change', function() {
+        $( ".keyword-select" ).on('click', function() {
             var keywordType = $(this).val();
             if(keywordType == 3){
                 $(this).parents('.input-group').find('#exclude-keywords-1, #exclude-keywords-2').show();
