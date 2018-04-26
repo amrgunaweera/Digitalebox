@@ -35,10 +35,10 @@
 
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="">Advanced Search</a>
+                        <a class="nav-link active" href="advanced-search-v2.php">Advanced Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Map View</a>
+                        <a class="nav-link" href="map-view.php">Map View</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Messages</a>
@@ -1435,7 +1435,7 @@
         });
 
         // Exclude keyword field show
-        $( ".keyword-select" ).on('click', function() {
+        $( ".keyword-select" ).on('change', function() {
             var keywordType = $(this).val();
             if(keywordType == 3){
                 $(this).parents('.input-group').find('#exclude-keywords-1, #exclude-keywords-2').show();
