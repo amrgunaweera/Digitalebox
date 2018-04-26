@@ -251,7 +251,7 @@
 
                                     <div id="field-15" class="input-group mb-3 field-items hidden-field">
 
-                                        <div class="form-control no-border group-bg">
+                                        <div class="form-control no-border pt-3 pb-3 group-bg">
                                             <div class="row no-gutters">
                                                 <label class="d-block d-sm-block d-md-none col-md-12">Keywords</label>
                                             </div>
@@ -318,7 +318,7 @@
                                     </div>
 
                                     <div id="field-16" class="input-group mb-3 field-items hidden-field">
-                                        <div class="form-control no-border group-bg">
+                                        <div class="form-control no-border pt-3 pb-3 group-bg">
                                             <div class="row no-gutters">
                                                 <label class="d-block d-sm-block d-md-none col-md-12">Keywords 2</label>
                                             </div>
