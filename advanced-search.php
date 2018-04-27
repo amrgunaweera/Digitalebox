@@ -35,13 +35,13 @@
 
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="">Advanced Search</a>
+                        <a class="nav-link active" href="advanced-search.php">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Map View</a>
+                        <a class="nav-link" href="map-view.php">Map</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Messages</a>
+                        <a class="nav-link" href="zone-view.php">Zone</a>
                     </li>
                 </ul>
 

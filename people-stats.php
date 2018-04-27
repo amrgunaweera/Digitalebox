@@ -42,7 +42,7 @@
                         <a class="nav-link" href="posts.php">Posts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="">People Statistics</a>
+                        <a class="nav-link active" href="">People</a>
                     </li>
                 </ul>
                 <div class="content-inner">

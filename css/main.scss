@@ -106,7 +106,13 @@ input{
   font-size: 14px;
   min-height: 40px;
   @include border-radius(0 !important);
+
+  &:focus{
+    @include drop-shadow(0 0 0 1px rgba(0,123,255,.1) !important );
+    /*box-shadow: 0 0 0 1px rgba(0,123,255,.1) !important;*/
+  }
 }
+
 .input-group-text{
   height: 40px;
 }
@@ -327,11 +333,8 @@ input{
   }
 }
 
-.form-control{
-  &:focus{
-    @include drop-shadow(0 0 0 1px rgba(0,123,255,.1) !important );
-    /*box-shadow: 0 0 0 1px rgba(0,123,255,.1) !important;*/
-  }
+.wordBreak{
+  word-break: break-all;
 }
 
 select{
@@ -1422,6 +1425,8 @@ select{
       &>.nav-tabs{
         &>.nav-item{
           &>.nav-link{
+            word-wrap: break-word;
+
             &.active{
               border-color: #fff;
               clip-path: inset(-50px -50px 0px -50px);

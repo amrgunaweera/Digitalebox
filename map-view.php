@@ -35,13 +35,13 @@
 
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="advanced-search-v2.php">Advanced Search</a>
+                        <a class="nav-link" href="advanced-search-v2.php">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="map-view.php">Map View</a>
+                        <a class="nav-link active" href="map-view.php">Map</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Messages</a>
+                        <a class="nav-link" href="zone-view.php">Zone</a>
                     </li>
                 </ul>
 
@@ -242,7 +242,7 @@
 
                         <div class="content-panel-sub mt-4">
                             <div class="panel-head">
-                                Zone View
+                                Map
                             </div>
                         </div>
 

@@ -20,7 +20,7 @@
         <tbody>
 
         <tr>
-            <td>Phone Number</td>
+            <td>Digitalebox</td>
             <td><span class="badge badge-day">2018-01-29</span> <span class="badge badge-time">07:38 AM</span></td>
             <td>Digitalbox Testing</td>
             <td><i class="fa fa-clock-o fa-lg"></i> 1 sec</td>
