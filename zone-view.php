@@ -287,22 +287,25 @@
                         <div class="modal-body edit-keyword">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="map-layout">
+                                    <div class="map-layout" style="height: 400px;">
                                         <div class="mapouter">
                                             <div class="gmap_canvas">
-                                                <iframe width="100%" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                                <iframe width="100%" style="height: 400px" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                                             </div>
-                                            <style>.mapouter{overflow:hidden;height:600px;width:100%;}.gmap_canvas {background:none!important;height:600px;width:100%;}</style>
+                                            <style>
+                                                .mapouter{overflow:hidden;height:400px;width:100%;}
+                                                .gmap_canvas {background:none!important;height:400px;width:100%;}
+                                            </style>
                                         </div>
                                     </div>
-
-                                    <?php include 'includes/grid.php'; ?>
                                 </div>
                             </div>
 
-                            <div class="col-md-6"></div>
-                            <div class="col-md-6"></div>
-                            <div class="col-md-6"></div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <?php include 'includes/grid.php'; ?>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
