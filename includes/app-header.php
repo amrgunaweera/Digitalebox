@@ -146,7 +146,7 @@
                 </div>
             </li>
 
-            <li class="nav-item dropdown header-dropdown">
+            <!--<li class="nav-item dropdown header-dropdown">
                 <a class="nav-link" href="#" title="Volunteers" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-users fa-lg"></i>
                     <div class="text desktop-hide">Volunteers</div>
@@ -203,7 +203,7 @@
                     </a>
 
                 </div>
-            </li>
+            </li>-->
             <!--<li class="nav-item dropdown header-dropdown">
                 <a class="nav-link" href="#" title="Notifications" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="badge notification">5</span> <i class="fa fa-bell fa-2x"></i>
@@ -233,8 +233,8 @@
                     <a class="dropdown-item messages list-items" href="#">
                         <div class="profile-pic"><img src="img/user-profile.png"></div>
                         <div class="message">
-                            <div class="name">User Name 1</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                            <div class="name">Rebecca Thorn</div>
+                            <div class="text">Event Invitation</div>
                         </div>
                         <div class="date">28 Dec</div>
                     </a>
@@ -242,8 +242,8 @@
                     <a class="dropdown-item messages list-items" href="#">
                         <div class="profile-pic"><img src="img/user-profile.png"></div>
                         <div class="message">
-                            <div class="name">User Name 2</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                            <div class="name">Claude Carré</div>
+                            <div class="text">Reminder</div>
                         </div>
                         <div class="date">28 Dec</div>
                     </a>
@@ -251,8 +251,8 @@
                     <a class="dropdown-item messages list-items" href="#">
                         <div class="profile-pic"><img src="img/user-profile.png"></div>
                         <div class="message">
-                            <div class="name">User Name 3</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                            <div class="name">DB Admin</div>
+                            <div class="text">System Updates</div>
                         </div>
                         <div class="date">28 Dec</div>
                     </a>
@@ -260,8 +260,8 @@
                     <a class="dropdown-item messages list-items" href="#">
                         <div class="profile-pic"><img src="img/user-profile.png"></div>
                         <div class="message">
-                            <div class="name">User Name 4</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                            <div class="name">Lucie Delcroix</div>
+                            <div class="text">Volunteer Request</div>
                         </div>
                         <div class="date">28 Dec</div>
                     </a>
@@ -269,8 +269,8 @@
                     <a class="dropdown-item messages list-items" href="#">
                         <div class="profile-pic"><img src="img/user-profile.png"></div>
                         <div class="message">
-                            <div class="name">User Name 5</div>
-                            <div class="text">Lorem ipsum dolor sit amet</div>
+                            <div class="name">Hugo Bouthillier</div>
+                            <div class="text">Personal Message</div>
                         </div>
                         <div class="date">28 Dec</div>
                     </a>

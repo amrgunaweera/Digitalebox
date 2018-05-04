@@ -1,3 +1,4 @@
+
 <?php include 'includes/header.php'; ?>
 
     <div class="app-header">
@@ -13,6 +14,12 @@
             <?php include 'includes/config-panel.php'; ?>
 
             <div class="dashboard">
+
+                <style>
+                    .highcharts-credits{
+                        display: none;
+                    }
+                </style>
 
                 <div class="row highlights">
 
@@ -139,35 +146,17 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                                In recent days, we've had a bug displaying an error message when trying to import a file. We made the update. Everything is in order. However, if you notice a problem make us sign.
                                                             </div>
                                                             <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
-                                                                <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="account-name">@marcelleHalphen</span>
                                                             </div>
                                                         </div>
                                                     </div>
-
-                                                    <!--<div class="profile-pic col-md-2">
-                                                        <img src="img/sample-profile-1.jpg">
-                                                    </div>
-                                                    <div class="text col-md-10">
-                                                        <div class="desc">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                                                        </div>
-                                                        <div class="account">
-                                                            <span class="icons">
-                                                                <i class="fa fb fa-facebook-square"></i>
-                                                                <i class="fa tw fa-twitter-square"></i>
-                                                                <i class="fa in fa-linkedin-square"></i>
-                                                            </span>
-                                                            <span class="account-name">@userName</span>
-                                                        </div>
-                                                    </div>-->
                                                 </a>
 
                                                 <a class="line" href="">
@@ -178,7 +167,7 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                                Belgian political parties equip themselves with electoral strategy software, DigitaleBox in Metrotime.be http://bit.ly/2uPfuzp #compol #belgium
                                                             </div>
                                                             <div class="account">
                                                             <span class="icons">
@@ -186,7 +175,7 @@
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="account-name">@GrégoryDelafose</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -201,15 +190,13 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                                Corrections in progress on a bug found in the function fusion and match contact, you will be notified as soon as resolution. For more information write to us at contact@digitalebox.fr
                                                             </div>
                                                             <div class="account">
                                                             <span class="icons">
-                                                                <i class="fa fb fa-facebook-square"></i>
-                                                                <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="account-name">@raoul-gaudin</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -224,15 +211,14 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                                Partial Legislative: Will the #PS lose its last seat in #HauteGaronne? https://t.co/iWsbZB5LGU #compol
                                                             </div>
                                                             <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
-                                                                <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="account-name">@GrégoryDelafose</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -247,15 +233,13 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                                Partial Legislative: The campaign more than ever digital https://t.co/m992M9Eyt1 #Guyane #compol
                                                             </div>
                                                             <div class="account">
                                                             <span class="icons">
                                                                 <i class="fa fb fa-facebook-square"></i>
-                                                                <i class="fa tw fa-twitter-square"></i>
-                                                                <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="account-name">@anne-marie-calvet</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -270,7 +254,7 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                                The reform of the constitution would increase the number of parliamentarians from 925 to 616, to be divided between the two chambers https://t.co/3QxLOKOpNw #directan #qag #compol
                                                             </div>
                                                             <div class="account">
                                                             <span class="icons">
@@ -278,7 +262,7 @@
                                                                 <i class="fa tw fa-twitter-square"></i>
                                                                 <i class="fa in fa-linkedin-square"></i>
                                                             </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="account-name">@albanClérisseau</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -293,17 +277,25 @@
                                                         </div>
                                                         <div class="media-body text">
                                                             <div class="desc">
-                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo lorem at metus viverra lacinia. Praesent mollis eros non nulla aliquet bibendum.
+                                                                Christophe Castaner launches his major works for #EnMarche
+                                                                "Heal the local implantation in view of municipal"
+                                                                https://t.co/nhN60jDWjk #compol #municipal2020
                                                             </div>
                                                             <div class="account">
-                                                            <span class="icons">
-                                                                <i class="fa fb fa-facebook-square"></i>
-                                                                <i class="fa tw fa-twitter-square"></i>
-                                                                <i class="fa in fa-linkedin-square"></i>
-                                                            </span>
-                                                                <span class="account-name">@userName</span>
+                                                                <span class="icons">
+                                                                    <i class="fa tw fa-twitter-square"></i>
+                                                                </span>
+                                                                <span class="account-name">@marcelleHalphen</span>
                                                             </div>
                                                         </div>
+                                                    </div>
+
+                                                </a>
+
+                                                <a class="line read-more" href="">
+
+                                                    <div class="text-center">
+                                                        Read More
                                                     </div>
 
                                                 </a>

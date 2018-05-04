@@ -33,7 +33,7 @@
                 <a data-section="2" href="#" aria-expanded="false"><span class="fa fa-fw fa-bullhorn"></span> Communication</a>
                 <ul aria-expanded="false">
                     <li><a href="message-templates.php">Message Templates</a></li>
-                    <li><a href="new-campaign.php">New Campaign</a></li>
+                    <li><a href="new-campaign-1.php">New Campaign</a></li>
                     <li><a href="create-ab-testing.php">Create A/B Testing</a></li>
                     <li><a href="sent-campaigns.php">Sent Campaigns</a></li>
                     <li><a href="message-box-inbox.php">Message Box</a></li>

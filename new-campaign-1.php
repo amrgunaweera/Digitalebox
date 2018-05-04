@@ -78,7 +78,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row mb-3">
                             <div class="col-md-12">
 
                                 <div class="owl-carousel owl-theme campaign-slides">
@@ -86,25 +86,25 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="row no-gutters">
-                                                    <div class="col-3">
+                                                    <div class="col-6 col-md-3">
                                                         <a class="campaign-type-1 active">
                                                             <div class="icon"><i class="fa fa-envelope"></i></div>
                                                             <div class="title d-none d-sm-block">Email Campaign</div>
                                                         </a>
                                                     </div>
-                                                    <div class="col-3">
+                                                    <div class="col-6 col-md-3">
                                                         <a class="campaign-type-1">
                                                             <div class="icon"><i class="fa fa-tty"></i></div>
                                                             <div class="title d-none d-sm-block">SMS Campaign</div>
                                                         </a>
                                                     </div>
-                                                    <div class="col-3">
+                                                    <div class="col-6 col-md-3">
                                                         <a class="campaign-type-1">
                                                             <div class="icon"><i class="fa fa-twitter"></i></div>
                                                             <div class="title d-none d-sm-block">Twitter Campaign</div>
                                                         </a>
                                                     </div>
-                                                    <div class="col-3">
+                                                    <div class="col-6 col-md-3">
                                                         <a class="campaign-type-1">
                                                             <div class="icon"><i class="fa fa-send"></i></div>
                                                             <div class="title d-none d-sm-block">Email & Twitter</div>
