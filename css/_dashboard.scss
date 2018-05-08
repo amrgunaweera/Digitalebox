@@ -79,6 +79,9 @@
 
       &.read-more{
         border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
         &:hover{
           @include themify($themes) {
             border-left: 3px solid transparent;

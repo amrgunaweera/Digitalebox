@@ -67,7 +67,7 @@
             </li>
 
             <li>
-                <a href="list-view.php">
+                <a href="" data-toggle="modal" data-target="#guideVideo">
                     <span class="fa fa-fw fa-compass"></span>
                     Guide
                 </a>
@@ -216,5 +216,24 @@
     </div>
 
 
+</div>
 
+<!-- Modal -->
+<div class="modal fade" id="guideVideo" tabindex="-1" role="dialog" aria-labelledby="guideVideo" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Guide Video</h5>
+                <button type="button" id="guide-video-close" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <video id="guide-video" width="100%" controls>
+                    <source src="img/guide-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
 </div>

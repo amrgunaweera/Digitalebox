@@ -2,6 +2,11 @@
 
 $( document ).ready(function() {
 
+    // Guide video close
+    $("#guide-video-close").click(function() {
+        $('#guide-video').trigger('pause');
+    });
+
     // Password Toggle
     $(".show_hide_password a").on('click', function(event) {
         event.preventDefault();
