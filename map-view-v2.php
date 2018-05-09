@@ -35,13 +35,13 @@
 
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="advanced-search.php">Search</a>
+                        <a class="nav-link" href="advanced-search-v2.php">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="map-view.php">Map</a>
+                        <a class="nav-link active" href="map-view-v2.php">Map</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="zone-view.php">Zone</a>
+                        <a class="nav-link" href="zone-view-v2.php">Zone</a>
                     </li>
                 </ul>
 
@@ -57,115 +57,175 @@
 
                         <form>
 
-                            <div class="form-row">
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <input type="text" class="form-control" id="fname" placeholder="First Name">
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <input type="text" class="form-control" id="lname" placeholder="Last Name">
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <input type="text" class="form-control" id="city" placeholder="City">
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <select id="category" class="form-control">
-                                        <option selected>- Country -</option>
-                                        <option>France</option>
-                                        <option>United States</option>
-                                        <option>Italy</option>
-                                        <option>United Kingdom</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <select id="gender" class="form-control">
-                                        <option selected>- Gender -</option>
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                    </select>
-                                </div>
-                                <div class="form-group col-sm-6 col-md-4 col-lg-4 col-xl-2">
-                                    <select id="category" class="form-control">
-                                        <option selected>- Category -</option>
-                                        <option>Supporter</option>
-                                        <option>Prospect</option>
-                                        <option>Non Supporter</option>
-                                        <option>Unknown</option>
-                                    </select>
-                                </div>
-                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-md-7 col-lg-8 col-xl-6" id="field-list">
 
-                            <div class="form-row">
-                                <div class="form-group col-sm-6 col-md-3 col-lg-3 col-xl-2">
-                                    <input type="text" class="form-control" id="zipcode" placeholder="Zip Code">
-                                </div>
-                                <div class="form-group col-sm-6 col-md-3 col-lg-3 col-xl-2">
-                                    <input type="number" class="form-control" id="age" placeholder="Age (N or N-N)">
-                                </div>
-                                <div class="form-group col-sm-12 col-md-6 col-lg-6 col-xl-8">
-                                    <input type="text" class="form-control" id="address" placeholder="Address(27 Avenue Pasteur)">
-                                </div>
-                            </div>
-
-                            <div class="form-row">
-                                <div class="form-control no-border normal-padding">
-                                    <div class="row no-gutters">
-                                        <label class="d-block d-sm-block d-md-none col-md-12">Keywords</label>
-                                    </div>
-                                    <div class="input-group no-gutters">
-                                        <div class="form-control no-border p-0 col-sm-9 col-md-8 col-lg-9">
-                                            <select data-placeholder="Keywords" class="chosen-select form-control" multiple>
-                                                <option value="United States">United States</option>
-                                                <option value="United Kingdom">United Kingdom</option>
-                                                <option value="Afghanistan">Afghanistan</option>
-                                                <option value="Aland Islands">Aland Islands</option>
-                                                <option value="Albania">Albania</option>
-                                                <option value="Algeria">Algeria</option>
-                                                <option value="American Samoa">American Samoa</option>
-                                                <option value="Andorra">Andorra</option>
-                                                <option value="Angola">Angola</option>
-                                                <option value="Anguilla">Anguilla</option>
-                                                <option value="Antarctica">Antarctica</option>
-                                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                                <option value="Argentina">Argentina</option>
-                                                <option value="Armenia">Armenia</option>
-                                                <option value="Aruba">Aruba</option>
-                                                <option value="Australia">Australia</option>
-                                                <option value="Austria">Austria</option>
-                                                <option value="Azerbaijan">Azerbaijan</option>
-                                            </select>
-                                        </div>
-                                        <div class="input-group-append col-sm-3 col-md-4 col-lg-3">
-                                            <select class="keyword-select form-control" id="keyword-select-1">
-                                                <option value="1">Normal</option>
-                                                <option value="2">Strict</option>
-                                                <option value="3">Exclude</option>
-                                            </select>
+                                    <div id="field-1" class="input-group mb-3 field-items">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
                                         </div>
                                     </div>
-                                    <div id="exclude-keywords-1">
-                                        <label class="mt-2">Exclude keywords</label>
-                                        <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" multiple>
-                                            <option value="United States">United States</option>
-                                            <option value="United Kingdom">United Kingdom</option>
-                                            <option value="Afghanistan">Afghanistan</option>
-                                            <option value="Aland Islands">Aland Islands</option>
-                                            <option value="Albania">Albania</option>
-                                            <option value="Algeria">Algeria</option>
-                                            <option value="American Samoa">American Samoa</option>
-                                            <option value="Andorra">Andorra</option>
-                                            <option value="Angola">Angola</option>
-                                            <option value="Anguilla">Anguilla</option>
-                                            <option value="Antarctica">Antarctica</option>
-                                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                            <option value="Argentina">Argentina</option>
-                                            <option value="Armenia">Armenia</option>
-                                            <option value="Aruba">Aruba</option>
-                                            <option value="Australia">Australia</option>
-                                            <option value="Austria">Austria</option>
-                                            <option value="Azerbaijan">Azerbaijan</option>
+                                    <div id="field-2" class="input-group mb-3 field-items">
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-3" class="input-group mb-3 field-items hidden-field">
+                                        <input type="text" class="form-control" id="city" placeholder="City">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                    <div id="field-4" class="input-group mb-3 field-items hidden-field">
+                                        <select id="category" class="form-control">
+                                            <option selected>- Country -</option>
+                                            <option>France</option>
+                                            <option>United States</option>
+                                            <option>Italy</option>
+                                            <option>United Kingdom</option>
                                         </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
                                     </div>
 
+                                    <div id="field-5" class="input-group mb-3 field-items hidden-field">
+                                        <select id="gender" class="form-control">
+                                            <option selected>- Gender -</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-6" class="input-group mb-3 field-items hidden-field">
+                                        <select id="category" class="form-control">
+                                            <option selected>- Category -</option>
+                                            <option>Supporter</option>
+                                            <option>Prospect</option>
+                                            <option>Non Supporter</option>
+                                            <option>Unknown</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-7" class="input-group mb-3 field-items hidden-field">
+                                        <input type="text" class="form-control" id="zipcode" placeholder="Zip Code">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-10" class="input-group mb-3 field-items hidden-field">
+                                        <input type="number" class="form-control" id="age" placeholder="Age (N or N-N)">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-12" class="input-group mb-3 field-items hidden-field">
+                                        <input type="text" class="form-control" id="address" placeholder="Address (27 Avenue Pasteur)">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="field-15" class="input-group mb-3 field-items hidden-field">
+
+                                        <div class="form-control no-border pt-3 pb-3 group-bg">
+                                            <div class="row no-gutters">
+                                                <label class="d-block d-sm-block d-md-none col-md-12">Keywords</label>
+                                            </div>
+                                            <div class="input-group no-gutters">
+                                                <div class="form-control no-border p-0 col-sm-9 col-md-8 col-lg-9">
+                                                    <select data-placeholder="Keywords" class="chosen-select form-control" multiple>
+                                                        <option value="United States">United States</option>
+                                                        <option value="United Kingdom">United Kingdom</option>
+                                                        <option value="Afghanistan">Afghanistan</option>
+                                                        <option value="Aland Islands">Aland Islands</option>
+                                                        <option value="Albania">Albania</option>
+                                                        <option value="Algeria">Algeria</option>
+                                                        <option value="American Samoa">American Samoa</option>
+                                                        <option value="Andorra">Andorra</option>
+                                                        <option value="Angola">Angola</option>
+                                                        <option value="Anguilla">Anguilla</option>
+                                                        <option value="Antarctica">Antarctica</option>
+                                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                        <option value="Argentina">Argentina</option>
+                                                        <option value="Armenia">Armenia</option>
+                                                        <option value="Aruba">Aruba</option>
+                                                        <option value="Australia">Australia</option>
+                                                        <option value="Austria">Austria</option>
+                                                        <option value="Azerbaijan">Azerbaijan</option>
+                                                    </select>
+                                                </div>
+                                                <div class="input-group-append col-sm-3 col-md-4 col-lg-3">
+                                                    <select class="keyword-select form-control" id="keyword-select-1">
+                                                        <option value="1">Normal</option>
+                                                        <option value="2">Strict</option>
+                                                        <option value="3">Exclude</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div id="exclude-keywords-1">
+                                                <label class="mt-2">Exclude keywords</label>
+                                                <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" multiple>
+                                                    <option value="United States">United States</option>
+                                                    <option value="United Kingdom">United Kingdom</option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Aland Islands">Aland Islands</option>
+                                                    <option value="Albania">Albania</option>
+                                                    <option value="Algeria">Algeria</option>
+                                                    <option value="American Samoa">American Samoa</option>
+                                                    <option value="Andorra">Andorra</option>
+                                                    <option value="Angola">Angola</option>
+                                                    <option value="Anguilla">Anguilla</option>
+                                                    <option value="Antarctica">Antarctica</option>
+                                                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                    <option value="Argentina">Argentina</option>
+                                                    <option value="Armenia">Armenia</option>
+                                                    <option value="Aruba">Aruba</option>
+                                                    <option value="Australia">Australia</option>
+                                                    <option value="Austria">Austria</option>
+                                                    <option value="Azerbaijan">Azerbaijan</option>
+                                                </select>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame remove-field" title="Remove Field" type="button"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-1 col-lg-auto col-xl-2"></div>
+                                <div class="col-md-4 col-lg-4 col-xl-4">
+                                    <div class="input-group mt-3 mt-md-0">
+                                        <select class="custom-select form-control" id="fields">
+                                            <option value="0" selected>- Add search field -</option>
+                                            <option value="1" disabled="disabled">First Name</option>
+                                            <option value="2" disabled="disabled">Last Name</option>
+                                            <option value="3">City</option>
+                                            <option value="4">Country</option>
+                                            <option value="5">Gender</option>
+                                            <option value="6">Category</option>
+                                            <option value="7">Zip Code</option>
+                                            <option value="10">Age</option>
+                                            <option value="12">Address</option>
+                                            <option value="15">Keywords</option>
+                                        </select>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary btn-no-frame" id="add-field" type="button"><i class="fa fa-lg fa-plus" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 

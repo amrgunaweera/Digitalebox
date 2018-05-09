@@ -206,45 +206,69 @@
 
                             <div class="form-row">
 
-                                <div class="form-group col-md-2 d-none d-xs-block d-sm-block d-md-none">
+                                <!--<div class="form-group col-md-2 d-none d-xs-block d-sm-block d-md-none">
                                     Keywords
-                                </div>
-                                <div class="form-group col-md-2">
+                                </div>-->
 
-                                    <div class="dropdown">
-                                        <button class="btn btn-primary dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Normal
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
+                                <div class="form-control no-border normal-padding">
+                                    <div class="row no-gutters">
+                                        <label class="d-none d-xs-block d-sm-block d-md-none col-md-12">Keywords</label>
+                                    </div>
+                                    <div class="input-group no-gutters">
+                                        <div class="form-control no-border p-0 col-sm-9 col-md-8 col-lg-9">
+                                            <select data-placeholder="Keywords" class="chosen-select form-control" multiple>
+                                                <option value="United States">United States</option>
+                                                <option value="United Kingdom">United Kingdom</option>
+                                                <option value="Afghanistan">Afghanistan</option>
+                                                <option value="Aland Islands">Aland Islands</option>
+                                                <option value="Albania">Albania</option>
+                                                <option value="Algeria">Algeria</option>
+                                                <option value="American Samoa">American Samoa</option>
+                                                <option value="Andorra">Andorra</option>
+                                                <option value="Angola">Angola</option>
+                                                <option value="Anguilla">Anguilla</option>
+                                                <option value="Antarctica">Antarctica</option>
+                                                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                <option value="Argentina">Argentina</option>
+                                                <option value="Armenia">Armenia</option>
+                                                <option value="Aruba">Aruba</option>
+                                                <option value="Australia">Australia</option>
+                                                <option value="Austria">Austria</option>
+                                                <option value="Azerbaijan">Azerbaijan</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-group-append col-sm-3 col-md-4 col-lg-3">
+                                            <select class="keyword-select form-control" id="keyword-select-1">
+                                                <option value="1">Normal</option>
+                                                <option value="2">Strict</option>
+                                                <option value="3">Exclude</option>
+                                            </select>
                                         </div>
                                     </div>
-                                </div>
+                                    <div id="exclude-keywords-1">
+                                        <label class="mt-2">Exclude keywords</label>
+                                        <select data-placeholder="Exclude keywords" class="chosen-select mt-2 form-control" multiple>
+                                            <option value="United States">United States</option>
+                                            <option value="United Kingdom">United Kingdom</option>
+                                            <option value="Afghanistan">Afghanistan</option>
+                                            <option value="Aland Islands">Aland Islands</option>
+                                            <option value="Albania">Albania</option>
+                                            <option value="Algeria">Algeria</option>
+                                            <option value="American Samoa">American Samoa</option>
+                                            <option value="Andorra">Andorra</option>
+                                            <option value="Angola">Angola</option>
+                                            <option value="Anguilla">Anguilla</option>
+                                            <option value="Antarctica">Antarctica</option>
+                                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Armenia">Armenia</option>
+                                            <option value="Aruba">Aruba</option>
+                                            <option value="Australia">Australia</option>
+                                            <option value="Austria">Austria</option>
+                                            <option value="Azerbaijan">Azerbaijan</option>
+                                        </select>
+                                    </div>
 
-                                <div class="form-group col-md-10">
-                                    <select data-placeholder="Keywords" class="form-control chosen-select" multiple>
-                                        <option value=""></option>
-                                        <option value="United States">United States</option>
-                                        <option value="United Kingdom">United Kingdom</option>
-                                        <option value="Afghanistan">Afghanistan</option>
-                                        <option value="Aland Islands">Aland Islands</option>
-                                        <option value="Albania">Albania</option>
-                                        <option value="Algeria">Algeria</option>
-                                        <option value="American Samoa">American Samoa</option>
-                                        <option value="Andorra">Andorra</option>
-                                        <option value="Angola">Angola</option>
-                                        <option value="Anguilla">Anguilla</option>
-                                        <option value="Antarctica">Antarctica</option>
-                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                                        <option value="Argentina">Argentina</option>
-                                        <option value="Armenia">Armenia</option>
-                                        <option value="Aruba">Aruba</option>
-                                        <option value="Australia">Australia</option>
-                                        <option value="Austria">Austria</option>
-                                        <option value="Azerbaijan">Azerbaijan</option>
-                                    </select>
                                 </div>
 
                             </div>

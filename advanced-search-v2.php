@@ -38,10 +38,10 @@
                         <a class="nav-link active" href="advanced-search-v2.php">Search</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="map-view.php">Map</a>
+                        <a class="nav-link" href="map-view-v2.php">Map</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="zone-view.php">Zone</a>
+                        <a class="nav-link" href="zone-view-v2.php">Zone</a>
                     </li>
                 </ul>
 
