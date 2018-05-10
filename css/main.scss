@@ -207,7 +207,8 @@ input{
 }
 
 #app-main{
-  height: 100%;
+  /*height: 100%;*/
+  min-height: 100%;
 }
 
 .error{
@@ -1144,14 +1145,40 @@ select{
                 }
                 .text{
                   float: left;
-                  width: 100px;
+                  width: 145px;
                   margin-bottom: 5px;
 
                   .title{
                     margin: 0;
+                    width: 100%;
+
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    max-width: 145px;
+                  }
+                  .pageName{
+                    font-size: 10px;
+                    float: left;
+                    width: 100%;
+
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    max-width: 145px;
+
+                    @include themify($themes) {
+                      color: themed('secondry-color');
+                    }
+
+                    i{
+                      @include themify($themes) {
+                        color: themed('secondry-color');
+                      }
+                    }
                   }
                   .addpage{
-
+                    float: left;
                   }
                 }
               }

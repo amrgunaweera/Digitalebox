@@ -41,19 +41,21 @@ $( document ).ready(function() {
 
     // change heights when window resized
     $( window ).resize(function() {
-        set_sidebar_heights();
+        //set_sidebar_heights();
+        setTimeout(set_sidebar_heights, 10)
     });
 
     function set_sidebar_heights() {
+
         //side bar height set
-        $('#side-bar').height( $(window).height() - $('.app-header .navbar-expand-lg').height() );
+        $('#side-bar').height( $(window).outerHeight() - $('.app-header .navbar-expand-lg').height() );
 
         //menu height set
         $('.slimScrollDiv').height( menu_height() );
 
         function menu_height(){
             var header_h = $('.app-header .navbar-expand-lg').height();
-            var w_height = $(window).height();
+            var w_height = $(window).outerHeight();
             var box_h = $('.account-section').height();
             var menu_h = w_height - header_h - box_h;
 

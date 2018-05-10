@@ -176,6 +176,9 @@
                             </div>
                             <div class="text">
                                 <div class="title">James Smith</div>
+                                <!--<div class="pageName" title="Page Name">
+                                    <i class="fa fa-file-text-o" aria-hidden="true"></i> Test Page
+                                </div>-->
                                 <div class="addpage">
                                     <button type="button" class="btn btn-secondary">Add Page</button>
                                 </div>
