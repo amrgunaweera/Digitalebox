@@ -278,4 +278,19 @@ $( document ).ready(function() {
     }
     /////////////////////////////////////////////////////////////////////////////////
 
+    /*
+     * change theme from config-panel
+     */
+    $( ".config-theme" ).click(function(event) {
+        var selectedTheme = $(this).data('theme');
+        jQuery.ajax({
+            'type':'POST',
+            'url':$(this).attr('href'),
+            'success':function(data) {
+                return false;
+            },
+            'cache':false
+        });
+    });
+
 });
