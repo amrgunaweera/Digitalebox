@@ -232,7 +232,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <video id="guide-video" width="100%" controls>
+                <video id="guide-video" width="100%" controls muted>
                     <source src="img/guide-video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
