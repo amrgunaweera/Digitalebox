@@ -224,7 +224,7 @@
             </li>-->
 
             <li class="nav-item dropdown header-dropdown">
-                <a class="nav-link" href="#" title="Messages" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="#" title="Messages" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="badge msg">3</span> <i class="fa fa-envelope fa-lg"></i>
                     <div class="text desktop-hide">Messages</div>
                 </a>
@@ -283,7 +283,7 @@
             </li>
 
             <li class="nav-item dropdown header-dropdown desktop-hide">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="login.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-power-off fa-lg"></i>
                     <div class="text">Logout</div>
                 </a>
