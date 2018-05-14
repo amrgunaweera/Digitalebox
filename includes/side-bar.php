@@ -76,7 +76,7 @@
             <li>
                 <a href="404-error.php">
                     <span class="fa fa-fw fa-exclamation-triangle"></span>
-                    404
+                    Error Page
                 </a>
             </li>
 

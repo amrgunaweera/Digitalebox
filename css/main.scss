@@ -438,18 +438,55 @@ select{
     padding-top: 10px;
   }
 
-  .error-404{
-    width: 100%;
+  .server-errors{
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 0vh;
+
+    @media (min-width: 576px) {
+      margin-top: 5vh;
+    }
 
     @media (max-height: 400px){
       margin-top: 15px;
     }
 
-    img{
-      width: 80%;
-      max-width: 550px;
+    .error-img{
+      text-align: center;
+
+      @media (min-width: 576px) {
+        text-align: right;
+      }
+
+      img{
+        width: 150px;
+        margin-bottom: 2vh;
+
+        @media (min-width: 576px) {
+          margin-bottom: 0vh;
+        }
+        @media (min-width: 768px){
+          width: 200px;
+        }
+      }
+    }
+
+    .error-number{
+      font: $bold-font;
+      text-align: center;
+      font-size: 100px;
+      line-height: 70px;
+      color: #fff;
+      font-weight: bolder;
+
+      @media (min-width: 576px) {
+        font-size: 150px;
+        line-height: 150px;
+        text-align: left;
+      }
+      @media (min-width: 768px){
+        font-size: 230px;
+        line-height: 200px;
+      }
     }
   }
   .text-area{

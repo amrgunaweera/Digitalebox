@@ -36,18 +36,21 @@
 
 
 <div class="container">
-    <div class="row">
+    <div class="row no-gutters">
 
-        <div class="error-404">
-            <img src="img/404-error.svg">
-        </div>
+        <div class="col-md-12">
+            <div class="server-errors row">
+                <div class="error-img col-sm-5 col-md-5"><img src="img/server-error.svg"></div>
+                <div class="error-number col-sm-7 col-md-7 align-middle">404</div>
+            </div>
 
-        <div class="text-area">
-            <div class="main-line">Oops! We can’t seem to find the page you’re looking for.</div>
-            <div class="sub-line">Here are some helpful links instead</div>
+            <div class="text-area">
+                <div class="main-line">Oops! We can’t seem to find the page you’re looking for.</div>
+                <div class="sub-line">Here are some helpful links instead</div>
 
-            <div>
-                <a href="">Previous page</a>   |   <a href="">Home</a>
+                <div>
+                    <a href="">Previous page</a>   |   <a href="">Home</a>
+                </div>
             </div>
         </div>
 
