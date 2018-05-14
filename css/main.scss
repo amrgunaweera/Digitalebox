@@ -990,7 +990,8 @@ select{
   // side bar
   .side-bar{
     width: 220px;
-    height: 400px;
+    /*height: 400px;*/
+    height: calc(100vh - 50px);
     position: fixed;
     background-color: #2f4050;
     z-index: 1000;

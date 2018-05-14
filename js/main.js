@@ -42,20 +42,22 @@ $( document ).ready(function() {
     // change heights when window resized
     $( window ).resize(function() {
         //set_sidebar_heights();
-        setTimeout(set_sidebar_heights, 10)
+        setTimeout(set_sidebar_heights, 10);
     });
 
     function set_sidebar_heights() {
 
         //side bar height set
-        $('#side-bar').height( $(window).outerHeight() - $('.app-header .navbar-expand-lg').height() );
+        //$('#side-bar').height( $(window).outerHeight() - $('.app-header .navbar-expand-lg').height() );
+
+        //alert($(window).height());
 
         //menu height set
         $('.slimScrollDiv').height( menu_height() );
 
         function menu_height(){
             var header_h = $('.app-header .navbar-expand-lg').height();
-            var w_height = $(window).outerHeight();
+            var w_height = $(window).height();
             var box_h = $('.account-section').height();
             var menu_h = w_height - header_h - box_h;
 
