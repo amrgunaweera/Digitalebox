@@ -34,6 +34,14 @@
 }
 
 select{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  background-image: url("../img/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 15px;
+
   option{
     &::selection{
       @include themify($themes) {
