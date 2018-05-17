@@ -1,0 +1,54 @@
+.fc{
+  .fc-toolbar{
+    .fc-button{
+      background: none;
+      text-shadow: none;
+      border: solid 1px #ebebeb;
+      @include drop-shadow(0px 0px 0px 0px rgba(0, 0, 0, 0));
+      @include border-radius(0);
+      @include themify($themes) {
+        background-color: themed('body-bg');
+      }
+
+      &:hover{
+        @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.1));
+      }
+
+      &.fc-corner-right{
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+      }
+      &.fc-corner-left{
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+
+      &.fc-state-active{
+        color: #fff;
+
+        @include themify($themes) {
+          background-color: themed('third-color');
+        }
+      }
+    }
+  }
+
+  .fc-view-container{
+    .fc-event-container{
+      .fc-event{
+        @include border-radius(2px);
+        @include themify($themes) {
+          background-color: themed('secondry-dark');
+        }
+
+        .fc-content{
+          color: #ffffff;
+          @include themify($themes) {
+            background-color: themed('secondry-color');
+          }
+        }
+      }
+    }
+
+  }
+}

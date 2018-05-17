@@ -1489,7 +1489,7 @@ select{
     }
 
     .content-panel{
-      margin-bottom: 30px;
+      margin-bottom: 50px;
 
       &>.nav-tabs{
         &>.nav-item{
@@ -1600,3 +1600,5 @@ select{
 @import "register";
 
 @import "calendar";
+
+@import "fullCalendar";

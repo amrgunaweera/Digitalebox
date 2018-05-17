@@ -54,6 +54,7 @@
                     <li><a href="custom-fields.php">Custom Fields</a></li>
                     <li><a href="form-builder.php">Form Builder</a></li>
                     <li><a href="#">Manage Membership Types</a></li>
+                    <li><a href="manage-events.php">Manage Events</a></li>
                 </ul>
             </li>
 
