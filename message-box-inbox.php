@@ -48,7 +48,7 @@
                     <div class="content-inner">
                         <div class="content-area">
 
-                            <div class="form-row text-left">
+                            <div class="form-row text-left mb-2">
                                 <div class="form-group col-md-12">
                                     <button type="button" onclick="location.href='message-compose.php'" class="btn btn-primary" >Send New</button>
                                 </div>

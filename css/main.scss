@@ -431,6 +431,10 @@ select{
   }
 }
 
+.mce-notification-warning.mce-has-close{
+  display: none;
+}
+
 .error-page{
   background: url("../img/404-bg.jpg") no-repeat center center fixed;
   background-size: cover;

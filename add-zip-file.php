@@ -56,7 +56,7 @@
                                     <label for="exampleFormControlSelect1">Upload file</label>
                                     <div class="input-group mb-3">
                                         <div class="custom-file">
-                                            <input type="file" class="custom-file-input" id="inputGroupFile02">
+                                            <input type="file" accept="application/zip" class="custom-file-input" id="inputGroupFile02">
                                             <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
                                         </div>
                                         <div class="input-group-append">

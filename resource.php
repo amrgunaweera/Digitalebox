@@ -34,7 +34,7 @@
                 <div class="content-inner">
                     <div class="content-area">
 
-                        <div class="form-row">
+                        <div class="form-row mb-2">
                             <div class="form-group col-md-12">
                                 <button type="" class="btn btn-primary" data-toggle="modal" data-target="#addResource">Add Resource</button>
                             </div>

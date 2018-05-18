@@ -54,7 +54,7 @@
                     <div class="content-inner">
                         <div class="content-area">
 
-                            <div class="form-row text-left">
+                            <div class="form-row text-left mb-2">
                                 <div class="form-group col-md-12">
                                     <button type="button" id="addNewBtn" data-toggle="modal" data-target="#addNew" class="btn btn-primary addNewBtn" >Add New Image</button>
                                 </div>

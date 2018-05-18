@@ -34,7 +34,7 @@
                 <div class="content-inner">
                     <div class="content-area">
 
-                        <div class="form-row">
+                        <div class="form-row mb-2">
                             <div class="form-group col-md-12">
                                 <button type="" onclick="window.location='add-form.php';" class="btn btn-primary">Add Form</button>
                             </div>

@@ -37,6 +37,12 @@
                 <div class="content-inner">
                     <div class="content-area">
 
+                        <div class="form-row mb-2">
+                            <div class="form-group col-md-12">
+                                <button class="btn btn-primary" onclick="window.location='add-event.php';">Add Event</button>
+                            </div>
+                        </div>
+
                         <div class="content-panel-sub">
                             <div class="panel-head">
                                 Search by
@@ -122,7 +128,7 @@
 
                         </form>
 
-                        <div class="row mt-5">
+                        <div class="row mt-5 mb-3">
                             <div class="col-md-12">
                                 <div id='eventCalendar'></div>
                             </div>
@@ -131,64 +137,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-
-        <!-- Add Modal -->
-        <div class="modal fade" id="addKeyword" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Add Keyword</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-
-
-                    <div class="modal-body">
-                        <p>Define new keyword</p>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="">Name</label>
-                                    <input type="text" class="form-control" id="" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="">Behaviour</label>
-                                    <select class="form-control res-type">
-                                        <option>- Select -</option>
-                                        <option value="1">Manual</option>
-                                        <option value="2">Auto</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="">Status</label>
-                                    <select class="form-control res-type">
-                                        <option>- Select -</option>
-                                        <option>Active</option>
-                                        <option>Inactive</option>
-                                        <option>Deleted</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-md-12">
-                                <div class="form-group text-right">
-                                    <button type="submit" class="btn btn-primary">Create</button>
-                                    <button type="submit" class="btn btn-secondary">Cancel</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -220,25 +168,20 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'month,agendaWeek,agendaDay'
+                right: 'listDay,listWeek,month'
             },
+
+            // customize the button names,
+            // otherwise they'd all just say "list"
+            views: {
+                listDay: { buttonText: 'list day' },
+                listWeek: { buttonText: 'list week' }
+            },
+
+            defaultView: 'listWeek',
             defaultDate: '2018-03-12',
+            contentHeight: 'auto',
             navLinks: true, // can click day/week names to navigate views
-            selectable: true,
-            selectHelper: true,
-            select: function(start, end) {
-                var title = prompt('Event Title:');
-                var eventData;
-                if (title) {
-                    eventData = {
-                        title: title,
-                        start: start,
-                        end: end
-                    };
-                    $('#calendar').fullCalendar('renderEvent', eventData, true); // stick? = true
-                }
-                $('#calendar').fullCalendar('unselect');
-            },
             editable: true,
             eventLimit: true, // allow "more" link when too many events
             events: [
@@ -298,9 +241,6 @@
                 }
             ]
         });
-
-    });
-    $(document).ready(function () {
 
     });
 </script>
