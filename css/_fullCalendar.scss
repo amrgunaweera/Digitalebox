@@ -1,5 +1,18 @@
 .fc{
   .fc-toolbar{
+    .fc-left{
+      @media (max-width: 576px) {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    }
+    .fc-right{
+      @media (max-width: 576px) {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
     .fc-button{
       background: none;
       text-shadow: none;
