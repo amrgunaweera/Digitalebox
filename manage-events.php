@@ -140,6 +140,189 @@
             </div>
         </div>
 
+        <!-- Event Modal -->
+        <div class="modal fade" id="eventView" tabindex="-1" role="dialog" aria-labelledby="guideVideo" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Event Details</h5>
+                        <button type="button" id="guide-video-close" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="event-details">
+                            <div class="event-title mt-3 mb-1">Event Title Goes Here</div>
+                            <div class="event-time mb-4">2018-07-08 | 18:45</div>
+                            <img class="event-image" src="http://54.38.42.53/DigitaleBoxUI/img/event-image.jpg">
+
+                            <div class="event-description mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue tellus quam, et ornare nibh euismod eu. Phasellus eget dignissim purus. Vivamus felis ipsum, fermentum a magna eget, scelerisque dictum metus.</div>
+
+                            <div class="row mt-4 mb-3">
+                                <div class="col-md-12">
+                                    <div class="event-map form-group">
+                                        <label>Event Location</label>
+                                        <div id="event-map"></div>
+                                        <script>
+                                            function initMap() {
+                                                // Styles a map in night mode.
+                                                var map = new google.maps.Map(document.getElementById('event-map'), {
+                                                    center: {lat: 48.8566, lng: 2.3522},
+                                                    zoom: 12,
+                                                    styles: [
+                                                        {
+                                                            "featureType": "administrative",
+                                                            "elementType": "labels.text.fill",
+                                                            "stylers": [
+                                                                {
+                                                                    "color": "#444444"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "landscape",
+                                                            "elementType": "all",
+                                                            "stylers": [
+                                                                {
+                                                                    "color": "#f2f2f2"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "poi",
+                                                            "elementType": "all",
+                                                            "stylers": [
+                                                                {
+                                                                    "visibility": "on"
+                                                                },
+                                                                {
+                                                                    "color": "#58d186"
+                                                                },
+                                                                {
+                                                                    "saturation": "-24"
+                                                                },
+                                                                {
+                                                                    "lightness": "63"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "poi",
+                                                            "elementType": "labels.text.fill",
+                                                            "stylers": [
+                                                                {
+                                                                    "color": "#676767"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "poi",
+                                                            "elementType": "labels.text.stroke",
+                                                            "stylers": [
+                                                                {
+                                                                    "visibility": "off"
+                                                                },
+                                                                {
+                                                                    "color": "#979797"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "poi",
+                                                            "elementType": "labels.icon",
+                                                            "stylers": [
+                                                                {
+                                                                    "visibility": "off"
+                                                                },
+                                                                {
+                                                                    "color": "#ff0000"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "road",
+                                                            "elementType": "all",
+                                                            "stylers": [
+                                                                {
+                                                                    "saturation": -100
+                                                                },
+                                                                {
+                                                                    "lightness": 45
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "road.highway",
+                                                            "elementType": "all",
+                                                            "stylers": [
+                                                                {
+                                                                    "visibility": "simplified"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "road.arterial",
+                                                            "elementType": "labels.icon",
+                                                            "stylers": [
+                                                                {
+                                                                    "visibility": "off"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "transit",
+                                                            "elementType": "all",
+                                                            "stylers": [
+                                                                {
+                                                                    "visibility": "off"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "featureType": "water",
+                                                            "elementType": "all",
+                                                            "stylers": [
+                                                                {
+                                                                    "color": "#46bcec"
+                                                                },
+                                                                {
+                                                                    "visibility": "on"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                });
+                                            }
+                                        </script>
+                                        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5LULPezUcTTCfzsHIPYHFlHAUOj6seEk&callback=initMap"
+                                                async defer></script>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day click Modal -->
+        <div class="modal fade" id="dayView" tabindex="-1" role="dialog" aria-labelledby="guideVideo" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Event List of the Day</h5>
+                        <button type="button" id="guide-video-close" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <?php include 'includes/grid.php'; ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <?php include 'includes/app-footer.php'; ?>
 
@@ -168,17 +351,17 @@
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'listDay,listWeek,month'
+                right: 'month,listWeek,listDay'
             },
 
             // customize the button names,
             // otherwise they'd all just say "list"
             views: {
-                listDay: { buttonText: 'list day' },
-                listWeek: { buttonText: 'list week' }
+                month: { buttonText: 'Month' },
+                listDay: { buttonText: 'Day' },
+                listWeek: { buttonText: 'Week' }
             },
 
-            defaultView: 'listWeek',
             defaultDate: '2018-03-12',
             contentHeight: 'auto',
             navLinks: true, // can click day/week names to navigate views
@@ -239,7 +422,22 @@
                     url: 'http://google.com/',
                     start: '2018-03-28'
                 }
-            ]
+            ],
+            eventClick: function(calEvent, jsEvent, view) {
+                /*alert('Event: ' + calEvent.title);
+                alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
+                alert('View: ' + view.name);*/
+
+                $('#eventView').modal('show');
+            },
+            dayClick: function(date, jsEvent, view) {
+                /*alert('Clicked on: ' + date.format());
+                alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
+                alert('Current view: ' + view.name);*/
+
+                $('#dayView').modal('show');
+
+            }
         });
 
     });

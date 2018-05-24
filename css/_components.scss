@@ -18,7 +18,6 @@
       @include themify($themes) {
         border-top: solid 1px themed('secondry-color');
       }
-
     }
   }
 }
@@ -649,6 +648,46 @@ iframe{
 /*   Pagination   */
 .pagination{
   .page-item{
+    /* For Yii v1 */
+
+    /*&:nth-child(2) {
+      &>a{
+        @include border-radius(5px 0 0 5px);
+      }
+    }
+    &:nth-last-child(2) {
+      &>a{
+        @include border-radius(0 5px 5px 0);
+      }
+    }
+    &>a{
+      position: relative;
+      display: block;
+      padding: .5rem .75rem;
+      margin-left: -1px;
+      line-height: 1.25;
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      text-decoration: none;
+      @include themify($themes) {
+        color: themed('secondry-color');
+      }
+    }
+    &.selected{
+      &>a{
+        color: #fff;
+        @include themify($themes) {
+          background-color: themed('secondry-color');
+          border-color: themed('secondry-dark');
+        }
+      }
+    }
+    &.hidden{
+      display: none;
+    }*/
+
+    /* For Yii v1 ends */
+
     &.active{
       .page-link{
         @include themify($themes) {
@@ -814,3 +853,44 @@ iframe{
   }
 }
 /*   Chosen ends   */
+
+/*   Events   */
+.event-details{
+  .event-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #232323;
+    text-align: center;
+  }
+  .event-time{
+    color: #232323;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .event-image{
+    width: 100%;
+  }
+  .event-address{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    color: #232323;
+    background-color: #ebebeb;
+  }
+  .event-description{
+    font-size: 14px;
+    line-height: 22px;
+    color: #737373;
+    text-align: justify;
+  }
+  .event-map{
+    height: 300px;
+
+    #event-map{
+      height: 100%;
+    }
+  }
+}
+/*   Events ends   */

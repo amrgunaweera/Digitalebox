@@ -104,14 +104,7 @@ input{
 }
 
 .form-control{
-  font-size: 14px;
-  min-height: 40px;
-  @include border-radius(0 !important);
-
-  &:focus{
-    @include drop-shadow(0 0 0 1px rgba(0,123,255,.1) !important );
-    /*box-shadow: 0 0 0 1px rgba(0,123,255,.1) !important;*/
-  }
+  @extend %form-control-extend;
 }
 
 .input-group-text{
@@ -1499,6 +1492,18 @@ select{
 
       &>.nav-tabs{
         &>.nav-item{
+
+          /* For Yii v1 */
+          &.active{
+            &>a{
+              background-color: #fff;
+              border-color: #fff;
+              clip-path: inset(-50px -50px 0px -50px);
+              @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.1));
+            }
+          }
+          /* For Yii v1 ends */
+
           &>.nav-link{
             word-wrap: break-word;
 
@@ -1508,6 +1513,27 @@ select{
               @include drop-shadow(0px 3px 10px 0px rgba(0, 0, 0, 0.1));
             }
           }
+          /* For Yii v1 */
+          &>a{
+            display: block;
+            padding: .5rem 1rem;
+            word-wrap: break-word;
+            border-top-left-radius: .25rem;
+            border-top-right-radius: .25rem;
+            border: solid 1px transparent;
+
+            &:hover{
+              text-decoration: none;
+              border-top-color: #e9ecef;
+              border-left-color: #e9ecef;
+              border-right-color: #e9ecef;
+            }
+
+            &:focus{
+
+            }
+          }
+          /* For Yii v1 ends */
         }
       }
 
@@ -1600,6 +1626,8 @@ select{
 
   }
 }
+
+@import "extends";
 
 @import "login";
 
