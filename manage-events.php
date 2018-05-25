@@ -317,7 +317,91 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <?php include 'includes/grid.php'; ?>
+                        <div class="text-right results-count mt-4">
+                            Displaying 1-10 of 2420 results
+                        </div>
+
+                        <div class="table-wrap">
+
+                            <table class="table table-hover table-striped table-custom">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Location</th>
+                                    <th scope="col">Created by</th>
+                                    <th scope="col">Event Period</th>
+                                    <th scope="col" class="text-center">Status</th>
+                                    <th class="text-center actions saved-search" scope="col">Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td>Exhibition</td>
+                                    <td>BMICH, Colombo 07</td>
+                                    <td>Digitalbox Testing</td>
+                                    <td><span class="badge badge-day">07:00 AM - 11:00 AM</span></td>
+                                    <td class="text-center"><span class="badge badge-pill badge-success">Active</span></td>
+                                    <td class="text-center">
+                                        <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Award Ceremony</td>
+                                    <td>Galleface Hotel</td>
+                                    <td>Digitalbox Testing</td>
+                                    <td><span class="badge badge-day">06:00 PM - 10:00 PM</span></td>
+                                    <td class="text-center"><span class="badge badge-pill badge-danger">Deleted</span></td>
+                                    <td class="text-center">
+                                        <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Talent Show</td>
+                                    <td>Youth Center</td>
+                                    <td>Elania Zito</td>
+                                    <td><span class="badge badge-day">09:00 AM - 06:00 PM</span></td>
+                                    <td class="text-center"><span class="badge badge-pill badge-success">Active</span></td>
+                                    <td class="text-center">
+                                        <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                        <div class="row no-gutters d-flex flex-sm-row-reverse flex-sm-column-reverse flex-md-row">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-md-end">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
