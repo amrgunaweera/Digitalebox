@@ -57,6 +57,31 @@ select{
   }
 }
 
+.form-control-selectize{
+  &>.selectize-input{
+    @extend %form-control-extend;
+    line-height: 26px;
+    padding: .375rem .75rem;
+
+    &>div{
+      border-radius: 2px;
+      padding: 0px 10px;
+
+      &.active{
+        @include themify($themes) {
+          background-color: themed('secondry-color');
+        }
+      }
+    }
+    &.focus{
+      @include drop-shadow(none);
+    }
+  }
+  &>.selectize-dropdown{
+    @include border-radius(2px);
+  }
+}
+
 .custom-select{
   height: 40px;
 }
