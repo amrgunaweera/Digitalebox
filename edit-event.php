@@ -65,7 +65,7 @@
                                                 <div class="col-md-4 col-lg-6 col-xl-4">
                                                     <label for="exampleFormControlSelect1">Event Image</label>
                                                     <div class="input-group">
-                                                        <img  src="http://54.38.42.53/DigitaleBoxUI/img/event-image.jpg" alt="..." class="img-thumbnail mb-1">
+                                                        <img width="100%"  src="http://54.38.42.53/DigitaleBoxUI/img/event-image.jpg" alt="..." class="img-thumbnail mb-1">
                                                     </div>
                                                 </div>
 

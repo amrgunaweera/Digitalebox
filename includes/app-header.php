@@ -224,9 +224,16 @@
             </li>-->
 
             <li class="nav-item dropdown header-dropdown">
-                <a class="nav-link" href="#" title="Messages" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+                <!--for mobile-->
+                <a class="nav-link desktop-hide" href="messages.php" title="Messages" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="badge msg">5</span> <i class="fa fa-envelope fa-lg"></i>
-                    <div class="text desktop-hide">Messages</div>
+                    <div class="text">Messages</div>
+                </a>
+
+                <!--for desktop-->
+                <a class="nav-link mobile-hide" href="#" title="Messages" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    <span class="badge msg">5</span> <i class="fa fa-envelope fa-lg"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right mobile-hide" aria-labelledby="navbarDropdown">
 
