@@ -290,9 +290,11 @@
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">Priority</label>
                                                 <select class="form-control" id="exampleFormControlSelect1">
-                                                    <option>Low</option>
-                                                    <option selected>Normal</option>
-                                                    <option>High</option>
+                                                    <option>None</option>
+                                                    <option>Lower</option>
+                                                    <option>Medium</option>
+                                                    <option>Higher</option>
+                                                    <option>Urgent</option>
                                                 </select>
                                                 <div class="form-feild-info">Subscriber will receive an email using the selected email template.</div>
                                             </div>

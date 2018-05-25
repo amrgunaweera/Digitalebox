@@ -77,8 +77,11 @@
                                     <label for="exampleFormControlSelect1">Priority</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
                                         <option>- Select -</option>
-                                        <option>Manual</option>
-                                        <option>Auto</option>
+                                        <option>None</option>
+                                        <option>Lower</option>
+                                        <option>Medium</option>
+                                        <option>Higher</option>
+                                        <option>Urgent</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-4 col-xl-2">
@@ -379,7 +382,7 @@
 
                         <div class="row no-gutters d-flex flex-sm-row-reverse flex-sm-column-reverse flex-md-row">
                             <div class="col-md-6"></div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 justify-content-md-end">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination justify-content-md-end">
                                         <li class="page-item">
