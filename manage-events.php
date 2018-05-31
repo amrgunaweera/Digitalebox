@@ -346,6 +346,7 @@
                                     <td><span class="badge badge-day">07:00 AM - 11:00 AM</span></td>
                                     <td class="text-center"><span class="badge badge-pill badge-success">Active</span></td>
                                     <td class="text-center">
+                                        <a href="view-event.php" title="Edit"><i class="fa fa-eye fa-lg"></i></a>
                                         <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
@@ -358,6 +359,7 @@
                                     <td><span class="badge badge-day">06:00 PM - 10:00 PM</span></td>
                                     <td class="text-center"><span class="badge badge-pill badge-danger">Deleted</span></td>
                                     <td class="text-center">
+                                        <a href="view-event.php" title="Edit"><i class="fa fa-eye fa-lg"></i></a>
                                         <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
@@ -370,6 +372,7 @@
                                     <td><span class="badge badge-day">09:00 AM - 06:00 PM</span></td>
                                     <td class="text-center"><span class="badge badge-pill badge-success">Active</span></td>
                                     <td class="text-center">
+                                        <a href="view-event.php" title="Edit"><i class="fa fa-eye fa-lg"></i></a>
                                         <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
