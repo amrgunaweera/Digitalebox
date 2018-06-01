@@ -44,6 +44,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="">Invited (0)</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Maybe (0)</a>
+                        </li>
                     </ul>
                     <div class="content-inner">
                         <div class="content-area">
@@ -231,6 +234,11 @@
 
                         </div>
                     </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onclick="location.href='send-invitation.php'" data-dismiss="modal">Invite People</button>
+                    </div>
+
                 </div>
             </div>
         </div>

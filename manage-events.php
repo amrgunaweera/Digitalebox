@@ -305,6 +305,10 @@
 
                         </div>
                     </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" onclick="location.href='send-invitation.php'" data-dismiss="modal">Invite People</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -348,6 +352,8 @@
                                     <td class="text-center">
                                         <a href="view-event.php" title="Edit"><i class="fa fa-eye fa-lg"></i></a>
                                         <a href="edit-event.php" title="Edit"><i class="fa fa-edit fa-lg"></i></a>
+                                        <a href="" title="Approve"><i class="fa fa-check-circle-o fa-lg"></i></a>
+                                        <a href="" title="Reject"><i class="fa fa-times-circle-o fa-lg"></i></a>
                                         <a href="" title="Delete"><i class="fa fa-trash fa-lg"></i></a>
                                     </td>
                                 </tr>
