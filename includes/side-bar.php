@@ -82,6 +82,13 @@
                 </a>
             </li>
 
+            <li>
+                <a href="unsubscribe.php">
+                    <span class="fa fa-fw fa-exclamation-triangle"></span>
+                    Unsubscribe
+                </a>
+            </li>
+
             <!--<li id="removable">
                 <a class="has-arrow" href="#" aria-expanded="false"><span class="fa fa-fw fa-list"></span> Other</a>
                 <ul aria-expanded="false">
